@@ -1,4 +1,2 @@
-<p align="center">
-    <img src="https://i.ibb.co/FBCnbYZ/wallhaven-83jelj.jpg" alt="Lupo logo" height="80">
-  </a>
-</p>
+# Welcome to Xavier Morera's personal space
+Hope you like it here.
