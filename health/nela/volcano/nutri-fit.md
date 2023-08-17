@@ -6,7 +6,7 @@
 
 ## Distribucion de Poricones por tiempo de comida 
 | Alimento     | Porciones Diarias | P | D | M | M | A | M | M | C | M |
-| :----------- | :---------------- | - | - | - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - | - | - | - | - |
 | Lácteo       | 0                 |   |   |   |   |   |   |   |   |   |
 | Vegetales    | 4                 |   |   |   |   | 2 |   |   | 2 |   |
 | Fruta        | 2                 |   |   |   | 2 |   |   |   |   |   |
