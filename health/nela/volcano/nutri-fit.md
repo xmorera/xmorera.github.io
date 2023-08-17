@@ -5,8 +5,9 @@
 | Objetivo: Mejorar composcicion corporal | Requerimiento Energetico: 2211 |
 
 ## Distribucion de Poricones por tiempo de comida 
+
 | Alimento     | Porciones Diarias | P | D | M | M | A | M | M | C | M |
-| - | - | - | - | - | - | - | - | - | - | - |
+| ------------ | ----------------- | - | - | - | - | - | - | - | - | - |
 | Lácteo       | 0                 |   |   |   |   |   |   |   |   |   |
 | Vegetales    | 4                 |   |   |   |   | 2 |   |   | 2 |   |
 | Fruta        | 2                 |   |   |   | 2 |   |   |   |   |   |
@@ -14,6 +15,7 @@
 | Proteina     | 15                |   | 3 |   |   | 5 | 2 |   | 5 |   |
 | Grasa        | 5                 |   | 1 | 2 |   | 1 |   |   | 1 |   |
 | Azúcar       | 0                 |   |   |   |   |   |   |   |   |   |
+
 
 
 ## Notas Generales
