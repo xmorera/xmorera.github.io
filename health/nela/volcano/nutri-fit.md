@@ -5,15 +5,16 @@
 | Objetivo: Mejorar composcicion corporal | Requerimiento Energetico: 2211 |
 
 ## Distribucion de Poricones por tiempo de comida 
-| Alimento | Porciones Diarias | P | D | M | M | A | M | M | C | M |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Lácteo | 0 |
-| Vegetales | 4 |  |  |  |  | 2 |  |  | 2 |
-| Fruta | 2 |  |  | 2 |
-| Carbohidrato | 10 |  | 3 |  |  | 3 | 1 |  | 3 |
-| Proteina | 15 |  | 3 |  |  | 5 | 2 |  | 5 |
-| Grasa | 5 |  | 1 | 2 |  | 1 |  |  | 1 |
-| Azúcar | 0 |
+| Alimento     | Porciones Diarias | P | D | M | M | A | M | M | C | M |
+| :----------- | :---------------- | - | - | - | - | - | - | - | - | - |
+| Lácteo       | 0                 |   |   |   |   |   |   |   |   |   |
+| Vegetales    | 4                 |   |   |   |   | 2 |   |   | 2 |   |
+| Fruta        | 2                 |   |   |   | 2 |   |   |   |   |   |
+| Carbohidrato | 10                |   | 3 |   |   | 3 | 1 |   | 3 |   |
+| Proteina     | 15                |   | 3 |   |   | 5 | 2 |   | 5 |   |
+| Grasa        | 5                 |   | 1 | 2 |   | 1 |   |   | 1 |   |
+| Azúcar       | 0                 |   |   |   |   |   |   |   |   |   |
+
 
 ## Notas Generales
 * En la distribución por tiempos de comida se presentan los grupos de alimentos con las porciones diarias que le corresponden de cada grupo de alimentos. Para saber qué es una porción, revise la lista de equivalencias de alimentos en el app de Nutri-Fit. Usted no necesita calcular las porciones ya están calculadas en el menú.
