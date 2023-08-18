@@ -6,8 +6,8 @@ Escoja una opción de cada grupo de alimentos que se desglosa a continuación
 
 | 2 porciones de Vegetales | equivalen a |
 | :- | :- |
-|  |  |
-|  |  |
+| 2 tazas de vegetal crudo (Ejemplo: lechuga, tomate, zanahoria, hongos, palmito, cebolla) | 1 taza de vegetales cocidos (Ejemplos: chayote, vainica, zanahoria, brócoli, coliflor, zuchini) |
+| 1 taza de vegetales crudos + 1/2 taza de vegetales cocidos |  |
 
 | 3 porciones de Carbohidrato | equivalen a |
 | :- | :- |

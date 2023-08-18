@@ -27,8 +27,6 @@
 | Grasa        | 5                 |   | 1 | 2 |   | 1 |   |   | 1 |   |
 | Azúcar       | 0                 |   |   |   |   |   |   |   |   |   |
 
-
-
 ## Notas Generales
 * En la distribución por tiempos de comida se presentan los grupos de alimentos con las porciones diarias que le corresponden de cada grupo de alimentos. Para saber qué es una porción, revise la lista de equivalencias de alimentos en el app de Nutri-Fit. Usted no necesita calcular las porciones ya están calculadas en el menú.
 * Distribuya las grasas en los diferentes tiempos de comida, tome en cuenta la grasa que utiliza para cocinar y prefiera las grasas monoinsaturadas (buenas). Ejemplos: semillas, aceite de oliva, aguacate. Puede encontrar una sección con más opciones en la Lista de Intercambio en el app de Nutri-Fit (sección de color amarillo). Prepare los alimentos con aceite en spray (PAM®, Mazola®, Canola®), al horno, hervido o sancochado.
@@ -36,6 +34,7 @@
 * Se recomienda que una porción de carbohidrato (meriendas) tenga entre 80 y 130 calorías, entre 15 y 20 gramos de carbohidratos y 5 o menos gramos de azúcar y grasa.
 
 ## Ejemplo de Menu
+
 | Desayuno | Merienda de MM | Almuerzo | Merienda de MT | Cena |
 | :-: | :-: | :-: | :-: | :-: |
 | 1 taza de pinto + 2 huevos + 30gr de queso. Cocinar con 1 cucharadita de aceite de oliva. | 1 banano + 12 almendras ó 1 rebanada de pan con 2 cucharaditas de mantequilla de almendra | 2/3 taza de arroz + 1⁄2 taza de frijoles + 150gr de proteína + vegetales crudos y cocidos. | 1 rebanada de pan con queso y pavo. | 2/3 taza de arroz + 1⁄2 taza de frijoles + 150gr de proteína + vegetales crudos y cocidos. |
