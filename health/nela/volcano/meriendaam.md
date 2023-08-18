@@ -1,7 +1,9 @@
 # Merienda de Media Mañana
 _[...de vuelta a menu principal](./nutri-fit.md)_
 
-Su Merienda de Media Mañana está compuesta por 2 porciones de Fruta + 2 porciones de Grasa Escoja una opción de cada grupo de alimentos que se desglosa a continuación
+Su Merienda de Media Mañana está compuesta por **2 porciones de Fruta** + **2 porciones de Grasa**. 
+
+Escoja una opción de cada grupo de alimentos que se desglosa a continuación:
 
 | 2 porciones de Fruta | equivalen a |
 | :- | :- |

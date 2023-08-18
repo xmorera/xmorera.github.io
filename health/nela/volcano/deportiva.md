@@ -15,7 +15,7 @@ _debe coincidir con el ciclo de entrenamiento_
 
 * Entrenamiento y desarrollo (el “día a día”).
 * Previa a la competencia (Carga de Glucógeno).
-* Competencia: Pre competencia | Durante competencia 
+* Competencia: Pre competencia y durante competencia 
 * Post competencia
 
 ### Notas Generales:
