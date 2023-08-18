@@ -1,6 +1,6 @@
+# Merienda de Media Tarde
+_[...de vuelta a menu principal](./nutri-fit.md)_
 
-
-## Merienda de Media Tarde
 Su Merienda de Media Tarde está compuesta por 1 porción de Carbohidrato + 2 porciones de Proteína
 Escoja una opción de cada grupo de alimentos que se desglosa a continuación
 

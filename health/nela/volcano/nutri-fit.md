@@ -4,7 +4,14 @@
 | -- | --
 | Objetivo: Mejorar composicion corporal | Requerimiento Energetico: 2211 |
 
-## Distribucion de Poricones por tiempo de comida 
+## Tiempos de Comida
+- [Desayuno](./desayuno.md)
+- [Merienda AM](./meriendaam.md)
+- [Almuerzo](./almuerzo.md)
+- [Merienda PM](./meriendapm.md)
+- [Cena](./cena.md)
+
+## Distribucion de Porciones por tiempo de comida 
 
 | Alimento     | Porciones Diarias | P | D | M | M | A | M | M | C | M |
 | ------------ | ----------------- | - | - | - | - | - | - | - | - | - |
