@@ -6,9 +6,9 @@ Su Desayuno está compuesto por
 - **3 porciones de Proteína** 
 - **1 porción de Grasa**
 
-Escoja una opción de cada grupo de alimentos que se desglosa a continuación:
+Escoja una opción de cada grupo de alimentos que se desglosa a continuación para ver la equivalencia:
 
-## 3 porciones de **Carbohidrato**  equivalen a: 
+### 3 porciones de **Carbohidrato**: 
 * 2/3 taza de gallo pinto + 1 paquete de galleta tipo soda
 * 12 dedos a lo largo de pan baguette. Evite productos procesados y refinados 
 * 3/4 taza de avena o granola reducida en azúcar y grasa
@@ -21,7 +21,7 @@ Escoja una opción de cada grupo de alimentos que se desglosa a continuación:
 * 2/3 taza de gallo pinto + 60gr de maduro (15 cm) 
 * 3 rebanadas de pan integral o pan blanco regular. Evite productos procesados y refinados 
 
-## 3 porciones de **Proteina** equivalen a:  
+### 3 porciones de **Proteina**:  
 * 2 huevos + 1/4 taza de yogurt griego sin azúcar y grasa adicionada
 * 2 rebanadas de jamón ahumado (Tofurky, opción vegana) + 2 cucharadas de frijoles molidos 
 * 1 salchicha sabor pesto espinaca, italiana (Tofurky, opción vegana)
@@ -36,7 +36,7 @@ Escoja una opción de cada grupo de alimentos que se desglosa a continuación:
 * 1 huevo + 30 gramos de queso reducido en grasa + 2 cucharadas de frijol molido  
 * 2 huevos + 2 claras de huevo  
 
-## 2 porciones de **Grasa** equivalen a:
+### 2 porciones de **Grasa**:
 * 1 taza (240 ml) de leche vegetal (almendra, arroz, coco) sin azúcar adicionada
 * 2 cucharaditas de mantequilla de almendra o maní artesanal 
 * 1 cucharada de chía molida ó 2 cucharadas de coco rallado
