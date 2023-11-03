@@ -1,4 +1,4 @@
-# Welcome to Xavier Morera's Personal Space
+# Welcome to Xavier Morera's Blog
 Hope you like it here. Here are a few things from me.
 
 ## Building in Public
