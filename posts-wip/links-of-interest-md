@@ -5,13 +5,13 @@ Videos
 
 Comments
 
-Data Science for Beginners
+Data Science for Beginners https://docs.microsoft.com/en-us/azure/machine-learning/studio/data-science-for-beginners-the-5-questions-data-science-answers
 
 Video 1: The 5 questions data science answers
 
  
 
-Automated machine learning and MLOps with Azure Machine Learning
+Automated machine learning and MLOps with Azure Machine Learning https://azure.microsoft.com/en-us/blog/automated-machine-learning-and-mlops-with-azure-machine-learning/
 
  
 
@@ -24,14 +24,14 @@ Videos
 
 Comments
 
-Introduction to Machine Learning
+Introduction to Machine Learning https://developers.google.com/machine-learning/crash-course/ml-intro
 
  
 
  
 
-Rules of Machine Learning:
-Best Practices for ML Engineering
+Rules of Machine Learning: https://developers.google.com/machine-learning/guides/rules-of-ml/
+Best Practices for ML Engineering https://developers.google.com/machine-learning/guides/rules-of-ml/
 
  
 
@@ -44,7 +44,7 @@ Videos
 
 Comments
 
-ExamenesCompuTEC
+ExamenesCompuTEC https://github.com/gabygarro/ExamenesCompuTEC/blob/master/README.md
 
  
 
@@ -63,13 +63,13 @@ Resource
 
 Comments
 
-Interpretable Machine Learning
+Interpretable Machine Learning https://christophm.github.io/interpretable-ml-book/index.html
 
  
 
  
 
-Data Science from Scratch
+Data Science from Scratch http://math.ecnu.edu.cn/~lfzhou/seminar/%5BJoel_Grus%5D_Data_Science_from_Scratch_First_Princ.pdf
 
  
 
@@ -216,3 +216,5 @@ https://developers.google.com/machine-learning/guides/rules-of-ml/
 [13:00, 11/1/2019] Xavier: https://www.youtube.com/watch?v=KmOAznOQX-g
 [08:26, 11/10/2019] Xavier: https://www.microsoft.com/en-us/ignite
 [23:02, 11/17/2019] Xavier: https://www.ford.com/suvs/mach-e/2021/,,,
+
+https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/ 
