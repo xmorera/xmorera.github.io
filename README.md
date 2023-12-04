@@ -14,10 +14,28 @@ Hope you like it here. Let me share with you a few things I have on my mind.
 ## Posts
 [The Way of the Road Warrior](./posts/road-warrior.md)
 
+[Failing at Entrepreneurship While You Are Young Is Great](2018\04\17\failing-at-entrepreneurship-while-you-are-young-is-great.md)
+
+[Protect Your Meeting’s Productive Time](2018\04\17\protect-your-meetings-productive-time.md)
+
+[Protect Your Productive Time](2018\04\17\protect-your-productive-time.md)
+
+[The Power of Experience and Maturity in Programming (and Life)](2018\04\17\the-power-of-experience-and-maturity-in-programming-and-life.md)
+
 [Technical Debt and C# Best Practices](2022\12\23\c-best-practices-is-the-best-way-to-go.md)
 
 [Implementing Search Article on MSDN](C:\github\xmorera\xmorera.github.io\2021\05\06\implementing-search-article-on-msdn.md)
 
 [T-SQL Tuesday #145: The Pandemic, Costa Rica, and Events](2021\12\16\t-sql-tuesday-145-the-pandemic-costa-rica-and-events.md)
 
+[Working with Large Files in GIT (LFS)](C:\github\xmorera\xmorera.github.io\2021\03\working-with-large-files-in-git-lfs.md)
+
+[How Pluralsight Changed My Life Twice](2021\04\10\how-pluralsight-changed-my-life-twice.md)
+
 [Making a Billion Dollars](./posts/003-making-a-billion-dollars.md)
+
+[Stock Market and Unemployment: Trump vs. Obama According to Artificial Intelligence](2020\10\23\stock-market-and-unemployment-trump-vs-obama-according-to-artificial-intelligence-machine-learning.md)
+
+[The Art of Creating Applications That Have Search](2016\12\23\the-art-of-creating-applications-that-have-search.md)
+
+[The Day We Started to Outgrow Relational Databases](2016\10\10\the-day-we-started-to-outgrow-relational-databases.md)
