@@ -1,5 +1,7 @@
 # Xavier Morera's Thoughts and Rants
 
+# Welcome to Xavier Morera's Blog
+
 **Note: This site is under RECONSTRUCTION. The previous Wordpress site died, and I am moving it to GitHub Pages**
 
 Hope you like it here. Let me share with you a few things I have on my mind.
