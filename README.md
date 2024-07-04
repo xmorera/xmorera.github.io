@@ -39,3 +39,5 @@ Hope you like it here. Let me share with you a few things I have on my mind.
 [The Art of Creating Applications That Have Search](2016\12\23\the-art-of-creating-applications-that-have-search.md)
 
 [The Day We Started to Outgrow Relational Databases](2016\10\10\the-day-we-started-to-outgrow-relational-databases.md)
+
+[Life as a Roadwarrior](2024/life-as-a-roadwarrior.md)
