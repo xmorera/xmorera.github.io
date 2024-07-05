@@ -41,3 +41,5 @@ Hope you like it here. Let me share with you a few things I have on my mind.
 [The Day We Started to Outgrow Relational Databases](2016\10\10\the-day-we-started-to-outgrow-relational-databases.md)
 
 [Life as a Roadwarrior](2024/life-as-a-roadwarrior.md)
+
+[The Power of Intention](2024/power-of-intention.md)
