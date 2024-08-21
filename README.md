@@ -14,13 +14,13 @@ Hope you like it here. Let me share with you a few things I have on my mind.
 ## Posts
 [The Way of the Road Warrior](./posts/road-warrior.md)
 
-[Failing at Entrepreneurship While You Are Young Is Great](2018\04\17\failing-at-entrepreneurship-while-you-are-young-is-great.md)
+[Failing at Entrepreneurship While You Are Young Is Great](2018\failing-at-entrepreneurship-while-you-are-young-is-great.md)
 
-[Protect Your Meeting’s Productive Time](2018\04\17\protect-your-meetings-productive-time.md)
+[Protect Your Meeting’s Productive Time](2018\protect-your-meetings-productive-time.md)
 
-[Protect Your Productive Time](2018\04\17\protect-your-productive-time.md)
+[Protect Your Productive Time](2018\protect-your-productive-time.md)
 
-[The Power of Experience and Maturity in Programming (and Life)](2018\04\17\the-power-of-experience-and-maturity-in-programming-and-life.md)
+[The Power of Experience and Maturity in Programming (and Life)](2018\the-power-of-experience-and-maturity-in-programming-and-life.md)
 
 [Technical Debt and C# Best Practices](2022\12\23\c-best-practices-is-the-best-way-to-go.md)
 
