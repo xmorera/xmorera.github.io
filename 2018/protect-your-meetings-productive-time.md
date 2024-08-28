@@ -15,7 +15,7 @@ Haven’t you wished a day could be 26 hours long?
 In most cases, however, the problem is not that the day is only 24 hours long. The problem is how you spend your productive time.
 
 Time Is the New Currency
-Antique clocksI recently wrote a Simple Programmer post about how to Protect Your Productive Time, in which I covered many of the reasons why most developers — and many other workers in knowledge-based industries — can’t seem to get enough done in time.
+I recently wrote a Simple Programmer post about how to Protect Your Productive Time, in which I covered many of the reasons why most developers — and many other workers in knowledge-based industries — can’t seem to get enough done in time.
 
 In most cases, the problem lies not in the amount of work they have to do, but in how they choose to invest their time.
 
@@ -76,7 +76,7 @@ A meeting without a clearly defined agenda typically ends up going on a tangent.
 A good tip, especially when you are starting to make meeting objectives very clear, is to use a board for tracking the progress of your meeting’s objectives, ideally a Kanban board. It helps track progress so that all objectives are visually clear and a feeling of productivity is felt as you move along.
 
 Scheduling Meetings
-Argumentative persuasive businessmanBe sensitive to your team’s needs when you’re preparing to schedule the meeting. I understand how hard it is to work around everybody’s busy schedule. Depending on your specific role, you will view time in a unique way. A developer needs uninterrupted focus to be productive and create, whereas a manager’s responsibilities involve knowing what the developers are working on, so managers tend to view time in a different way.
+Be sensitive to your team’s needs when you’re preparing to schedule the meeting. I understand how hard it is to work around everybody’s busy schedule. Depending on your specific role, you will view time in a unique way. A developer needs uninterrupted focus to be productive and create, whereas a manager’s responsibilities involve knowing what the developers are working on, so managers tend to view time in a different way.
 
 Nevertheless, it is necessary to find a way for both of them to work harmoniously and get all their stuff done. This is why meetings are essential to meet production goals.
 
@@ -127,7 +127,7 @@ If you keep having the same meetings again and again, reinforce the advice that 
 Do your best to make progress and move forward.
 
 Summary
-man points with fingers in the right sideLet’s summarize some of the points that I covered:
+Let’s summarize some of the points that I covered:
 
 There never seems to be enough time to get everything done. The problem in most cases lies not in the amount of work, but instead how people choose to invest their time.
 If you manage your time well, you can be very productive. But no matter how productive you are, there is always the potential to be more productive. Increase your productivity by protecting your productive time.
