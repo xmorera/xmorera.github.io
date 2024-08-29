@@ -1,5 +1,5 @@
 # LCI Workshop Videos
-_[Back to main](/lupo/demos.md)_
+_[Back to demos page](/lupo/README.md)_
 
 ## Workshop - Source PPTX
 [LCI Workshop PPTX](https://lupostorageaccount.blob.core.windows.net/demo-videos/lupo/lci/LCI-Universities-Workshop-Storytelling.pptx)
