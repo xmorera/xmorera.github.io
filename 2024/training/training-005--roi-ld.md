@@ -4,6 +4,8 @@ Many organizations struggle to quantify the impact of their Learning and Develop
 
 Without a clear understanding of the ROI, L&D programs may face budget cuts or be viewed as non-essential. This could result in a less skilled workforce, lower employee engagement, and decreased organizational competitiveness.
 
+![budget cuts](./images/budgetcuts.png)
+
 To address these issues, implement robust measurement tools and Key Performance Indicators (KPIs) to demonstrate the tangible benefits of L&D. Here's a step-by-step plan to get you started:
 
 1️⃣ **Define Clear Objectives**:
