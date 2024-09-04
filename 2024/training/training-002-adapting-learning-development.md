@@ -2,6 +2,8 @@
 
 Struggling to make traditional learning and development methods work in a hybrid environment? 
 
+![](./images/hybridwork.png)
+
 In today's hybrid work model, conventional L&D strategies can fall short, leaving remote employees feeling disconnected and disengaged. This disconnect can lead to reduced productivity and a fragmented company culture. Ignoring this shift can cost your organization dearly in terms of employee satisfaction and overall performance.
 
 Here’s how you can revamp your L&D strategy to be more inclusive and effective:

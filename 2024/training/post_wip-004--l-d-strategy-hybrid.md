@@ -16,8 +16,8 @@ To bridge this gap, your L&D strategies must evolve. Here’s how:
 1️⃣ **Blended Learning Approach:**
    - Combine online and offline training methods. Use e-learning modules for remote employees and in-person sessions for those in the office. This ensures that everyone receives the same quality of training, regardless of their location.
 
-2️⃣ **Interactive Virtual Training:**
-   - Use interactive tools like polls, quizzes, and breakout rooms to make virtual training sessions engaging. This keeps remote employees involved and ensures active participation.
+2️⃣ **Interactive Virtual and Video Training:**
+   - Leverage video training as it is the most effective delivery mechanism. Additionally, use interactive tools like polls, quizzes, and breakout rooms to make virtual training sessions engaging. This keeps remote employees involved and ensures active participation.
 
 3️⃣ **Microlearning:**
    - Break down training content into small, manageable chunks that employees can easily digest. Microlearning is perfect for hybrid settings as it allows employees to learn at their own pace, fitting training into their daily schedules.
