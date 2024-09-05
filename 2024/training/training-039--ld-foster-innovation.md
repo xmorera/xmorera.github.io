@@ -1,4 +1,4 @@
-𝗧𝗵𝗲 𝗥𝗼𝗹𝗲 𝗼𝗳 𝗟earning & 𝗗evelopment 𝗶𝗻 𝗙𝗼𝘀𝘁𝗲𝗿𝗶𝗻𝗴 𝗜𝗻𝗻𝗼𝘃𝗮𝘁𝗶𝗼𝗻 🚀
+The Role of Learning & Development in Fostering Innovation 🚀
 
 Ever feel like your team is stuck in a rut, lacking the creative spark needed to drive innovation?
 

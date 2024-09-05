@@ -1,4 +1,4 @@
-𝗛𝗼𝘄 𝘁𝗼 𝗘𝗻𝗴𝗮𝗴𝗲 𝗦𝗲𝗻𝗶𝗼𝗿 𝗟𝗲𝗮𝗱𝗲𝗿𝘀𝗵𝗶𝗽 𝗶𝗻 𝗟earning & 𝗗evelopment 𝗜𝗻𝗶𝘁𝗶𝗮𝘁𝗶𝘃𝗲𝘀 🚀
+How to Engage Senior Leadership in 𝗟earning & 𝗗evelopment Initiatives 🚀
 
 Struggling to get senior leadership onboard with your Learning and Development (L&D) initiatives? 
 
