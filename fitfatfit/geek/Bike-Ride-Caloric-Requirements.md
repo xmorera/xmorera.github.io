@@ -561,29 +561,6 @@ The formula above worked quite decently for me with an efficiency of 25%, which 
 
 Now I need to learn how to calculate carbs, sodium, and liquid which is another post.
 
-Thank you and keep pedaling!
+Thank you and keep pedalling!
 
-
-```python
-# Calculate the calories burned using the different formulas
-
-
-```
-
-
-```python
-print("Calories Burned Calcuation")
-print(f"Strava: {calories_strava}")
-
-calories_burned = strava_calories_estimate(weight_ticaban_kg, age, distance_kilometers, duration_moving_time_seconds, elevation_gain_m, average_heart_rate_bpm, average_power_watts, average_speed_km_hour)
-
-
-
-print("Calculator.net " + str(calories_keytel_copilot))
  
-```
-
-    Calories Burned Calcuation
-    Strava: 2199
-    Calculator.net -810.2823961121734
-    
