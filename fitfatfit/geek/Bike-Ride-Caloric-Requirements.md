@@ -373,7 +373,7 @@ The book has a table that tells me how many calories are burned per hour, give t
 
 ![](./images/calories_per_hour_burned_fzp.png)
 
-I uploaded the table to both ChatGPT and Gemini and asked it to create a formula to make the calculations. 
+I used a bit of help from both ChatGPT and Gemini and asked it to create a formula to make the calculations.  I wanted to test how they both could recognize values in a table and pair program with me.
 
 Let's test both results. These are the formulas it created:
 
