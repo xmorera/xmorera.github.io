@@ -235,15 +235,9 @@ def percent_difference(real_value, calculated_value):
 calories_strava_alto_letras_real = 4713
 percent_difference(calories_strava_alto_letras_real, calories_burned_alto_letras_calculated)
 ```
-
     The percent difference between 4713 and 4776.1 is 1.33%
-    
-
-
-
 
     1.329946991811665
-
 
 
 Let's try another one.
@@ -328,11 +322,7 @@ percent_difference(calories_strava, calculated_calories_keytel)
 ```
 
     The percent difference between 2199 and 3196.0855274059913 is 36.96%
-    
-
-
-
-
+ 
     36.962732929477745
 
 
@@ -357,13 +347,8 @@ percent_difference(calories_strava, calories_calculatordotnet)
 ```
 
     The percent difference between 2199 and 4722 is 72.91%
-    
-
-
-
-
+  
     72.9085392284352
-
 
 
 At this point I can keep testing the other methodologies, but since the Strava-like function is close enough, I'll move on into creating the function that uses the formula from Feed Zone Portables.
@@ -545,10 +530,6 @@ percent_difference(calories_strava, total_calories_burned_ticaban_fzp)
     Calories burned per hour for the Ticaban ride: 616.31 Kcal (Feed Zone Portables formula with Gemini function)
     Total amount of hours burned for the Ticaban ride: 2157.09 Kcal (Feed Zone Portables formula with Gemini function)
     The percent difference between 2199 and 2157.089640960609 is 1.92%
-    
-
-
-
 
     1.924219311067666
 
@@ -558,6 +539,8 @@ percent_difference(calories_strava, total_calories_burned_ticaban_fzp)
 Calculating the calories required for a ride has a lot of variables, but by looking at a ride with very flat terrain and constant pace plus comparing with the total opposite, a very long ride with a huge climb and fast descents I could get to the conclusion that it is possible to calculate calorie consumption quite decently with the formula above or the Strava-like one.
 
 The formula above worked quite decently for me with an efficiency of 25%, which I think is quite high and probably is not the reality (but dreaming is free).
+
+With what I know now, I can estimate caloric requirements for future rides.
 
 Now I need to learn how to calculate carbs, sodium, and liquid which is another post.
 
