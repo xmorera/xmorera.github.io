@@ -43,3 +43,5 @@ Hope you like it here. Let me share with you a few things I have on my mind.
 [Life as a Roadwarrior](2024/life-as-a-roadwarrior.md)
 
 [The Power of Intention](2024/power-of-intention.md)
+
+["You are Orders of Magnitude Cheaper than Synthesia"](./2024/cheaper-than-synthesia.md)
