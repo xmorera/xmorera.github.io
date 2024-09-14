@@ -43,3 +43,7 @@ Hope you like it here. Let me share with you a few things I have on my mind.
 [Life as a Roadwarrior](2024/life-as-a-roadwarrior.md)
 
 [The Power of Intention](2024/power-of-intention.md)
+
+## Fit Fat Fit
+[My journey into fitness, in a series of posts and the book](/fitfatfit/index.MD)
+
