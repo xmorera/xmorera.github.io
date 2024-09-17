@@ -217,8 +217,7 @@ calories_burned_alto_letras_calculated = strava_calories_estimate(73.5, 46, 164.
 print(f"Calories burned using Strava calculation and average power for Alto de Letras: {calories_burned_alto_letras_calculated:.2f}")
 ```
 
-    Calories burned using Strava calculation and average power for Alto de Letras: 4776.10
-    
+Calories burned using Strava calculation and average power for Alto de Letras: 4776.10    
 
 How much is the difference? Let's see a percent difference, for which I will define a function and then calculate.
 
@@ -235,9 +234,9 @@ def percent_difference(real_value, calculated_value):
 calories_strava_alto_letras_real = 4713
 percent_difference(calories_strava_alto_letras_real, calories_burned_alto_letras_calculated)
 ```
-    The percent difference between 4713 and 4776.1 is 1.33%
+The percent difference between 4713 and 4776.1 is 1.33%
 
-    1.329946991811665
+1.329946991811665
 
 
 Let's try another one.
