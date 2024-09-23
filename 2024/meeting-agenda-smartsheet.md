@@ -4,9 +4,9 @@ There is no doubt in anyone's mind that meetings are a necessary evil.
 
 On one hand, they are required for effective collaboration—despite of what that YouTube ad tells you... meetings are here to stay.
 
-But on the other end they cna be a productivity killer and don't even get me started on the cost.
+But on the other end they can be a productivity killer and don't even get me started on the cost.
 
-Just think about this. A 1 hour meeting is not one hour of lost productivity. If you have 8 people, then it is a full day of lost productivity plus the time it takes for all meeting-goers to get back into the grove of whatever they were working on.
+Just think about this. A 1 hour meeting is not one hour of lost productivity. If you have 8 people, then it is a full day of lost productivity plus the time it takes for all meeting-goers to get back into the groove of whatever they were working on.
 
 Even worse, it feels like sometimes we go to meetings whose sole purpose is to plan for other meetings or worse than "worse".
 
@@ -33,7 +33,7 @@ Not all topics are created equal. The items in the agenda should be ordered by p
 Remember, for the company, a 1 hour meeting is not a 1 hour meeting. It is 1 hour multiplied by the number of people that attend. Be very clear of why each person is invited, which is easier done by linking each person to at least one point in the agenda.
 
 5. Encourage participation
-If a participant is invited to the meeting, he or she has something of important to contribute or help decide. Thus, encourage everyone to share their thoughts and ideas.
+If a participant is invited to the meeting, he or she has something important to contribute or help decide. Thus, encourage everyone to share their thoughts and ideas.
 
 6. Assign roles and responsibilities
 Just like the daily scrum has a scrum master, meetings should have an assigned facilitator that helps keep the meeting on track, make sure everyone has a chance to speak, and help capture key points and action items.
@@ -44,7 +44,7 @@ One of the most important outcomes of any meeting should be actionable items. Ea
 8. Make time for Q&A
 Even with a structured agenda, it’s important to leave some room for questions or open discussion toward the end of the meeting, which gives participants the opportunity to bring up concerns or insights that may not have been covered but are still relevant to the meeting’s objective.
 
-Once you have defined the items outline above, you can now work on the agenda.
+Once you have defined the items outlined above, you can now work on the agenda.
 
 ## Essential Elements of a Meeting Agenda
 Every meeting agenda should include:
