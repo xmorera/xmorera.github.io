@@ -1,6 +1,6 @@
-# Xavier Morera's Thoughts and Rants
+# Learning & Development @ Lupo.AI | Author @ Pluralsight (Gen AI, ML, Dev, Python, .NET, Data) | Revenue Booster | Biking Aficionado 🚴‍♂️
 
-# Welcome to Xavier Morera's Blog
+Welcome to Xavier Morera's Personal Blog
 
 **Note: This site is under RECONSTRUCTION. The previous Wordpress site died, and I am moving it to GitHub Pages**
 
