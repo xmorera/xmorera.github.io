@@ -1,4 +1,4 @@
-# Day 1 Listed in AppSource for Lupo.ai
+# Lupo.ai Listed in Microsoft AppSource 
 
 How old is a company? 
 

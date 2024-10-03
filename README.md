@@ -1,15 +1,15 @@
-# Learning & Development @ Lupo.AI | Author @ Pluralsight (Gen AI, ML, Dev, Python, .NET, Data) | Revenue Booster | Biking Aficionado 🚴‍♂️
-
-Welcome to Xavier Morera's Personal Blog
+Learning & Development @ Lupo.AI | Author @ Pluralsight (Gen AI, ML, Dev, Python, .NET, Data) | Revenue Booster | Biking Aficionado 🚴‍♂️
 
 **Note: This site is under RECONSTRUCTION. The previous Wordpress site died, and I am moving it to GitHub Pages**
 
 Hope you like it here. Let me share with you a few things I have on my mind.
 
-## Building Lupo.ai in Public
+## Building in Public: Lupo.ai 
 [Start Building in Public](/posts/build-in-public/01-start-building-in-public.md)
 
 [How Did I Get Here?](/posts/build-in-public/02-how-did-i-get-here.md)
+
+[Lupo.ai Listed in Microsoft AppSource ](/2024/lupo-ai-listed-microsoft-appsource.md)
 
 ## Posts
 [The Way of the Road Warrior](./posts/road-warrior.md)
