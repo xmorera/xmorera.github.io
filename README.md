@@ -1,4 +1,4 @@
-Learning & Development @ Lupo.AI | Author @ Pluralsight (Gen AI, ML, Dev, Python, .NET, Data) | Revenue Booster | Biking Aficionado 🚴‍♂️
+Learning & Development @ Lupo.AI / Author @ Pluralsight (Gen AI, ML, Dev, Python, .NET, Data) / Revenue Booster / Biking Aficionado 🚴‍♂️
 
 **Note: This site is under RECONSTRUCTION. The previous Wordpress site died, and I am moving it to GitHub Pages**
 
