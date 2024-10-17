@@ -1,5 +1,9 @@
 # Pluralsight Author Summit 2024
 
+Welcome to the Summit in Orlando, Florida!
+
+Click here to [view the agenda](https://www.author-summit.com/agenda?)
+
 ## Sunday 10 / 27
 
 ### Author Welcome Reception
@@ -116,7 +120,7 @@
 |---------------------|-----------------------------------------------------------|----------------------------|-------------|
 | 11:00 am - 11:50 am | How to Be More Comfortable and Confident On Camera          | ☀️ Sunshine Room          | Led by Simon Allardice. |
 | 11:00 am - 11:50 am | Workshop: Perfecting Your Home Office Audio                 | 🌴 Palm Room               | Led by Jacob Branch and Faye Ellis. |
-| 11:00 am - 11:50 am | Workshop: Video Skills: DaVinci Resolve Advanced Techniques | 🦢 Swan Room               | Led by Alex Walton and Eric So. |
+| 11:00 am - 11:50 am | Workshop: Video Skills: Video Skills: DaVinci Resolve Building on the Fundamentals | 🦢 Swan Room               | Led by Alex Walton and Eric So. |
 | 11:00 am - 11:50 am | Workshop: Combining Taste and Technology for Face-To-Camera| 🍊 Orange Room             | Led by Hampton Paulk and Chris Colucci. |
 
 ---
@@ -133,7 +137,7 @@
 
 | Time                | Activity                                                  | Location                  | Description |
 |---------------------|-----------------------------------------------------------|----------------------------|-------------|
-| 1:00 pm - 1:50 pm   | Develop a Photographer’s Eye                               | 🌴 Palm Room               | Led by Chris Colucci and Alex Walton. |
+| 1:00 pm - 1:50 pm   | Develop a Photographer’s Eye                               | 🦢 Swan Room               | Led by Chris Colucci and Alex Walton. |
 | 1:00 pm - 1:50 pm   | How to Be More Comfortable and Confident On Camera          | ☀️ Sunshine Room          | Led by Simon Allardice. |
 | 1:00 pm - 1:50 pm   | Workshop: Voiceover Made Easy                              | 🌴 Palm Room               | Led by Faye Ellis. |
 
