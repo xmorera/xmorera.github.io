@@ -2,7 +2,7 @@
 
 Welcome to the Summit in Orlando, Florida!
 
-Click here to [view the agenda](https://www.author-summit.com/agenda?)
+Click here to [view the official agenda](https://www.author-summit.com/agenda?)
 
 ## Sunday 10 / 27
 
