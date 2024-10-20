@@ -8,6 +8,10 @@ For this *fat to fit* transformation I had to learn many new things. I am now wr
 <script async data-uid="eb1d5e64ee" src="https://lupoai.ck.page/eb1d5e64ee/index.js"></script>
 
 
+## My Fit Fat Fit Process
+
+[Body Recomposition](./posts/body-recomposition.md)
+
 ## Some posts regarding bike rides
 [Calculating Calories Burned During Exercise](./geek/Bike-Ride-Caloric-Requirements.md)
  
