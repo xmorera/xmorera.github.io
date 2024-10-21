@@ -1,4 +1,4 @@
-# Body Recomposition
+# Body Recomposition: My Next Step in My Health Seeking Journey
 
 Not very long ago, circa December 2022, I weighed 102.7 kgs, circa December 2022. 
 
@@ -112,6 +112,8 @@ Stress Management: High stress can increase cortisol levels, which can hinder fa
 Regularly check your body fat percentage and muscle mass, either through measurements or tools like a DEXA scan or bioelectrical impedance. In my case, my nutritionist's InBody is the guide.
 
 Track your strength in key lifts to ensure you are progressively overloading. By balancing your nutrition and training while maintaining recovery, you'll be able to reduce body fat and build more muscle efficiently.
+
+If you want the steps in a very direct way, check out this post: [Lose Fat and Gain Muscle at the Same Time](./lose-fat-plus-gain-muscle-at-the-same-time.md)
 
 In summary, body recomposition is about shifting the balance between fat and muscle for a leaner, healthier body. It’s a gradual process, requiring the right balance of nutrition, training, and recovery to achieve the desired physique.
 

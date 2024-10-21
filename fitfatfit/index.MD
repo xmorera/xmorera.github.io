@@ -10,7 +10,9 @@ For this *fat to fit* transformation I had to learn many new things. I am now wr
 
 ## My Fit Fat Fit Process
 
-[Body Recomposition](./posts/body-recomposition.md)
+[Body Recomposition: My Next Step in My Health Seeking Journey](./posts/body-recomposition.md)
+
+[How To Gain Muscle and Lose Fat Simultaneously](./posts/lose-fat-plus-gain-muscle-at-the-same-time.md)
 
 ## Some posts regarding bike rides
 [Calculating Calories Burned During Exercise](./geek/Bike-Ride-Caloric-Requirements.md)

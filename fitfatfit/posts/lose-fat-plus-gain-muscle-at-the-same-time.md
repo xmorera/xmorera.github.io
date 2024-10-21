@@ -1,4 +1,10 @@
-# Next Step: Gain Muscle and lose fat simultaneously 
+# How To Gain Muscle and Lose Fat Simultaneously 
+
+Recently I wrote a post on body recomposition, which is pretty much the phase that I entered recently. It includes some useful information and a little bit of my story.
+
+You can read it here: [Body Recomposition: My Next Step in My Health Seeking Journey](./body-recomposition.md)
+
+This post goes straight to the point.
 
 To gain muscle and lose fat simultaneously (body recomposition), you need to balance your **calorie intake**, **macronutrients**, and **training** to achieve both goals. Here’s a step-by-step plan incorporating the advice from the previous prompts:
 
