@@ -14,6 +14,8 @@ For this *fat to fit* transformation I had to learn many new things. I am now wr
 
 [How To Gain Muscle and Lose Fat Simultaneously](./posts/lose-fat-plus-gain-muscle-at-the-same-time.md)
 
+[Why Muscles Are Not Growing](./posts/why-muscles-not-growing.md)
+
 ## Some posts regarding bike rides
 [Calculating Calories Burned During Exercise](./geek/Bike-Ride-Caloric-Requirements.md)
  
