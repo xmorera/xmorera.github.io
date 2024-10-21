@@ -3,7 +3,7 @@ plugins:
 - jekyll-remote-theme
 
 # Google Analytics
-google_analytics: G-D0CEQB4V20
+# google_analytics: G-D0CEQB4V20
 
 title: Xavier Morera  
 
