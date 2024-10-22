@@ -2,7 +2,7 @@
 layout: post
 title:  "How Did I Get Here?"
 date:   2023-11-11 13:45:56 -0600
-categories: "Build in Public"
+categories: "Build&nbsp;in&nbsp;Public"
 ---
 # How Did I Get Here?
 There are many reasons why someone starts a company. In some cases it is plain and simple. They want to be rich. 

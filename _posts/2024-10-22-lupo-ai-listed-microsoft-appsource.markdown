@@ -2,7 +2,7 @@
 layout: post
 title:  "Lupo.ai Listed in Microsoft AppSource"
 date:   2024-10-22 13:45:56 -0600
-categories: "Build in Public"
+categories: "Build&nbsp;in&nbsp;Public"
 ---
 # Lupo.ai Listed in Microsoft AppSource 
 

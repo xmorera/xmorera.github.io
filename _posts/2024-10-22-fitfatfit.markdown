@@ -2,7 +2,7 @@
 layout: post
 title:  "My journey into fitness, in a series of posts and the book"
 date:   2024-10-22 13:45:56 -0600
-categories: "Fit Fat Fit"
+categories: "Fit&nbsp;Fat&nbsp;Fit"
 ---
 
 # Subscribe to Get Updates 

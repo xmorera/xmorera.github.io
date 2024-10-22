@@ -2,7 +2,7 @@
 layout: post
 title:  "Start Building in Public"
 date:   2023-02-11 13:45:56 -0600
-categories: "Build in Public"
+categories: "Build&nbsp;in&nbsp;Public"
 ---
 # Start Building in Public
 
