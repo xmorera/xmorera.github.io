@@ -1,9 +1,12 @@
-remote_theme: pages-themes/tactile@v0.2.0
-plugins:
-- jekyll-remote-theme
+# remote_theme: pages-themes/tactile@v0.2.0
+# plugins:
+# - jekyll-remote-theme
 
 # Google Analytics
 google_analytics: G-D0CEQB4V20
 
 title: Xavier Morera  
+description: Xavier Morera's website.
 
+# Commented out the top lines related to the theme because GitHub indicates that tactile is supported
+theme: jekyll-theme-tactile
