@@ -48,7 +48,7 @@ Here are some of the top C# best practices that every developer should keep in m
 
 I have summarized these best practices in my course, C# 10 Best Practices, click on this link to learn more:
 
-![c_sharp_best_practices.png](c_sharp_best_practices.png)
+![c_sharp_best_practices.png](/media/c_sharp_best_practices.png)
 
 By following these best practices, you can ensure that your C# code is of high quality and easy to maintain. Remember to always think about the long-term maintainability of your code, as it will save you time and headaches in the future.
 
