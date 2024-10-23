@@ -1,6 +1,5 @@
 ---
 layout: site
-title: "Page Title"
 ---
 
 THIS IS THE TEST PAGE
