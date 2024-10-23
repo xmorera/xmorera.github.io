@@ -6,8 +6,8 @@ plugins:
   # - jekyll-sitemap
 
 # Optional site metadata
-title: "My Awesome Site"
-description: "A custom site using the Tactile theme on GitHub Pages."
+# title: "My Awesome Site"
+# description: "A custom site using the Tactile theme on GitHub Pages."
 url: "https://your-username.github.io"
 baseurl: ""  # Set to "/repo-name" if not using a custom domain
 
