@@ -1,5 +1,5 @@
 ---
-layout: site
+layout: default
 title: "Page Title"
 ---
 
