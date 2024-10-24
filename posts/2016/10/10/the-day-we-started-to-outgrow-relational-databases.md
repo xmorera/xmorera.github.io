@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "The Day We Started to Outgrow Relational Databases"
+date:   2016-10-10 13:45:56 -0600
+categories: Posts
+---
+
 # The Day We Started to Outgrow Relational Databases
 
 Look around you. Look closer. Pay more attention.  What do you see?

@@ -1,3 +1,7 @@
+---
+layout: site
+---
+
 # The Art of Creating Applications That Have Search
 
 In my Pluralsight trainings, Getting Started with Enterprise Search using Apache Solr and Implementing Search in .NET Applications, one of the things that I make quite a bit of emphasis is on how important search is, yet it is one of the most misunderstood functions of IT and development in general. In this post I will show you an example of how a potentially good app is a pretty bad app mainly because of its search capabilities.
