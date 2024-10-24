@@ -55,3 +55,5 @@ Hope you like it here. Let me share with you a few things I have on my mind.
 ## Fit Fat Fit
 [My journey into fitness, in a series of posts and the book](/fitfatfit/index.MD)
 
+---
+
