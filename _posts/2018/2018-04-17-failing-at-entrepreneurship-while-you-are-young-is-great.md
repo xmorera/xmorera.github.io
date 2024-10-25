@@ -2,7 +2,7 @@
 layout: post
 title: "Failing at Entrepreneurship While You Are Young Is Great"
 date: 2018-04-17 00:00:00 -0600
-categories: Post
+categories: ["My Posts"] 
 ---
 
 # Failing at Entrepreneurship While You Are Young Is Great

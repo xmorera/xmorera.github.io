@@ -2,7 +2,7 @@
 layout: post
 title: "Implementing Search Article on MSDN"
 date: 2021-05-06 00:00:00 -0600
-categories: Post
+categories: ["My Posts"] 
 ---
 
 # Implementing Search Article on MSDN

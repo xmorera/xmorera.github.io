@@ -2,7 +2,7 @@
 layout: post
 title: "Stock Market and Unemployment: Trump vs. Obama According to Artificial Intelligence (Machine Learning)"
 date: 2020-10-23 00:00:00 -0600
-categories: Post
+categories: ["My Posts"] 
 ---
 
 # Stock Market and Unemployment: Trump vs. Obama According to Artificial Intelligence (Machine Learning)

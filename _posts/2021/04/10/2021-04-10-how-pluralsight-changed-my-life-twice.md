@@ -2,7 +2,7 @@
 layout: post
 title: "How Pluralsight Changed My Life Twice"
 date: 2021-04-10 00:00:00 -0600
-categories: Post
+categories: ["My Posts"] 
 ---
 
 # How Pluralsight Changed My Life Twice

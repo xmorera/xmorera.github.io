@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "How To Gain Muscle and Lose Fat Simultaneously"
+date:   2020-01-01 00:00:00 -0600
+categories: [My Fit Fat Fit Process]
+---
+
 # How To Gain Muscle and Lose Fat Simultaneously 
 
 Recently I wrote a post on body recomposition, which is pretty much the phase that I entered recently. It includes some useful information and a little bit of my story.

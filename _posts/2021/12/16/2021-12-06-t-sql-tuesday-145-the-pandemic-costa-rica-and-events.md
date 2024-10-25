@@ -2,7 +2,7 @@
 layout: post
 title: "T-SQL Tuesday #145: The Pandemic, Costa Rica, and Events"
 date: 2021-12-06 00:00:00 -0600
-categories: Post
+categories: ["My Posts"] 
 ---
 
 # T-SQL Tuesday #145: The Pandemic, Costa Rica, and Events

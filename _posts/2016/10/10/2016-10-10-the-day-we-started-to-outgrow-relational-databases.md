@@ -2,7 +2,7 @@
 layout: post
 title:  "The Day We Started to Outgrow Relational Databases"
 date:   2016-10-10 00:00:00 -0600
-categories: Post
+categories: ["My Posts"] 
 ---
 
 # The Day We Started to Outgrow Relational Databases

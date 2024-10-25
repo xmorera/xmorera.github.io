@@ -2,7 +2,7 @@
 layout: post
 title: "The Art of Creating Applications That Have Search"
 date: 2016-12-23 00:00:00 -0600
-categories: Post
+categories: ["My Posts"] 
 ---
 
 # The Art of Creating Applications That Have Search

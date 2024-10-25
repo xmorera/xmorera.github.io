@@ -2,7 +2,7 @@
 layout: post
 title: "Start Building in Public"
 date: 2023-02-22 00:00:00 -0600
-categories: BuildInPublic
+categories: [Build In Public]
 ---
 
 _[../home](./../../README.md)_

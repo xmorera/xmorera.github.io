@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Xavier Morera
+title: HOME
 # email: your-email@example.com
 
 # COMMENT: >- means to ignore newlines until "baseurl:"
@@ -32,7 +32,9 @@ description: >-
 # url: "" 
 twitter_username: the_xmorera
 github_username:  xmorera
-PS: https://www.pluralsight.com/authors/xavier-morera
+instagram_username:  xmorera
+pluralsight_link: https://www.pluralsight.com/authors/xavier-morera
+lupoai: https://lupo.ai/
 
 # Build settings
 theme: minima

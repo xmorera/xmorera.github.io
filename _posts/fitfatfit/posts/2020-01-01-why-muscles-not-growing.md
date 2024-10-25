@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Costa Rica: We Have a Problem (Muscle Loss)"
+date:   2020-01-01 00:00:00 -0600
+categories: [My Fit Fat Fit Process]
+---
+
 # Costa Rica: We Have a Problem (Muscle Loss)
 
 Ok, I won't cry about this but after losing 75 pounds **while gaining muscle**, I had surgery and now I am losing muscle which is *not* making me happy. 

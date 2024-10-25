@@ -2,7 +2,7 @@
 layout: post
 title:  "You are Orders of Magnitude Cheaper than Synthesia"
 date:   2024-01-01 00:00:00 -0600
-categories: Post
+categories: ["My Posts"] 
 ---
 
 # “You are orders Of magnitude cheaper than Synthesia”  

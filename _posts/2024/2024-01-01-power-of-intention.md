@@ -2,7 +2,7 @@
 layout: post
 title:  "The Power of Intention"
 date:   2024-01-01 00:00:00 -0600
-categories: Post
+categories: ["My Posts"] 
 ---
 
 The Power of Intention

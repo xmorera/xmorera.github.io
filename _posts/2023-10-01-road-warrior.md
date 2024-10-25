@@ -2,7 +2,7 @@
 layout: post
 title:  "Road Warrior"
 date:   2023-10-01 00:00:00 -0600
-categories: Post
+categories: ["My Posts"] 
 ---
 
 # Road Warrior

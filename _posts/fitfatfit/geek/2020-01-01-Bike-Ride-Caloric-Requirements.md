@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Calculating Calories Burned During Exercise"
+date:   2020-01-01 00:00:00 -0600
+categories: [Biking and Sports]
+---
+
 # Calculating Calories Burned During Exercise
 
 I love bike riding. Full stop. But my first few rides where pretty short, a notable one being a 6 km ride where I felt like I was going to die. If someone asked me, I would've said an RPE (Rate of Perceived Extertion) of a thousand... maybe? (Yeah... I know... it is supposed to go to ten).

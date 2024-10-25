@@ -2,7 +2,7 @@
 layout: post
 title: "How Did I Get Here?"
 date: 2023-11-11 00:00:00 -0600
-categories: BuildInPublic
+categories: [Build In Public]
 ---
 
 _[../home](./../../README.md)_

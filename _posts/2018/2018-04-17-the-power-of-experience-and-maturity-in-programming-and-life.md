@@ -2,7 +2,7 @@
 layout: post
 title: "The Power of Experience and Maturity in Programming (and Life)"
 date: 2018-04-17 00:00:00 -0600
-categories: Post
+categories: ["My Posts"] 
 ---
 
 # The Power of Experience and Maturity in Programming (and Life)
