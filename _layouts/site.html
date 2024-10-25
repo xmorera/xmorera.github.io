@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <!-- Include the header from _includes -->
+  {% include header.html %}
+
+  <!-- Main content of the page -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- Footer (optional) -->
+  {% include footer.html %}
+  
+</body>
+</html>
