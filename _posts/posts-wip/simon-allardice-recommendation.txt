@@ -1,0 +1,128 @@
+Simon Allardice simon-allardice@pluralsight.com
+
+Fri, Jan 8, 2016, 3:24 PM
+
+to me
+
+ 
+
+Hi Xavier,
+
+(long reply ahead)
+
+Sure! Happy to discuss what I'm using. 
+
+I've been recording my own "self-filmed live action" for my courses for a few years, first at lynda.com and now at Pluralsight.  
+
+My camera/recording setup has evolved over the last few years. I'll explain how it evolved, and why I chose the things I did.
+
+I'll begin by saying that I began this knowing very little about photography and video - this was not an existing hobby of mine, so I didn't know what I was doing. I'm pretty good with most of it now, though still fairly ignorant when it comes to subjects like color balance.
+
+I'll split this into four parts:
+
+Camera
+
+Lens
+
+Lighting
+
+Sound
+
+
+1: CAMERA
+I use a DSLR to record my video. 
+
+I don't use a webcam, or a home video camcorder, because I personally haven't seen one with image quality that I consider good enough. 
+
+(Sure, there are professional camcorders, like Canon C100, or RED cameras, but I don't want to spend that much... at least, not yet. DSLR seems to offer the highest quality for the lowest price.)
+
+I started (with the lynda.com courses) by using the camera I already had: an inexpensive DSLR, the Canon T2i. 
+
+The T2i is old, long discontinued, and not one I would recommend. The video quality is adequate, but this camera wasn't really intended for video. The main limitations were: 
+
+It would get and switch off if I recorded too much
+
+It doesn't have a flip-out screen, so I couldn't see myself when recording 
+
+But using this camera helped me figure out what was important. Because whatever I use, I need to be able to run it all by myself. I can't rely on having anyone else to start/stop the camera, frame or focus for me.
+
+What's important:
+
+a way to view yourself from *in front* of the camera, to check position, focus and framing - either a flip-out screen or way to connect a separate monitor.
+
+some kind of remote control
+
+a way to run from AC power, not batteries
+
+So in 2015 I updated my DSLR to a Canon 70D.
+
+There's a lot of great cameras out there, but my main reason for choosing the Canon 70D is because it has very good face-detecting autofocus, (not just regular autofocus) and as someone who has to do this all themselves, I wanted that.
+
+Short 15 second example at http://www.mobypicture.com/user/allardice/view/18379881
+
+It also has a flip-out screen as a way to check my framing when I'm in front of the camera.
+
+(However, recently I picked up a device called a Manfrotto Digital Director - it's a way to use an iPad as a external monitor and remote control combo for certain cameras, and it works with the 70D - I really like it, and it improves my workflow, though it's certainly not essential.)
+
+2: LENS
+You can get perfectly acceptable video with a stock lens. However, I  like having a very shallow depth-of-field, the "bokeh" effect of having my face in focus, but the background out of focus - I think it gives a more "professional" look - you just have to be prepared to do more work setting up.
+
+I have the Sigma 18-35mm F1.8, which is a terrific lens. Not cheap (about $800) but in the world of lenses, it's incredible value for what it offers. The low F means I can get that shallow depth-of-field.
+
+3: LIGHTING
+This is one of the key challenges, and one I still fight with. I watched a few videos on YouTube about setting up a classic "three point lighting" setup.
+
+I bought a couple of inexpensive ($30) LED camera lights from Amazon to use as side and back lights to fill in some of the shadows.
+
+http://www.amazon.com/NEEWER®-Dimmable-Digital-Camcorder-Panasonic/dp/B004TJ6JH6/
+
+They're not great, and not very well built, but they've worked okay. Lighting is still something I experiment with, and I haven't yet got a solution I'm happy about.
+
+4: SOUND
+One of the biggest issues with using a DSLR is that the in-built microphones are always terrible.
+
+So I use an external microphone. When I first started doing this, I was recording myself in my booth, so I just used the same microphone I was using to record the screen capture.
+
+But once I decided to try filming in my office, I personally didn't want to see a microphone on screen, so I bought a shotgun mic that's positioned slightly offscreen. I use the Rode NTG-3, it's overkill for what I'm doing (the cheaper NTG-1 or NTG-2 would probably work just as well) but unlike cameras and video, working with audio is an existing hobby of mine, and I always like to play around with microphones.
+
+One problem with using many external microphones (like my Rode) is that they require phantom power to work, so they can't be plugged directly into the camera.
+
+So my microphone goes into a separate audio recorder (the Tascam DR60D), which supplies power, and from that, an audio out to the camera external audio input.
+
+And this way I get good quality audio and good quality video. I then take the output from the camera and edit it into my course - I use Final Cut Pro X for editing, but any decent video editor will work. 
+
+I don't (yet) do any extra processing on the video, like changing contrast or color - my aim is always to have it as good as possible right out of the camera.
+
+And while there is a shift in the audio because of the different microphones I use when I go from the live video to the normal screen capture, people aren't bothered about it. As long as the levels are similar, and the audio doesn't sound completely different, it isn't a problem.
+
+So... that's my basic setup for recording. 
+
+ 
+
+I used to go from memory when recording, but that led to a lot of re-takes, so recently I added a low end "teleprompter" setup I bought from amazon:
+
+http://www.amazon.com/iPad2-iPad3-Teleprompter-R810-10-Splitter/dp/B008NPBEJA
+
+And I use an iPad with the PromptSmart Pro app, which does voice detection and automatically scrolls the script as I read. It's not perfect, but as a one-man setup it works well.
+
+To make it into a practical workflow, I also have the expected tripods, lots of spare batteries, long cables, etc. 
+
+This year, I expect to keep the same camera, lens, and microphone setup, but experiment more with lighting, with improving color balance, and trying some different locations.
+
+Now, the question of _what_ kind of content is right for doing as live video is worth a discussion, but that's another conversation entirely, so I'll leave it at that for now.
+
+If you have any questions, ask away!
+
+Best
+
+Simon
+
+Simon Allardice
+Author | PLURALSIGHT
+
+www.pluralsight.com
+
+mobile: +1 (480) 363-7680
+
+Twitter
+
