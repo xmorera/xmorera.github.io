@@ -32,12 +32,11 @@ description: >-
 # url: "" 
 twitter_username: the_xmorera
 github_username:  xmorera
-PS: https://www.pluralsight.com/authors/xavier-morera
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# theme: minima
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
