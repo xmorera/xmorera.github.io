@@ -1,6 +1,6 @@
 ---
 layout: post-fit-fat-fit
-title:  "My journey into fitness, in a series of posts and the book"
+title:  "Fit Fat Fit"
 date:   2020-01-01 00:00:00 -0600
 categories: [Fit Fat Fit]
 ---
