@@ -2,7 +2,7 @@
 layout: post
 title: "Working with Large Files in GIT (LFS)"
 date: 2021-03-14 00:00:00 -0600
-categories: ["My Posts"] 
+categories: ["Posts"] 
 ---
 
 # Working with Large Files in GIT (LFS)

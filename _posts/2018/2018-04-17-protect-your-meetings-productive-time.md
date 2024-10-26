@@ -2,7 +2,7 @@
 layout: post
 title: "Protect Your Meeting’s Productive Time"
 date: 2018-04-17 00:00:00 -0600
-categories: ["My Posts"] 
+categories: ["Posts"] 
 ---
 
 # Protect Your Meeting’s Productive Time

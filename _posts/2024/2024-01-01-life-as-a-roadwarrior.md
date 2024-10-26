@@ -2,7 +2,7 @@
 layout: post
 title:  "Life as a Roadwarrior"
 date:   2020-01-01 00:00:00 -0600
-categories: ["My Posts"] 
+categories: ["Posts"] 
 ---
 
 # The Way of the Road Warrior: A Journey Across Continents

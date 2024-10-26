@@ -2,7 +2,7 @@
 layout: post
 title:  "Technical Debt and C# Best Practices"
 date:   2022-12-23 00:00:00 -0600
-categories: ["My Posts"] 
+categories: ["Posts"] 
 ---
 
 # Technical Debt and C# Best Practices

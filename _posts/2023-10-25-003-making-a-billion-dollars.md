@@ -2,7 +2,7 @@
 layout: post
 title:  "Making a Billion Dollars"
 date:   2023-10-25 00:00:00 -0600
-categories: ["My Posts"] 
+categories: ["Posts"] 
 ---
 
 # Making a Billion Dollars
