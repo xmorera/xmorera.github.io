@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pluralsight Author Summit 2024"
-date:   2024-10-27 00:00:00 -0600
+date:   22024-10-27 00:00:00 -0600
 categories: ["Posts"] 
 ---
 
