@@ -5,7 +5,7 @@ date:   2024-10-27 00:00:00 -0600
 categories: ["Posts"] 
 ---
 
-# Pluralsight Author Summit 2024 Agenda
+# Pluralsight Author Summit 2024 - Agenda
 
 Welcome to the Summit in Orlando, Florida!
 
