@@ -32,6 +32,46 @@ A Comprehensive Guide to Health, Fitness, and Nutrition (Or How to Lose Weight a
 
 Table of Contents
 
-...
+Sure, here is the table of contents formatted with bullets for each entry under each chapter:
+
+🏋️‍♀️ * Chapter 1: My Circle of Life - From Fit to Fat to Fit 
+- Why this Book?
+- TL;DR;
+- Personal Story: My Journey to Health and Fitness
+- Setting Goals: Defining Your Objectives
+- Overview of the Book and What to Expect
+
+🚀 * Chapter 2: Understanding Health and Fitness 
+- Importance of Exercise and Physical Activity
+- Benefits of Being Fit in Your Middle Age and Beyond
+- Common Health Concerns for Middle Age Men and Women
+- Designing Your Fitness Plan
+- Creating a Balanced Workout Routine
+- Incorporating Rest and Recovery
+
+🏃‍♂️* Chapter 3: Getting Started with Exercise 
+- Overcoming Barriers and Excuses
+- Setting Realistic Expectations
+- Building Consistency and Discipline
+- Finding Motivation and Accountability
+- The Importance of Sleeping
+
+🥗 * Chapter 4: Nutrition 
+- Nutrition Basics and Requirements
+- Calories, Kilojoules and What Makes You Fat
+- Macronutrients: The Basic Blocks (Protein, Fat, and Carbs)
+- Micronutrients: What Doesn’t Get Mentioned Often Enough
+- Reading Food Labels and Making Healthier Choices
+
+🥝* Chapter 5: Eating: You Build Your Abs in the Fridge 
+- A Balanced Diet
+- Incorporating Whole Foods and Superfoods
+- Portion Control and Mindful Eating
+- Managing Cravings and Emotional Eating
+- Creating a Sustainable Eating Plan
+- Healthy Eating Habits for Busy Lifestyles
+
+👌* Chapter 6: Strategies for Long-Term Success 
+- What's To Do Next
 
 [Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_fitfatfit-knowledgeworker-health-activity-7224408493691219968-b42e?utm_source=share&utm_medium=member_desktop)

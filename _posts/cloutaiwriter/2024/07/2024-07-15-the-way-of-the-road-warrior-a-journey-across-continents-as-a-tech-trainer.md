@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🧑🏻‍💻 The Way of the Road Warrior: A Journey Across Continents as a Tech Trainer "
+title:  "🧑🏻‍💻 The Way of the Road Warrior: A Journey Across Continents as a Tech Trainer"
 date:   2024-07-15 09:40:00 -0600
 categories: Training
 ---
