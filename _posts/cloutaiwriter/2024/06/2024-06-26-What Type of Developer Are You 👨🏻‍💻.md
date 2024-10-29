@@ -2,8 +2,9 @@
 layout: post
 title:  "What Type of Developer Are You? 👨🏻‍💻"
 date:   2024-06-26 09:40:00 -0600
-categories: LupoAI
+categories: Training
 ---
+
 # What Type of Developer Are You? 👨🏻‍💻
 
 In the ever-evolving landscape of software development, understanding the various roles developers play can help businesses better manage projects and foster team growth. 
@@ -27,3 +28,5 @@ Being a technical decision maker is a great responsibility as the future of the 
 From the enthusiastic and learning-focused junior developer to the strategic and decision-focused technical decision maker, each type of developer plays a vital role in the software development ecosystem. Understanding these roles can help in structuring teams that are balanced, dynamic, and effective, ensuring that projects not only start strong but also adapt and evolve over time to meet ongoing business needs.
 
 🚀 What type of developer are you? And are you always the same kind of developer or do you switch? Comment below and tell me more! 
+
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_learning-developer-junior-activity-7211724990843338752-wecR?utm_source=share&utm_medium=member_desktop)

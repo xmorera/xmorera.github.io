@@ -2,7 +2,7 @@
 layout: post
 title:  "The Secret to Creating Training Videos Faster Than Ever 👨🏻‍💻"
 date:   2024-06-27 09:40:00 -0600
-categories: LupoAI
+categories: Training
 ---
 
 # The Secret to Creating Training Videos Faster Than Ever 👨🏻‍💻
@@ -30,3 +30,5 @@ Here’s how AI can change the game for you:
 Switch to AI and experience faster production times, up-to-date content, and a more efficient training cycle. Why wait?
 
 What are your strategies for speeding up video production? Share your tips below! ⬇️
+
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_aivideocreation-productivityboost-techinnovation-activity-7212087383440138242-3q7r?utm_source=share&utm_medium=member_desktop)

@@ -2,8 +2,9 @@
 layout: post
 title:  "Role of Learning in Society 🎓"
 date:   2024-06-18 09:40:00 -0600
-categories: LupoAI
+categories: Training
 ---
+
 # Role of Learning in Society 🎓
 
 We learn from the day that we are born. We learn how to walk, talk, and even eat with a spoon. We keep learning until the day we leave this world.
@@ -29,3 +30,5 @@ That's why I created Lupo.ai, to revolutionize how companies create video conten
 🎯 Lupo is my Ikigai. It is the intersection of my passion, my skills, and how I can give back to the world.
 
 If you are interested to learn more about video creation, contact me and let's talk. 👌🏻
+
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_lupoai-video-learninganddevelopment-activity-7208825959326597121-nhnf?utm_source=share&utm_medium=member_desktop)

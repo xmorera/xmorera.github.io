@@ -2,8 +2,9 @@
 layout: post
 title:  "The Importance of Learning Culture in a Team 📚"
 date:   2024-06-21 09:40:00 -0600
-categories: LupoAI
+categories: Training
 ---
+
 # The Importance of Learning Culture in a Team 📚
 
 There is now a premium on intellectual curiosity and the desire and ability to quickly grow and adapt one’s skill set. 
@@ -23,3 +24,5 @@ Learn more by checking out this article from @harvard-business-review written by
 Please share your thoughts in the comments. ⬇️
 
 https://hbr.org/2018/07/4-ways-to-create-a-learning-culture-on-your-team
+
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_4-ways-to-create-a-learning-culture-on-your-activity-7209912984268083201-MoAQ?utm_source=share&utm_medium=member_desktop)

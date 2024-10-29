@@ -2,7 +2,7 @@
 layout: post
 title:  "Computer Vision: The Future Is Here 👌🏻"
 date:   2024-06-28 09:40:00 -0600
-categories: LupoAI
+categories: Training
 ---
 
 # Computer Vision: The Future Is Here 👌🏻
@@ -29,3 +29,5 @@ The ability to see and understand the world is fundamental to intelligence. As c
 In short, computer vision is not just about giving machines eyes, it's about giving them a deeper understanding of the world around us. And that's a future worth seeing!
 
 Join the future! Create epic applications that rely on computer vision! 🌟
+
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_innovation-digitalmarketing-technology-activity-7212450172327374848-TIFs?utm_source=share&utm_medium=member_desktop)
