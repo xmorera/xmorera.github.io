@@ -31,4 +31,4 @@ By integrating these strategies, you can create a robust L&D program that caters
 
 What innovative L&D strategies have worked for your hybrid team? Share your thoughts and experiences below! ⬇️
 
-[Check this post in LinkedIn](link)
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_hybridwork-learninganddevelopment-employeeengagement-activity-7238904000421527552-1qdK?utm_source=share&utm_medium=member_desktop)

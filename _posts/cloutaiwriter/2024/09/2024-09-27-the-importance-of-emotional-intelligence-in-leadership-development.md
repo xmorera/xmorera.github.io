@@ -37,4 +37,4 @@ By embedding emotional intelligence into your leadership development programs, y
 
 Have more tips on integrating EI into leadership development? Share them below! ⬇️
 
-[Check this post in LinkedIn](link)
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_leadershipdevelopment-emotionalintelligence-activity-7245426988520210432-k9GC?utm_source=share&utm_medium=member_desktop)

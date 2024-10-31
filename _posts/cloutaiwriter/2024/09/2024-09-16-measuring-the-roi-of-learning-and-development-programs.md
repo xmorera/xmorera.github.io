@@ -40,4 +40,4 @@ Have you successfully quantified the impact of your L&D initiatives?
 
 Share your experiences and insights in the comments below! ⬇️
 
-[Check this post in LinkedIn](link)
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_innovation-humanresources-onboarding-activity-7240353551653179392-zv-R?utm_source=share&utm_medium=member_desktop)

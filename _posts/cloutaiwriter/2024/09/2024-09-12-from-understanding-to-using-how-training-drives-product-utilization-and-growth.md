@@ -35,4 +35,4 @@ Implementing strategic training doesn't just cut costs—it transforms your cust
 
 Are you dealing with challenges related to underutilized products? I’d love to hear about your experiences and strategies. Please share your insights below! ⬇️
 
-[Check this post in LinkedIn](link)
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_productmanagement-training-humanresources-activity-7239991185094692865-ptJ0?utm_source=share&utm_medium=member_desktop)

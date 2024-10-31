@@ -45,4 +45,4 @@ These challenges require L&D leaders to be strategic, innovative, and adaptable,
 
 What's your take on this? 💡
 
-[Check this post in LinkedIn](link)
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_videotraining-traininginnovation-onlinelearning-activity-7236729674846916611-mIeu?utm_source=share&utm_medium=member_desktop)

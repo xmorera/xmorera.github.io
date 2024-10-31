@@ -33,4 +33,4 @@ By integrating DEI training into your L&D programs, you can create a workplace c
 
 How is your organization leveraging L&D to support D&I initiatives? Share your strategies and experiences below! ⬇️
 
-[Check this post in LinkedIn](link)
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_diversityandinclusion-learninganddevelopment-activity-7242890274895450112-v5Cv?utm_source=share&utm_medium=member_desktop)

@@ -46,4 +46,4 @@ Imagine a team that's always ready to tackle new challenges, equipped with the l
 
 What steps is your organization taking to stay ahead in the age of automation? Share your strategies and thoughts below. 💡
 
-[Check this post in LinkedIn](link)
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_upskilling-automation-futureofwork-activity-7237816835860017152-kq6K?utm_source=share&utm_medium=member_desktop)

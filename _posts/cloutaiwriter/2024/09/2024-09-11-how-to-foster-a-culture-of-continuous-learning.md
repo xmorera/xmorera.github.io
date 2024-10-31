@@ -27,4 +27,4 @@ Adopting these strategies will help shift the perception of learning from a one-
 
 How does your organization promote continuous learning? Share your thoughts and strategies in the comments below! ⬇️
 
-[Check this post in LinkedIn](link)
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_continuouslearning-learninganddevelopment-activity-7239628796860006400-MXfn?utm_source=share&utm_medium=member_desktop)

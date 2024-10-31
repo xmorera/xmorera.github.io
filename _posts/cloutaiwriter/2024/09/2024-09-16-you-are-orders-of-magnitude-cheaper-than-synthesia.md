@@ -44,4 +44,4 @@ If you are currently in need of creating videos for your customers, employees, o
 
 Just let me know how you would like us to help you.
 
-[Check this post in LinkedIn](link)
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_videomarketing-training-learninganddevelopment-activity-7241440715753369601-UdCM?utm_source=share&utm_medium=member_desktop)

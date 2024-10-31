@@ -37,4 +37,4 @@ By engaging stakeholders early, communicating benefits clearly, and providing ro
 
 Got more strategies for overcoming resistance to change in L&D? Share them below! ⬇️
 
-[Check this post in LinkedIn](link)
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_changemanagement-learninganddevelopment-employeeengagement-activity-7243977436978122753-uTj1?utm_source=share&utm_medium=member_desktop)

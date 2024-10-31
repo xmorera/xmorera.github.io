@@ -36,4 +36,4 @@ Recently, I crafted a quick guide, “Training: The Key to Making Money or Savin
 *****
 👉 Type "LEARN" in the COMMENTS below, and I'll send you a FREE copy! Empower your team with the secrets to successful video training and boost productivity today!
 
-[Check this post in LinkedIn](link)
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_innovation-management-humanresources-activity-7241803103476363264-i_3I?utm_source=share&utm_medium=member_desktop)

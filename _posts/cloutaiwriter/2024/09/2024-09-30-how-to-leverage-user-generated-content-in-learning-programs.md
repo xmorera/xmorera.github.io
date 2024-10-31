@@ -31,4 +31,4 @@ Embracing user-generated content not only keeps your learning materials relevant
 
 Got any tips on leveraging user-generated content in training programs? Share your strategies below! ⬇️
 
-[Check this post in LinkedIn](link)
+[Check this post in LinkedIn](https://www.linkedin.com/posts/xmorera_learninganddevelopment-usergeneratedcontent-activity-7246514159327092736-iLuz?utm_source=share&utm_medium=member_desktop)

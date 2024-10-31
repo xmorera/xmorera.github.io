@@ -36,5 +36,3 @@ Here’s how to keep your learning content fresh and relevant:
 By implementing these strategies, you can ensure your learning content remains fresh, relevant, and aligned with industry trends, ultimately helping your employees develop the skills they need to succeed.
 
 Got more tips for keeping learning content up-to-date? Share them with us below! ⬇️
-
-[Check this post in LinkedIn](link)
