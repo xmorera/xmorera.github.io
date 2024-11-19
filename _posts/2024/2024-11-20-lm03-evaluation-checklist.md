@@ -4,6 +4,7 @@ title:  "Self Evaluation Checklist"
 date:   2024-11-20 00:00:00 -0600
 categories: ["Posts"] 
 ---
+# Self Evaluation Checklist
 
 In yesterday's post, (The Impact of Training Programs)[], I explained why training is essential for thriving in the new era. 
 
@@ -13,7 +14,7 @@ Take a look at the checklist in the image.
 
 ![Impact of training programs](/_posts/2024/images/lead_magnet/Slide5.JPG)
 
-Now, go ahead and answer the questions, which I also include below. If you answered “yes” to one or more of these questions, your organization may benefit significantly from a targeted video training strategy.
+Now, go ahead and answer the questions, which I also include below.  
 
 - Are your company's sales not growing?  
 - Are your customers not renewing contracts?  
@@ -25,6 +26,8 @@ Now, go ahead and answer the questions, which I also include below. If you answe
 - Are you running into compliance issues?  
 - Are your employees making frequent mistakes?  
 
-If you answered “yes” to one or more of these questions, your organization may benefit significantly from a targeted video training strategy. Here’s why.
+If you answered “yes” to one or more of these questions, your organization may benefit significantly from a targeted video training strategy. 
 
-I'll leave it here for today, so that you can think a bit more 
+I'll leave it here for today, so that you can think a bit more and reflect on the current status of your company. 
+
+Tomorrow I'll expand on why video training can help you solve these problems.
