@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Self Evaluation Checklist"
-date:   2024-11-19 00:00:00 -0600
+date:   2024-11-20 00:00:00 -0600
 categories: ["Posts"] 
 ---
 
