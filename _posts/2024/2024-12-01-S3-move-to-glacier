@@ -4,7 +4,7 @@ title:  "Moving Stuff in S3 Buckets to Glacier"
 date:   2024-12-01 00:00:00 -0600
 categories: ["Posts"] 
 ---
-Moving Stuff in S3 Buckets to Glacier
+# Moving Stuff in S3 Buckets to Glacier
 
 I store all my Pluralsight training media stuff in S3, which means that after many years it is quite a lot. 
 
