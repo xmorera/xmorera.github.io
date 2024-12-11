@@ -39,6 +39,8 @@ I've had a few wins, for example it is in use at Accenture.
 
 Vester is using it and saving tens of thousands of dollars. 
 
-And there are other companies who are getting a lot of it.
+And there are other companies who are getting a lot out it, be it for onboarding, compliance, customer education programs and more.
 
-Yet I had a huge judgement error, which I'll share you with tomorrow.
+Yet I had a huge judgement error, product-market fit was not there yet even though I thought we were already there!
+
+I'll tell you more tomorrow.
