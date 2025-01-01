@@ -10,7 +10,7 @@ Every year, around this time of the year we all make a huge list of new year res
 
 But if there is one thing that 2024 taught me is that we do not achieve what we wish to do. We don't achieve our goals because motivation wears off... life gets in the way... you bought a cake... accidentally... you are too tired... pick your excuse.
 
-<img src="./images/hyatt-newyear.png" alt="new year"  height="400">
+<img src="./images/2024/hyatt-newyear.png" alt="new year"  height="400">
 
 The way to achieve our goals is to change our habits and those little actions compounded over time are the ones that decide what we achieve
 
