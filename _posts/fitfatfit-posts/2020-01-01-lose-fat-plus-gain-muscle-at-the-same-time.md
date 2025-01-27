@@ -2,7 +2,7 @@
 layout: post
 title:  "How To Gain Muscle and Lose Fat Simultaneously"
 date:   2020-01-01 00:00:00 -0600
-categories: [My Fit Fat Fit Process]
+categories: [Fit Fat Fit]
 ---
 
 # How To Gain Muscle and Lose Fat Simultaneously 

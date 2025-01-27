@@ -2,7 +2,7 @@
 layout: post
 title:  "Costa Rica: We Have a Problem (Muscle Loss)"
 date:   2020-01-01 00:00:00 -0600
-categories: [My Fit Fat Fit Process]
+categories: [Fit Fat Fit]
 ---
 
 # Costa Rica: We Have a Problem (Muscle Loss)

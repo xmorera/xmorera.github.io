@@ -2,7 +2,7 @@
 layout: post
 title:  "Body Recomposition: My Next Step in My Health Seeking Journey"
 date:   2020-01-01 00:00:00 -0600
-categories: [My Fit Fat Fit Process]
+categories: [Fit Fat Fit]
 ---
 
 # Body Recomposition: My Next Step in My Health Seeking Journey
