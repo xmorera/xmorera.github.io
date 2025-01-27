@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Body Recomposition: My Next Step in My Health Seeking Journey"
-date:   2020-01-01 00:00:00 -0600
+date:   2024-10-31 00:00:00 -0600
 categories: [Fit Fat Fit]
 ---
 
 # Body Recomposition: My Next Step in My Health Seeking Journey
 
-Not very long ago, circa December 2022, I weighed 102.7 kgs, circa December 2022. 
+Not very long ago, circa December 2022, I weighed 102.7 kgs. 
 
 Fast forward to October 2024 and I am 69.kgs. 
 
