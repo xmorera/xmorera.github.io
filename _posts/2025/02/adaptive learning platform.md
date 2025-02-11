@@ -1,0 +1,1 @@
+https://www.google.com/search?q=ALP+(Adaptive+Learning+Platform)&oq=ALP+(Adaptive+Learning+Platform)&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyCggEEAAYgAQYogQyCggFEAAYgAQYogQyBwgGEAAY7wUyCggHEAAYgAQYogTSAQgyMTYwajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8
