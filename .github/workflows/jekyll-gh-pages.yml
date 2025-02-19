@@ -36,7 +36,7 @@ jobs:
           source: ./
           destination: ./_site
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           name: jekyll-site
           path: ./_site
@@ -50,7 +50,7 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        uses: actions/download-pages-artifact@v4
+        uses: actions/download-pages-artifact@v3
         with:
           name: jekyll-site
       - name: Deploy to GitHub Pages
