@@ -2,12 +2,12 @@
 
 layout: post
 title:  "Measuring the Impact of Your Training Program"
-date:   2025-02-07 00:00:00 -0600
+date:   2025-02-13 00:00:00 -0600
 categories: ["Posts"] 
 
 ---
 
-# ### **📊 Measuring the Impact of Your Training Program 🚀**  
+# **📊 Measuring the Impact of Your Training Program 🚀**  
 
 Creating a training program is just the beginning—**measuring its effectiveness** is what drives real business value. Whether you’re training **employees, customers, or partners**, tracking key performance indicators (KPIs) ensures your efforts deliver tangible results.  
 
