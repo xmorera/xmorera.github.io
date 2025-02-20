@@ -66,7 +66,7 @@ jobs:
           path: _site
 
       - name: Debug - Verify Downloaded Artifacts
-        run: ls -la _site || echo "No files found in _site"
+        run: ls -la || echo "No files found in _site"
 
       - name: Deploy to GitHub Pages
         id: deployment
