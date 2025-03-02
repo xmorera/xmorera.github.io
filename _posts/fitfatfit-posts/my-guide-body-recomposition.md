@@ -1,3 +1,27 @@
+I am 71 kgs, 165 cm tall, and my last dexa scan indicated15.7% body fat with 10.9 kgs of fat. I have around 35 kgs of muscle according to my InBody measurement. As background information, I used to be 103 kgs with around 43% body fat two years ago, but I started working out and eating better. It took me around 14 months to reduce the weight and get to where I am now. This was phase #1, weight loss. 
+
+I have entered my next phase is body recomposition, for which  I have set a goal of getting to 12%. 
+
+Here is how I plan to do it: I lift weights twice a week (around 150 calories per session), do 3 or 4 indoor bike sessions (burns around 700 calories in average each) and 1 road trip per week (burns in average 1800 calories). I train about 10 to 12 hours a week total. I eat around 2500 calories per day, which are made up of 244 grams of carbs, 161 grams of protein and 130 grams of fat. Tell me everything that I need to do to achieve my goal. 
+
+Review my current training plan and eating goals and suggest if my approach is the best one or if I should do it differently. Give me tips to achieve my goal and layout a plan. Tell me things that I should consider. Be extensive and detail, base yourself on facts and research.
+
+I typically have my daily caloric intake of 2450, but I have increased it to 2500 to 2600 because I usually burn in average around 5000 calories a which (I attach my real chart). I also have a target macros intake of 30% carbs, 25% protein and 45% fat. Analyze my plan and tell me if it is correct.
+
+Write the result as a very long blog post with an analysis of my current status, analyze my training plan and tell me what I am doing right, what I am doing right, show me all the calculations related to my calories, macros, and training, and finally give me every possible positive recommendation and what to avoid.
+
+
+Here are the answers:
+Training Intensity & Goals: I would like to ideally gain the same amount of weight in muscle that I lose in fat, as additional weight is not good for me on the bike, however staying at the same amount of muscle is fine as well. I do not want to lose muscle.
+Macronutrient Preferences: I like my current diet. I am attaching the diet my nutritionist gave me last year as reference. I do not want keto nor low carb. I want to keep my current diet as I like what I eat right now.
+Recovery & Sleep: I usually sleep very little, around 5 hours per day. Sometimes when I am very tired because of the additional training I might sleep 7, but I sleep little. I have always been like this. I am slightly hyperactive and suffer from ADHD.
+Training Volume & Progression: I have a coach who is progressively increasing loads on my bike workouts and a personal trainer at the gym creates the lifting plan. I am not very aggressive on increasing loads in the gym. The bike plan is relatively intense and I train hard.
+Supplements & Hydration: I take daily micronized creatine (5g), vitamin D3 (2000 UI), collagen (10 grams), magnesium (óxido de magnesio y gluconato de magnesio from GNC), macca, gabba, and use electrolyte drinks (suero ancalmo) on my indoor bike rides and multiple foods (Tailwind, GU Energy Gels, peanut butter sandwiches, SaltSticks) during my outdoor bike rides. I also drink 1 almond milk (1 cup) + ISO 100 (1 scoop) protein shake a day, typically after training or at night. 
+
+As a side note, I have noticed lately that I use too much salt on my food. Also, recommend what to drink or eat after training and whether training times make sense. I train on my indoor bike Tuesday, Wednesday and Sunday mornings for sure, and Thursdays it is either indoor bike train or a 90 ride in a track. The Saturday bike ride is usually about 100 kms long with 2000 meter elevation gain in around 4 hours. I lift weights on Tuesday noon and either Thursday noon or Friday morning. I rest Mondays. When I was losing weight I was only riding indoor at 10 pm on weekdays and one outdoor ride on Saturday, without weights. As a side note, I went from 103 kgs to 68 kgs as a total weight loss, losing all fat and no muscle. During my weight loss phase I always had 33 kgs of muscle. I stabilized my weight at 71 kgs in average, give or take 1 kg.
+
+
+
 
 # Body Recomposition Plan Analysis: Optimizing Fat Loss and Muscle Maintenance
 
