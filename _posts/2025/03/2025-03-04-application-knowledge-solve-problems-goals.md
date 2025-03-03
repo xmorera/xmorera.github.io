@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Application of Knowledge to Make Decisions, Solve Problems, and Achieve Goals"
-date:   2025-03-03 00:00:00 -0600
+date:   2025-03-04 00:00:00 -0600
 categories: ["Posts"] 
 
 ---
