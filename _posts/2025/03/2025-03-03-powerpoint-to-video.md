@@ -9,7 +9,7 @@ categories: ["Posts"]
 
 # Why Converting PowerPoint to Video Training is the Way To Go (with Lupo)
 
-![PowerPoint to Video](C:\github\xmorera\xmorera.github.io\images\2025)
+![PowerPoint to Video](/images/2025/powerpoint-to-video.png)
 
 PowerPoint has been the go-to tool for business presentations for decades. I've personally been creating PowerPoint presentation for pretty much most of my adult life.
 
