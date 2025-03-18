@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "Turning Training into a Competitive Advantage"
+title:  "Turning Training into Your Ultimate Competitive Advantage Series: Linkedin Edition"
 date:   2025-02-20 00:00:00 -0600
 categories: ["Posts"] 
 
