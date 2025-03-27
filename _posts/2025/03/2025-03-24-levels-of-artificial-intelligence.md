@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Levels of Artificial Intelligence"
-date:   2025-03-25 00:00:00 -0600
+date:   2025-03-24 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

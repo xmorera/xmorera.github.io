@@ -2,7 +2,7 @@
 
 layout: post
 title:  "What is Machine Learning?"
-date:   2025-03-26 00:00:00 -0600
+date:   2025-03-25 00:00:00 -0600
 categories: ["Posts"] 
 
 ---
