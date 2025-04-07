@@ -17,7 +17,7 @@ This process is repeated many times, allowing the model to improve its accuracy 
 
 This makes it well-suited for tasks such as image and speech recognition, natural language processing, and autonomous decision-making.
 
-![deep learning](/images/2025/deep-learning.png)
+![ML VS DL](/images/2025/deep-learning.png)
 
 “In this context, learning means finding a set of values for the weights of all layers in a network, such that the network will correctly map example inputs to their associated targets.” — Deep Learning with Python, François Chollet.
 
@@ -30,3 +30,5 @@ For example, assume the input data is an image (or matrix of pixels). The first 
 The next layer could then recognize a tree, and so on. The data passing from one layer to the next could be seen as a transformation, turning the output of one layer into the input for the next one. 
 
 Each layer has a different level of abstraction, and the machine can learn which features of the data to place in which layer/level on its own. 📈
+
+![deep learning layers](/images/2025/deep-learning-layers.png)
