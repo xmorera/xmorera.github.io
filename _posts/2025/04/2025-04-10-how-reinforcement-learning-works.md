@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "What is Reinforcement Learning?"
+title:  "How Reinforcement Learning Works?"
 date:   2025-04-10 00:00:00 -0600
 categories: ["Posts"] 
 
