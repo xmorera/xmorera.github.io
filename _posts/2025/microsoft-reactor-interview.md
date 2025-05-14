@@ -1,8 +1,33 @@
 # Preparation Questions: To help you prepare, here are some questions we will discuss during the interview:
 1. What changes are you making with AI agents, and what makes you special?
-2. Human with AI will replace human without AI, but what happens when everyone starts to use AI agents?
-3. If it is your birthday today and you can wish for any kind of AI agent you want, what would that be?
+- We are doing something that is extremely important, but no one knows or realizes it until they have it. We are helping revolutionize how training is created, through video. 
+- Training is something that companies take for granted, it is an afterthought. But it is extremely important.
+- Training helps companies increase their revenue on the outside, with customer education programs or save money internally, with employee training programs.
+- Lupo uses AI agents to autonomously transform presentations and documents into narrated educational videos.
+- Our agents perceive user input, decide the best way to structure and narrate it, and act to produce complete training content.
+- We eliminate technical and language barriers, allowing anyone — regardless of skill — to create professional-quality learning materials.
+- We focus on speed, scalability, and high instructional quality, ensuring democratized content creation without sacrificing effectiveness.
+- By empowering users to easily share their knowledge, Lupo makes global education more accessible, inclusive, and impactful.
  
+2. Human with AI will replace human without AI, but what happens when everyone starts to use AI agents?
+- The human creativity part is going to be the differentiator.
+
+- When AI is universal, creativity, originality, and ethical application become the real differentiators.
+- Routine content creation will be commoditized; standing out will require uniquely human insights and innovation.
+- Trust, quality, and authenticity will gain even more value in a world flooded with AI-generated outputs.
+- Personalization and human-AI collaboration will shape future learning, moving beyond standardized content toward tailored experiences.
+- Lupo empowers users not just to use AI, but to master it creatively — preparing them to thrive in a fully AI-augmented future.
+
+3. If it is your birthday today and you can wish for any kind of AI agent you want, what would that be?
+(align with Lupo’s mission and vision)
+- A universal learning companion that can turn any idea or document into an engaging, accessible lesson instantly.
+- An AI that adapts teaching to each learner’s language, style, and level, truly removing the last barriers to education.
+- A system that democratizes expertise — allowing anyone, anywhere, to teach and learn with no technical limitations.
+- A mentor-agent that brings global knowledge to every doorstep, connecting cultures and accelerating human potential.
+- A tireless, empathetic partner in education, dedicated to making lifelong learning a basic human right.
+ 
+(secret wish )
+
 ## Lupo: Democratizing Learning Through AI
 
 Lupo is an AI-driven platform on a mission to democratize learning by removing technical and linguistic barriers from education. 
