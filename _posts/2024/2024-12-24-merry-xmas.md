@@ -5,11 +5,12 @@ date:   2024-12-24 00:00:00 -0600
 categories: ["Posts"] 
 ---
 # Merry Christmas 2024 and Best Wishes for 2025
+
+![xavier thinking](./images/Xavier%20Retes%20Thinking.jpg)
+
 I can say without a doubt that 2024 has been by far and away the year I will never forget.
 
 This year I've experienced my biggest challenges, undergone a total mind and body transformation, enjoyed some really happy times but also extremely hard times, as well as the challenge (and pleasure) of trying to get a startup off the ground... all while creating Gen AI courses for Pluralsight and running a few other things like our support center.
-
-![xavier thinking](./images/Xavier%20Retes%20Thinking.jpg)
 
 My mind has been racing for months, thinking about the future that I am working dilligently on creating, trying to make the right decision at each step, minimizing risk but also without fear of failure.
 
