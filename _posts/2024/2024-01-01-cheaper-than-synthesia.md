@@ -5,7 +5,7 @@ date:   2024-01-01 00:00:00 -0600
 categories: ["Posts"] 
 ---
 
-# “You are orders Of magnitude cheaper than Synthesia”  
+# “You are Orders of Magnitude Cheaper than Synthesia”  
 
 Yeah, that’s what a potential customer told me yesterday. And we deliver at least the same or maybe even a lot more value.
 
