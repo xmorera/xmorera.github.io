@@ -7,8 +7,6 @@ categories: ["Posts"]
 
 ---
 
-# Sweat Testing for Athletes: My Experience with the Gx Sweat Patch and Manual Method
-
 ![sweat testing for endurance athletes](/images/2025/sweatpatch.png)
 
 As a biking enthusiast and fitness afocionado, I am always trying to learn more to fine-tune training, nutrition, and hydration. 
