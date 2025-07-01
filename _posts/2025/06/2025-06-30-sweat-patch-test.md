@@ -11,7 +11,11 @@ categories: ["Posts"]
 
 ![sweat testing for endurance athletes](/images/2025/sweatpatch.png)
 
-As endurance athletes, we fine-tune training, nutrition, and gear—but hydration is often overlooked. Knowing how much you sweat and how much sodium you lose can dramatically impact your performance: think fewer cramps, longer rides, and faster recovery.
+As a biking enthusiast and fitness afocionado, I am always trying to learn more to fine-tune training, nutrition, and hydration. 
+
+Knowing how much you sweat and how much sodium I lose can dramatically impact my performance: think fewer cramps, longer rides, and faster recovery.
+
+As someone who suffers from hard cramping, I want to learn as much as possible to improve my physical capabilities.
 
 Recently, I ran a sweat test using two methods: a basic manual weigh-in and the Gatorade Gx Sweat Patch. Here’s how I did it and what I learned.
 
@@ -22,7 +26,7 @@ Sweat tests estimate:
 * **Sweat rate**: how much fluid you lose per hour
 * **Sodium concentration**: how salty your sweat is
 
-With this info, you can personalize your hydration, avoid under- or over-drinking, and replace electrolytes more effectively.
+With this info, I can now personalize my hydration, avoid under- or over-drinking, and replace electrolytes more effectively.
 
 While lab tests exist, options like the Gx Patch and scale-based methods make this insight accessible.
 
