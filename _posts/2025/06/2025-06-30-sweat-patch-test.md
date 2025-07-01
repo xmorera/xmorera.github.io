@@ -2,8 +2,8 @@
 
 layout: post
 title:  "Sweat Testing for Endurance Athletes: My Experience with the Gx Sweat Patch and Manual Method"
-date:   2025-07-01 00:00:00 -0600
-categories: \["Posts"]
+date:   2025-06-30 00:00:00 -0600
+categories: ["Posts"]
 
 ---
 
