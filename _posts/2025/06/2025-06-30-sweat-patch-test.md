@@ -7,6 +7,8 @@ categories: ["Posts"]
 
 ---
 
+You can check the activity here: [https://www.strava.com/activities/14968168468](https://www.strava.com/activities/14968168468)
+
 ![sweat testing for endurance athletes](/images/2025/sweatpatch.png)
 
 As a biking enthusiast and fitness afocionado, I am always trying to learn more to fine-tune training, nutrition, and hydration. 
