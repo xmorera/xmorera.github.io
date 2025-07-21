@@ -4,7 +4,8 @@ layout: post
 title:  "Unshakable: Anger Management for You: How to Control Anger, Master Emotions, and Stay Calm in Chaos"
 date:   2025-07-03 00:00:00 -0600
 categories: ["Posts"]
-----------------------
+
+---
 
 If you get angry often—and don’t have much time to read—this is your book.
 
