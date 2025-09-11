@@ -51,6 +51,7 @@ plugins:
 #
 exclude:
   - templates/
+  - writing/
 
 # Google Analytics
 # google_analytics: G-D0CEQB4V20

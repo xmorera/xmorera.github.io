@@ -1,6 +1,8 @@
-Got it 👍 — here’s the same 50 ideas reformatted as a clean list with `---` separators:
+# Writing Plan 
 
----
+__September 2023__
+
+Here’s a list of 50 content ideas focused on using generative AI in corporate training and L&D. Each idea includes a brief description and suggested format (LinkedIn post or newsletter). You can use these to create engaging posts and newsletters that showcase your expertise and help your audience understand how to leverage AI in their training programs.
 
 1. **3 Quick Tips to Leverage Generative AI in Training \[LinkedIn Post]**
    Use rapid-fire tips to help training pros apply generative AI right away. Highlight how AI tools can generate learning content in days instead of weeks and show how to combine human expertise with AI suggestions for efficient course design.
