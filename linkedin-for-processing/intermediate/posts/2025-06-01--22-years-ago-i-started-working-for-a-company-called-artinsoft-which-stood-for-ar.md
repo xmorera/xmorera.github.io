@@ -39,3 +39,6 @@ DScript IT
 but built for the enterprise. We help companies increase their revenue or decrease costs with the help of our AI agents.
 If you are curious or want to improve how you create training, just book some time with me:
 https://lnkd.in/eqh-gA7X
+
+Images:
+- https://media.licdn.com/dms/image/v2/D5612AQFvweuEx3bfPA/article-cover_image-shrink_423_752/B56ZbfqIr7H0AY-/0/1747509088034?e=1769644800&v=beta&t=LiIcGSpnRfZyrA3-ygLTxC7ci_VBLovYOFkQVpnnA58

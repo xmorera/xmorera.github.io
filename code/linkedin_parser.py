@@ -88,12 +88,26 @@ def extract_commentary_text_from_container(container) -> str | None:
 
 def extract_image_urls_from_container(container, base_dir: Path) -> List[str]:
     urls: List[str] = []
+    
+    # Extract background-image URLs from blur background divs
+    for div in container.select('div.ivm-view-attr__blur-background'):
+        style = div.get('style', '')
+        if 'background-image' in style:
+            # Extract URL from background-image: url(...)
+            m = re.search(r'url\((https://media\.licdn\.com[^)]+)\)', style)
+            if m:
+                url = m.group(1)
+                # Clean up HTML entities like &amp;
+                url = url.replace('&amp;', '&')
+                urls.append(url)
+    
     # Direct <img> tags within the update content
     for img in container.select('.update-components-image img, img'):
         for attr in ('src', 'data-delayed-url', 'data-src'):
             u = img.get(attr)
             if not u:
                 continue
+            # Include only media.licdn.com URLs
             if 'media.licdn.com' in u:
                 urls.append(u)
 
@@ -165,7 +179,9 @@ def main():
     soup = BeautifulSoup(html, 'html.parser')
 
     created = 0
+    skipped = 0
     base_dir = input_path.parent
+    cutoff_date = date(2025, 6, 1)
 
     # Iterate over each update card
     for card in soup.select('div.feed-shared-update-v2'):
@@ -175,6 +191,11 @@ def main():
 
         sub = extract_sub_description_from_container(card) or ""
         dt = parse_relative_month(sub)
+
+        # Filter: only process posts from 2025-06-01 and newer
+        if dt < cutoff_date:
+            skipped += 1
+            continue
 
         commentary = extract_commentary_text_from_container(card)
         if not commentary:
@@ -186,6 +207,7 @@ def main():
         created += 1
 
     print(f"Created {created} Markdown files in {output_dir}")
+    print(f"Skipped {skipped} posts older than {cutoff_date}")
 
 
 if __name__ == "__main__":
