@@ -28,7 +28,7 @@ layout: default
 
   {%- for category in site.categories %}
     {%- assign category_name = category[0] %}
-    {%- unless category_name == "Fit Fat Fit" or category_name == "Biking and Sports" -%} 
+    {%- unless category_name == "Fit Fat Fit" or category_name == "Biking and Sports" or category_name == "Home" -%} 
       <h2 class="post-list-heading">  
         {%- if category_name | first | size > 1 -%}
           {{ category_name | join: ' ' }}

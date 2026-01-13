@@ -55,3 +55,12 @@ exclude:
 
 # Google Analytics
 # google_analytics: G-D0CEQB4V20
+
+# Added permalink for posts
+permalink: /posts/:year/:month/:day/:title.html
+
+# Added collections for better organization
+collections:
+  posts:
+    output: true
+    permalink: /posts/:year/:month/:day/:title.html
