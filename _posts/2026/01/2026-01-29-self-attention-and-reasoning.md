@@ -1,4 +1,15 @@
-My wife sometimes pays attention only to what she thinks is important… but that’s not how arguments (or relationships) work. And, oddly enough, something similar used to happen in artificial intelligence.
+---
+
+layout: post
+title:  "Self-Attention and Reasoning"
+date:   2026-01-29 00:00:00 -0600
+categories: ["Posts"] 
+
+---
+
+# Self-Attention and Reasoning
+
+From what I say, my wife sometimes pays attention only to what she thinks is important… but that’s not how arguments (or relationships) work. That's how transformers (the models behind Generative AI) work!
 
 In 2017, researchers published a paper with a title that’s basically legendary now: “Attention Is All You Need.” No exaggeration—it changed the course of modern AI. Why? Because before transformers, neural networks had a serious weakness: they struggled to hold onto context when sentences got long or complicated.
 
