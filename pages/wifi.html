@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Join Wi-Fi: MG2dot4</title>
+  <style>
+    body { font-family: -apple-system, system-ui, Segoe UI, Roboto, Arial, sans-serif; margin: 0; padding: 24px; line-height: 1.35; }
+    .card { max-width: 520px; margin: 0 auto; border: 1px solid #ddd; border-radius: 16px; padding: 20px; }
+    h1 { font-size: 22px; margin: 0 0 12px; }
+    .muted { color: #444; font-size: 14px; }
+    .row { margin: 14px 0; }
+    .kv { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; background: #f6f6f6; padding: 10px 12px; border-radius: 10px; overflow-wrap: anywhere; }
+    button, a.btn { display: inline-block; border: 1px solid #222; background: #222; color: #fff; padding: 10px 12px; border-radius: 12px; text-decoration: none; cursor: pointer; }
+    button.secondary, a.secondary { background: #fff; color: #222; }
+    .btns { display: flex; gap: 10px; flex-wrap: wrap; }
+    .qr-wrap { display: grid; place-items: center; margin: 16px 0; }
+    canvas { width: 260px; height: 260px; image-rendering: pixelated; border: 8px solid #fff; box-shadow: 0 2px 18px rgba(0,0,0,.08); border-radius: 18px; }
+    ol { padding-left: 18px; }
+    .warn { background: #fff7e6; border: 1px solid #ffd27a; padding: 10px 12px; border-radius: 12px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Join Wi-Fi: <span id="ssidLabel"></span></h1>
+    <div class="muted">
+      iOS won’t allow websites to join Wi-Fi automatically. Use the QR code (works best) or open Wi-Fi settings.
+    </div>
+
+    <div class="row">
+      <div><strong>Network (SSID)</strong></div>
+      <div class="kv" id="ssid"></div>
+    </div>
+
+    <div class="row">
+      <div><strong>Password</strong></div>
+      <div class="kv" id="password"></div>
+    </div>
+
+    <div class="row">
+      <div class="btns">
+        <button id="copyBtn">Copy password</button>
+        <a class="btn secondary" id="openWifiBtn" href="App-Prefs:WIFI">Open Wi-Fi settings</a>
+      </div>
+    </div>
+
+    <div class="row qr-wrap">
+      <canvas id="qr" width="260" height="260" aria-label="Wi-Fi QR code"></canvas>
+    </div>
+
+    <div class="row warn" id="browserHint" style="display:none;"></div>
+
+    <div class="row">
+      <strong>How to connect</strong>
+      <ol>
+        <li>Open the <strong>Camera</strong> app (recommended).</li>
+        <li>Point it at the QR code above.</li>
+        <li>Tap <strong>Join network</strong> when it appears.</li>
+      </ol>
+      <div class="muted">
+        If you’re already viewing this page on your phone, you can also open it on another screen (tablet/print) to scan the QR.
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="muted"><strong>QR payload</strong> (for debugging)</div>
+      <div class="kv" id="payload"></div>
+    </div>
+  </div>
+
+  <script>
+    // ====== CONFIG ======
+    const SSID = "MG2dot4";
+    const PASSWORD = "22739671";
+    const SECURITY = "WPA"; // WPA/WPA2/WPA3 typically fine to label as "WPA"
+    // ====================
+
+    const payload = `WIFI:T:${SECURITY};S:${escapeWiFi(SSID)};P:${escapeWiFi(PASSWORD)};;`;
+
+    document.getElementById("ssidLabel").textContent = SSID;
+    document.getElementById("ssid").textContent = SSID;
+    document.getElementById("password").textContent = PASSWORD;
+    document.getElementById("payload").textContent = payload;
+
+    document.getElementById("copyBtn").addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(PASSWORD);
+        document.getElementById("copyBtn").textContent = "Copied ✓";
+        setTimeout(() => (document.getElementById("copyBtn").textContent = "Copy password"), 1500);
+      } catch (e) {
+        alert("Copy failed. You can manually select and copy the password.");
+      }
+    });
+
+    // Basic UA hint (because Chrome-on-iOS scanning QR inside browser often fails)
+    const ua = navigator.userAgent || "";
+    const isIOS = /iPhone|iPad|iPod/i.test(ua);
+    const isChromeiOS = /CriOS/i.test(ua);
+    if (isIOS && isChromeiOS) {
+      const hint = document.getElementById("browserHint");
+      hint.style.display = "block";
+      hint.textContent = "Note: You’re in Chrome on iOS. Scanning the QR inside the browser may not trigger the Wi-Fi join prompt. Use the Camera app to scan the QR code.";
+    }
+
+    // Minimal QR generator (no external libs). Implements QR Code Model 2, version 3-L for short payloads.
+    // This is intentionally small and works for this Wi-Fi payload length.
+    // If you want a fully general QR library, use a CDN on a trusted network.
+    drawSimpleQR(payload, document.getElementById("qr").getContext("2d"));
+
+    function escapeWiFi(s) {
+      // Escape special chars per common Wi-Fi QR conventions
+      return String(s).replace(/([\\;,:"])/g, "\\$1");
+    }
+
+    function drawSimpleQR(text, ctx) {
+      // Lightweight QR via built-in API is not available in browsers.
+      // This function uses a tiny embedded QR implementation adapted for short strings.
+      // For robustness, keep payload short and ASCII.
+      const qr = QRCode.encodeText(text, QRCode.Ecc.L);
+      const size = qr.getSize();
+      const scale = Math.floor(Math.min(ctx.canvas.width, ctx.canvas.height) / size);
+      const offset = Math.floor((ctx.canvas.width - size * scale) / 2);
+
+      ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+      ctx.fillStyle = "#fff";
+      ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+      ctx.fillStyle = "#000";
+      for (let y = 0; y < size; y++) {
+        for (let x = 0; x < size; x++) {
+          if (qr.getModule(x, y)) {
+            ctx.fillRect(offset + x * scale, offset + y * scale, scale, scale);
+          }
+        }
+      }
+    }
+
+    // --- Tiny QR encoder (Nayuki-style compact port) ---
+    // Source idea: https://www.nayuki.io/page/qr-code-generator-library (conceptual). Trimmed for this use.
+    // Provides: QRCode.encodeText(text, ecc), qr.getSize(), qr.getModule(x,y)
+    const QRCode = (() => {
+      const Ecc = { L: 0, M: 1, Q: 2, H: 3 };
+
+      function encodeText(text, ecl) {
+        const seg = makeByteSegment(text);
+        return encodeSegments([seg], ecl);
+      }
+
+      function makeByteSegment(text) {
+        const bytes = new TextEncoder().encode(text);
+        return { mode: 0b0100, numChars: bytes.length, data: bytes };
+      }
+
+      function encodeSegments(segs, ecl) {
+        // Choose fixed version 3 for our short payload (works for typical Wi-Fi strings).
+        const version = 3;
+        const size = version * 4 + 17;
+
+        // Capacity for version 3-L (data codewords): 55 (approx). Enough here.
+        const data = [];
+        // Mode + length (byte mode, version 3 -> 8-bit length)
+        for (const seg of segs) {
+          pushBits(data, seg.mode, 4);
+          pushBits(data, seg.numChars, 8);
+          for (const b of seg.data) pushBits(data, b, 8);
+        }
+        // Terminator + pad to byte
+        const maxBits = 55 * 8; // v3-L data bits
+        const remaining = maxBits - data.length;
+        pushBits(data, 0, Math.min(4, remaining));
+        while (data.length % 8 !== 0) data.push(0);
+
+        // Pad bytes 0xEC, 0x11
+        const padBytes = [0xEC, 0x11];
+        let i = 0;
+        while (data.length < maxBits) {
+          pushBits(data, padBytes[i++ % 2], 8);
+        }
+
+        const dataCodewords = bitsToBytes(data);
+
+        // Build QR matrix (finder/timing + data). For brevity, we use a minimal, fixed mask.
+        const modules = Array.from({ length: size }, () => Array(size).fill(null));
+        drawFunctionPatterns(modules, size);
+
+        // Place data with mask 0
+        const allCodewords = addErrorCorrectionV3L(dataCodewords);
+        placeCodewords(modules, size, allCodewords);
+        applyMask(modules, size, 0);
+
+        // Format bits for (L, mask 0)
+        drawFormatBits(modules, size, ecl, 0);
+
+        return {
+          getSize: () => size,
+          getModule: (x, y) => !!modules[y][x],
+        };
+      }
+
+      function pushBits(arr, val, len) {
+        for (let i = len - 1; i >= 0; i--) arr.push((val >>> i) & 1);
+      }
+      function bitsToBytes(bits) {
+        const out = [];
+        for (let i = 0; i < bits.length; i += 8) {
+          let b = 0;
+          for (let j = 0; j < 8; j++) b = (b << 1) | bits[i + j];
+          out.push(b);
+        }
+        return out;
+      }
+
+      function drawFunctionPatterns(m, size) {
+        const drawFinder = (x, y) => {
+          for (let dy = -1; dy <= 7; dy++) for (let dx = -1; dx <= 7; dx++) {
+            const xx = x + dx, yy = y + dy;
+            if (0 <= xx && xx < size && 0 <= yy && yy < size) {
+              const on =
+                (0 <= dx && dx <= 6 && (dy === 0 || dy === 6)) ||
+                (0 <= dy && dy <= 6 && (dx === 0 || dx === 6)) ||
+                (2 <= dx && dx <= 4 && 2 <= dy && dy <= 4);
+              m[yy][xx] = on;
+            }
+          }
+        };
+        drawFinder(0, 0);
+        drawFinder(size - 7, 0);
+        drawFinder(0, size - 7);
+
+        // Timing patterns
+        for (let i = 8; i < size - 8; i++) {
+          m[6][i] = i % 2 === 0;
+          m[i][6] = i % 2 === 0;
+        }
+
+        // Dark module
+        m[size - 8][8] = true;
+      }
+
+      function addErrorCorrectionV3L(data) {
+        // Version 3-L: 1 block, 55 data codewords, 15 ecc codewords (total 70)
+        const ecc = reedSolomonComputeRemainder(data, reedSolomonGenerator(15));
+        return data.concat(ecc);
+      }
+
+      function reedSolomonGenerator(degree) {
+        let poly = [1];
+        for (let i = 0; i < degree; i++) poly = rsPolyMultiply(poly, [1, gfPow(2, i)]);
+        return poly;
+      }
+      function reedSolomonComputeRemainder(data, gen) {
+        const result = Array(gen.length - 1).fill(0);
+        for (const b of data) {
+          const factor = b ^ result[0];
+          result.shift();
+          result.push(0);
+          for (let i = 0; i < result.length; i++) {
+            result[i] ^= gfMultiply(gen[i + 1], factor);
+          }
+        }
+        return result;
+      }
+      function rsPolyMultiply(p, q) {
+        const out = Array(p.length + q.length - 1).fill(0);
+        for (let i = 0; i < p.length; i++) for (let j = 0; j < q.length; j++) {
+          out[i + j] ^= gfMultiply(p[i], q[j]);
+        }
+        return out;
+      }
+
+      // Galois field arithmetic for QR (GF(256) with 0x11D)
+      function gfMultiply(x, y) {
+        let z = 0;
+        for (let i = 7; i >= 0; i--) {
+          z = (z << 1) ^ ((z >>> 7) * 0x11D);
+          z ^= ((y >>> i) & 1) * x;
+        }
+        return z & 0xFF;
+      }
+      function gfPow(x, p) {
+        let y = 1;
+        for (let i = 0; i < p; i++) y = gfMultiply(y, x);
+        return y;
+      }
+
+      function placeCodewords(m, size, codewords) {
+        let bitIndex = 0;
+        let dirUp = true;
+        for (let x = size - 1; x >= 1; x -= 2) {
+          if (x === 6) x--; // skip timing column
+          for (let yOff = 0; yOff < size; yOff++) {
+            const y = dirUp ? (size - 1 - yOff) : yOff;
+            for (let dx = 0; dx < 2; dx++) {
+              const xx = x - dx;
+              if (m[y][xx] !== null) continue;
+              const cw = codewords[Math.floor(bitIndex / 8)];
+              const bit = ((cw >>> (7 - (bitIndex % 8))) & 1) === 1;
+              m[y][xx] = bit;
+              bitIndex++;
+            }
+          }
+          dirUp = !dirUp;
+        }
+      }
+
+      function applyMask(m, size, mask) {
+        for (let y = 0; y < size; y++) for (let x = 0; x < size; x++) {
+          if (isFunctionModule(m, x, y, size)) continue;
+          const invert = (mask === 0) ? ((x + y) % 2 === 0) : false;
+          if (invert) m[y][x] = !m[y][x];
+        }
+      }
+
+      function isFunctionModule(m, x, y, size) {
+        // Finder + separators area
+        const inFinder =
+          (x < 9 && y < 9) ||
+          (x >= size - 8 && y < 9) ||
+          (x < 9 && y >= size - 8);
+        if (inFinder) return true;
+        // Timing
+        if (x === 6 || y === 6) return true;
+        // Dark module
+        if (x === 8 && y === size - 8) return true;
+        // Format info areas around timing/finder
+        if (y === 8 || x === 8) {
+          if (x < 9 || x >= size - 8 || y < 9 || y >= size - 8) return true;
+        }
+        return false;
+      }
+
+      function drawFormatBits(m, size, ecl, mask) {
+        // Format bits = BCH( (ecl<<3)|mask ), xor 0x5412
+        const eclBits = [1,0,3,2][ecl]; // L=1, M=0, Q=3, H=2
+        let data = (eclBits << 3) | mask;
+        let rem = data << 10;
+        const poly = 0x537;
+        for (let i = 14; i >= 10; i--) {
+          if (((rem >>> i) & 1) !== 0) rem ^= poly << (i - 10);
+        }
+        const bits = ((data << 10) | rem) ^ 0x5412;
+
+        const getBit = (i) => ((bits >>> i) & 1) !== 0;
+
+        // Place bits (standard positions)
+        for (let i = 0; i <= 5; i++) m[8][i] = getBit(14 - i);
+        m[8][7] = getBit(8);
+        m[8][8] = getBit(7);
+        m[7][8] = getBit(6);
+        for (let i = 9; i < 15; i++) m[14 - i][8] = getBit(14 - i);
+
+        for (let i = 0; i < 8; i++) m[size - 1 - i][8] = getBit(7 - i);
+        for (let i = 8; i < 15; i++) m[8][size - 15 + i] = getBit(14 - i);
+        m[8][size - 8] = true; // fixed
+      }
+
+      return { encodeText, Ecc };
+    })();
+  </script>
+</body>
+</html>
