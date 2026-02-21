@@ -4,7 +4,7 @@ title: Courses
 permalink: /courses/
 ---
 
-Below are my courses from [Pluralsight](https://www.pluralsight.com/authors/xavier-morera), sorted using my course analytics ranking (highest to lowest).
+Below are my courses from [Pluralsight](https://www.pluralsight.com/authors/xavier-morera).
 
 ## Courses
 
