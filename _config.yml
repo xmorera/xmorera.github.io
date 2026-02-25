@@ -41,6 +41,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Keep top navigation limited to these pages
+header_pages:
+  - about.md
+  - contact.md
+  - courses.md
+  - lupo.md
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -58,9 +65,3 @@ exclude:
 
 # Added permalink for posts
 permalink: /posts/:year/:month/:day/:title.html
-
-# Added collections for better organization
-collections:
-  posts:
-    output: true
-    permalink: /posts/:year/:month/:day/:title.html
