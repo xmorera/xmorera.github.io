@@ -2,8 +2,6 @@
 
 > *A LinkedIn article by Xavier Morera — Founder & CEO, Lupo.AI*
 
----
-
 I've spent 22 years watching brilliant software fail.
 
 Not because the software was bad. Usually it was excellent.
@@ -13,8 +11,6 @@ It failed because nobody trained the people who were supposed to use it.
 I've seen enterprise deployments of top-tier platforms — expensive, carefully chosen, technically sound — die on the floor of an employee's laptop because the "training" consisted of a three-hour Zoom recording nobody watched. Or a 200-page PDF nobody opened. Or a one-time onboarding session that 60% of the team missed.
 
 Now I'm watching the exact same movie play out with AI.
-
----
 
 ## The AI Adoption Paradox
 
@@ -28,8 +24,6 @@ This is not a technology problem. It's a knowledge transfer problem.
 
 The AI itself rarely fails. The adoption does.
 
----
-
 ## Where the Budget Actually Goes
 
 Here's the uncomfortable math of most enterprise AI deployments:
@@ -40,8 +34,6 @@ Here's the uncomfortable math of most enterprise AI deployments:
 And then leadership wonders why adoption is slow. Why ROI isn't showing up in the numbers. Why the team "isn't using it the right way."
 
 You didn't underbuy on intelligence. You underinvested in transfer.
-
----
 
 ## What "Training" Usually Looks Like
 
@@ -58,8 +50,6 @@ It doesn't.
 
 Adults learn by doing, in context, in short bursts, with immediate relevance to their actual role. A 45-minute all-hands doesn't build a habit. It builds awareness that the habit is theoretically possible.
 
----
-
 ## The Last Mile Is the Hardest Mile
 
 In logistics, the "last mile" problem is well-known: getting a package from the distribution center to the doorstep is the most expensive, most complex part of the entire delivery chain. Even when everything else is optimized, the last mile can break the whole system.
@@ -69,8 +59,6 @@ AI adoption has a last-mile problem.
 The last mile is the individual employee — the person who has to change their workflow, open a new tool, trust an output they didn't generate themselves, and build a new habit on top of twenty old ones.
 
 That transition doesn't happen automatically. It doesn't happen because the tool is good. It happens because someone invested in making it happen — with the right content, in the right format, at the right moment, for the right role.
-
----
 
 ## What Actually Works
 
@@ -88,8 +76,6 @@ That means:
 
 None of this is new. Instructional design has known this for decades. What's new is the stakes: when AI fluency becomes a competitive differentiator, the organizations that can transfer knowledge fast win. The ones that can't, don't.
 
----
-
 ## The Irony Worth Naming
 
 Here's what I find quietly ironic: AI itself is one of the most powerful tools we've ever had for solving the training problem. Automated narration. Multilingual content at scale. Personalized learning paths. Context-aware delivery.
@@ -99,8 +85,6 @@ The same companies struggling to train their teams on AI could use AI to build b
 They just haven't made the connection yet.
 
 That's the gap Lupo.AI was built for. Not because I had a clever idea in a boardroom — but because I spent two decades watching brilliant technology fail the last mile, and I finally got tired of watching it happen.
-
----
 
 ## The Question Worth Asking
 
@@ -112,11 +96,7 @@ Then build for that. Budget for that. Measure for that.
 
 The technology is the easy part. It always has been.
 
----
-
 *What's been the biggest obstacle to AI adoption in your organization? I'd love to hear it — drop it in the comments.*
-
----
 
 *Xavier Morera is the Founder & CEO of [Lupo.AI](https://lupo.ai), a platform that transforms existing content into multilingual AI-narrated training at scale. He's spent 22 years at the intersection of technology, learning, and enterprise software.*
 
