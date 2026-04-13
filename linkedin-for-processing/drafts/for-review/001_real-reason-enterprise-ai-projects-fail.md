@@ -98,6 +98,4 @@ The technology is the easy part. It always has been.
 
 *What's been the biggest obstacle to AI adoption in your organization? I'd love to hear it — drop it in the comments.*
 
-*Xavier Morera is the Founder & CEO of [Lupo.AI](https://lupo.ai), a platform that transforms existing content into multilingual AI-narrated training at scale. He's spent 22 years at the intersection of technology, learning, and enterprise software.*
-
-*Follow for weekly posts on AI, building companies, and the future of knowledge work.*
+*I believe the biggest gap in business isn't knowledge — it's execution. I'm closing it. Founder of [Lupo.AI](https://lupo.ai) and Pluralsight author. 24 years at the intersection of technology and learning.*
