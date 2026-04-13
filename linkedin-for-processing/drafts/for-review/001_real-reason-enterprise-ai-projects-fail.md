@@ -98,4 +98,4 @@ The technology is the easy part. It always has been.
 
 *What's been the biggest obstacle to AI adoption in your organization? I'd love to hear it — drop it in the comments.*
 
-*I believe the biggest gap in business isn't knowledge — it's execution. I'm closing it. Founder of [Lupo.AI](https://lupo.ai) and Pluralsight author. 24 years at the intersection of technology and learning.*
+*I believe the biggest gap in business isn't knowledge — it's execution. I'm closing it. Founder of [Lupo.AI](https://lupo.ai) and Pluralsight author. 24 years solving problems at the intersection of technology and learning.*
