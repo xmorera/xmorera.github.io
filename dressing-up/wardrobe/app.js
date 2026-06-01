@@ -16,6 +16,12 @@
   }
   window.toggleTheme = toggleTheme;
 
+  function toggleMenu() {
+    const nav = document.getElementById('site-nav');
+    if (nav) nav.classList.toggle('open');
+  }
+  window.toggleMenu = toggleMenu;
+
   // ----- Color swatches for modal -----
   const COLOR_HEX = {
     'black': '#1a1a1a', 'charcoal': '#343a40', 'gray': '#6b6f75',
@@ -1289,11 +1295,14 @@
     return HINTS[slot] || "";
   }
 
+
+  // Mobile nav: when clicking a parent group label on mobile, expand its submenu
   document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".site-nav .nav-group .nav-label").forEach(function (label) {
       label.addEventListener("click", function (e) {
         if (window.matchMedia && window.matchMedia("(max-width: 720px)").matches) {
           e.preventDefault();
+          e.stopPropagation();
           var group = label.parentElement;
           group.classList.toggle("open");
         }
