@@ -450,4 +450,433 @@
     load();
   };
 
+  // ----- Compatibility scoring for pants × shirts -----
+  function scoreShirtPants(shirt, pants) {
+    // returns { score: 'strong'|'medium'|'weak'|'no', note: '' }
+    const sc = shirt.color, pc = pants.color, sst = shirt.subtype, pst = pants.subtype;
+    const sd = (shirt.detail || '').toLowerCase();
+    const isPerformance = sst === 'fishing-shirt' || sd.includes('performance') || (shirt.brand || '').toLowerCase().includes('columbia');
+
+    // Performance/fishing shirts — outdoor only
+    if (isPerformance) {
+      if (pst === 'technical-pant') return { score: 'medium', note: 'Outdoor/travel pairing' };
+      if (pst === 'jeans' && pc === 'dark-indigo') return { score: 'weak', note: 'PFG shirts read too outdoorsy' };
+      return { score: 'weak', note: 'Performance shirt — outdoor settings only' };
+    }
+
+    // Loud patterns - downgrade
+    if (sd.includes('plaid') || sd.includes('graphic') || sd.includes('logo')) {
+      if (pst === 'jeans') return { score: 'weak', note: 'Loud pattern dilutes the system' };
+      return { score: 'weak' };
+    }
+
+    // Technical pant — only with tees/performance
+    if (pst === 'technical-pant') {
+      return { score: 'weak', note: 'Technical pant works best with tees' };
+    }
+
+    // Black dress trouser — formal pairings
+    if (pst === 'dress-trouser') {
+      if (sst === 'dress-shirt' || sst === 'oxford') {
+        if (sc === 'white' || sc === 'light-blue') return { score: 'strong', note: 'Formal — with suit or open collar' };
+        if (sc === 'black') return { score: 'strong', note: 'Evening / going-out' };
+        if (sc === 'navy' || sc === 'charcoal') return { score: 'medium', note: 'Evening, mature' };
+        if (sc === 'medium-blue') return { score: 'medium' };
+        return { score: 'medium' };
+      }
+      if (sst === 'button-shirt' && sc === 'charcoal') return { score: 'medium', note: 'Evening' };
+      if (sst === 'button-shirt' && sc === 'burgundy') return { score: 'medium', note: 'Evening, masculine' };
+      return { score: 'weak', note: 'Dress trouser wants a dress shirt' };
+    }
+
+    // Black H&M chino — quasi-formal
+    if (pst === 'chino' && pc === 'black') {
+      if (sst === 'dress-shirt' || sst === 'oxford') {
+        if (sc === 'white' || sc === 'light-blue') return { score: 'medium', note: 'Business-casual' };
+        return { score: 'medium' };
+      }
+      return { score: 'weak' };
+    }
+
+    // Dark-indigo jeans — main anchor
+    if (pst === 'jeans' && pc === 'dark-indigo') {
+      if (sst === 'dress-shirt' || sst === 'oxford') {
+        if (sc === 'light-blue') return { score: 'strong', note: 'Your strongest blue + denim template' };
+        if (sc === 'white') return { score: 'strong', note: 'Clean founder uniform' };
+        if (sc === 'medium-blue' || sc === 'petrol') return { score: 'strong', note: 'Mature blue layering' };
+        if (sc === 'navy') return { score: 'strong', note: 'Evening authority' };
+        if (sc === 'charcoal') return { score: 'strong', note: 'Sharp daytime' };
+        if (sc === 'black') return { score: 'medium', note: 'Evening only — never daytime' };
+        if (sc === 'dusty-blue') return { score: 'medium' };
+        return { score: 'medium' };
+      }
+      if (sst === 'button-shirt') {
+        if (sc === 'burgundy') return { score: 'strong', note: 'Evening / going-out' };
+        if (sc === 'olive') return { score: 'strong', note: 'Founder-casual daily' };
+        if (sc === 'navy') return { score: 'strong', note: 'Solid daily authority' };
+        if (sc === 'charcoal') return { score: 'strong', note: 'Strong evening template' };
+        if (sc === 'stone' || sc === 'sand') return { score: 'medium', note: 'Keep top light, bottom dark' };
+        if (sc === 'gray' || sc === 'tan') return { score: 'medium' };
+        if (sc === 'red') return { score: 'weak', note: 'Coral/red off the palette' };
+        return { score: 'medium' };
+      }
+      if (sst === 'linen-shirt') {
+        if (sc === 'stone' || sc === 'sand') return { score: 'medium', note: 'Resort / island vibe' };
+        return { score: 'medium' };
+      }
+      return { score: 'medium' };
+    }
+
+    // Medium-blue jeans — more casual
+    if (pst === 'jeans' && pc === 'medium-blue') {
+      if (sst === 'dress-shirt' || sst === 'oxford') {
+        if (sc === 'white' || sc === 'soft-white') return { score: 'medium', note: 'Casual daily' };
+        if (sc === 'light-blue' || sc === 'dusty-blue' || sc === 'medium-blue') return { score: 'weak', note: 'Too much blue' };
+        if (sc === 'navy') return { score: 'medium' };
+        if (sc === 'charcoal' || sc === 'black') return { score: 'medium', note: 'Casual evening' };
+        return { score: 'medium' };
+      }
+      if (sst === 'button-shirt') {
+        if (sc === 'burgundy' || sc === 'olive' || sc === 'navy' || sc === 'charcoal') return { score: 'medium', note: 'Casual daily' };
+        return { score: 'weak' };
+      }
+      if (sst === 'linen-shirt') return { score: 'medium', note: 'Casual / weekend' };
+      return { score: 'weak' };
+    }
+
+    return { score: 'weak' };
+  }
+  window.scoreShirtPants = scoreShirtPants;
+
+  // ----- Combinations page -----
+  window.setupCombinations = function () {
+    const state = { view: 'list', score: 'strong' };
+    window.onWardrobeReady = function () {
+      const pants = DATA.items.filter(i =>
+        i.tier === 'Keep' && (i.type === 'pants')
+      );
+      const shirts = DATA.items.filter(i =>
+        i.tier === 'Keep' && i.type === 'shirt' &&
+        ['dress-shirt', 'oxford', 'button-shirt', 'linen-shirt'].includes(i.subtype)
+      );
+
+      // Pre-compute all combos with scores
+      const combos = [];
+      pants.forEach(p => {
+        shirts.forEach(s => {
+          const result = scoreShirtPants(s, p);
+          combos.push({ pants: p, shirt: s, ...result });
+        });
+      });
+
+      function filterCombos() {
+        if (state.score === 'strong') return combos.filter(c => c.score === 'strong');
+        if (state.score === 'all-keep') return combos.filter(c => c.score === 'strong' || c.score === 'medium');
+        return combos.filter(c => c.score !== 'no');
+      }
+
+      function renderList() {
+        const list = filterCombos();
+        const order = { 'strong': 0, 'medium': 1, 'weak': 2 };
+        list.sort((a, b) => order[a.score] - order[b.score]);
+        if (list.length === 0) {
+          return `<div class="empty-state">No combinations at this filter.</div>`;
+        }
+        return list.map(c => `
+          <div class="combo-row">
+            <div class="combo-piece" data-id="${c.shirt.id}">
+              <img src="${c.shirt.file}" alt="${c.shirt.id}" loading="lazy" />
+              <span class="label">${humanizeTitle(c.shirt)}</span>
+            </div>
+            <div class="combo-piece" data-id="${c.pants.id}">
+              <img src="${c.pants.file}" alt="${c.pants.id}" loading="lazy" />
+              <span class="label">${humanizeTitle(c.pants)}</span>
+            </div>
+            <div class="combo-info">
+              <div class="title">${humanizeTitle(c.shirt)} + ${humanizeTitle(c.pants)}</div>
+              ${c.note ? `<div class="note">${c.note}</div>` : ''}
+            </div>
+            <div class="combo-score ${c.score}">${c.score.toUpperCase()}</div>
+          </div>
+        `).join('');
+      }
+
+      function renderMatrix() {
+        // shirts as columns, pants as rows
+        const list = filterCombos();
+        const usedShirtIds = new Set(list.map(c => c.shirt.id));
+        const usedPantIds = new Set(list.map(c => c.pants.id));
+        const visShirts = shirts.filter(s => state.score === 'all' || usedShirtIds.has(s.id));
+        const visPants = pants.filter(p => state.score === 'all' || usedPantIds.has(p.id));
+        let html = `<div class="matrix-wrap"><table class="matrix"><thead><tr><th class="corner"></th>`;
+        visShirts.forEach(s => {
+          html += `<th class="head-shirt" title="${humanizeTitle(s)}"><img src="${s.file}" alt="${s.id}" loading="lazy"/></th>`;
+        });
+        html += `</tr></thead><tbody>`;
+        visPants.forEach(p => {
+          html += `<tr><th class="head-pants" title="${humanizeTitle(p)}"><img src="${p.file}" alt="${p.id}" loading="lazy"/></th>`;
+          visShirts.forEach(s => {
+            const r = scoreShirtPants(s, p);
+            const symbol = r.score === 'strong' ? '★' : r.score === 'medium' ? '◐' : r.score === 'weak' ? '·' : '';
+            const tooltip = `${humanizeTitle(s)} + ${humanizeTitle(p)}${r.note ? ' — ' + r.note : ''}`;
+            html += `<td><div class="cell ${r.score}" title="${tooltip}" data-shirt="${s.id}" data-pants="${p.id}">${symbol}</div></td>`;
+          });
+          html += `</tr>`;
+        });
+        html += `</tbody></table></div>`;
+        html += `<p class="page-intro" style="font-size:13px;margin-top:8px;">★ strong · ◐ medium · · weak · empty = not recommended. Hover for details, tap to open the item.</p>`;
+        return html;
+      }
+
+      function render() {
+        const el = document.getElementById('combo-content');
+        el.innerHTML = state.view === 'list' ? renderList() : renderMatrix();
+        // Wire interactions
+        el.querySelectorAll('.combo-piece').forEach(p => {
+          p.addEventListener('click', () => openItem(DATA.items.find(it => it.id === p.dataset.id)));
+        });
+        el.querySelectorAll('.matrix .cell').forEach(c => {
+          c.addEventListener('click', () => {
+            const sid = c.dataset.shirt, pid = c.dataset.pants;
+            const shirt = DATA.items.find(it => it.id === sid);
+            const pants = DATA.items.find(it => it.id === pid);
+            // Show shirt first; user can navigate
+            if (shirt) openItem(shirt);
+          });
+        });
+      }
+
+      document.querySelectorAll('#view-toggle button').forEach(b => {
+        b.addEventListener('click', () => {
+          document.querySelectorAll('#view-toggle button').forEach(x => x.classList.remove('active'));
+          b.classList.add('active');
+          state.view = b.dataset.view;
+          render();
+        });
+      });
+      document.querySelectorAll('#score-toggle button').forEach(b => {
+        b.addEventListener('click', () => {
+          document.querySelectorAll('#score-toggle button').forEach(x => x.classList.remove('active'));
+          b.classList.add('active');
+          state.score = b.dataset.score;
+          render();
+        });
+      });
+      render();
+    };
+    load();
+  };
+
+  // ----- Potential page -----
+  // For each missing capsule slot, show which outfits it unlocks
+  // and what existing pieces it pairs with.
+  window.setupPotential = function () {
+    window.onWardrobeReady = function () {
+      // Identify missing slots
+      const missing = [];
+      CAPSULE.forEach((slot, idx) => {
+        const pred = CAPSULE_PREDICATES[idx];
+        if (!pred || !DATA.items.some(pred)) missing.push({ slot, idx });
+      });
+
+      // Build hypothetical item per missing slot for compatibility checks
+      const HYPOTHETICAL = {
+        'Charcoal crew tee': { type:'tee', subtype:'tee', color:'charcoal' },
+        'Navy crew tee': { type:'tee', subtype:'tee', color:'navy' },
+        'Soft white crew tee': { type:'tee', subtype:'tee', color:'soft-white' },
+        'Black performance tee': { type:'tee', subtype:'tee', color:'black' },
+        'Navy AIRism/piqué polo': { type:'polo', subtype:'polo-pique', color:'navy' },
+        'Charcoal knit polo': { type:'polo', subtype:'polo-knit', color:'charcoal' },
+        'Dusty blue polo': { type:'polo', subtype:'polo-pique', color:'dusty-blue' },
+        'Navy unstructured blazer': { type:'blazer', subtype:'blazer', color:'navy' },
+        'Charcoal matte vest': { type:'vest', subtype:'vest', color:'charcoal' },
+        'Olive or charcoal overshirt': { type:'jacket', subtype:'overshirt', color:'olive' },
+        'Uniqlo ultralight jacket': { type:'jacket', subtype:'ultralight', color:'navy' },
+        'Lightweight rain shell': { type:'jacket', subtype:'rain-shell', color:'navy' },
+        'Charcoal jeans': { type:'pants', subtype:'jeans', color:'charcoal' },
+        'Olive athletic chinos': { type:'pants', subtype:'chino', color:'olive' },
+        'Stone athletic chinos': { type:'pants', subtype:'chino', color:'stone' },
+        'Navy easy/technical chinos': { type:'pants', subtype:'chino', color:'navy' },
+        'Charcoal tropical-weight trousers': { type:'pants', subtype:'dress-trouser', color:'charcoal' },
+        'Dark tailored shorts': { type:'shorts', subtype:'chino-short', color:'navy' },
+        'Sand linen shorts': { type:'shorts', subtype:'chino-short', color:'sand' },
+        'Navy swim shorts': { type:'swimwear', subtype:'swim-shorts', color:'navy' },
+        'Burgundy textured tie': { type:'accessory', subtype:'tie', color:'burgundy' },
+        'Navy textured tie': { type:'accessory', subtype:'tie', color:'navy' },
+        'Black belt': { type:'accessory', subtype:'belt', color:'black' },
+        'Dark brown belt': { type:'accessory', subtype:'belt', color:'brown' },
+        'Light blue oxford shirt': { type:'shirt', subtype:'oxford', color:'light-blue' },
+        'Soft white oxford shirt': { type:'shirt', subtype:'oxford', color:'soft-white' },
+        'Petrol/indigo linen shirt': { type:'shirt', subtype:'linen-shirt', color:'petrol' },
+        'Pale blue striped shirt': { type:'shirt', subtype:'dress-shirt', color:'light-blue', detail:'striped' },
+        'Olive linen/cotton shirt': { type:'shirt', subtype:'linen-shirt', color:'olive' },
+        'Off-white short-sleeve resort shirt': { type:'shirt', subtype:'linen-shirt', color:'soft-white' },
+        'Muted blue short-sleeve resort shirt': { type:'shirt', subtype:'linen-shirt', color:'dusty-blue' },
+        'White dress shirt': { type:'shirt', subtype:'dress-shirt', color:'white' },
+      };
+
+      // For each missing item, find existing pieces that combine well
+      const cards = missing.map(m => {
+        const hyp = HYPOTHETICAL[m.slot];
+        if (!hyp) return null;
+        const unlocked = [];
+
+        if (hyp.type === 'shirt') {
+          // Pair with existing pants
+          DATA.items.filter(i => i.tier === 'Keep' && i.type === 'pants').forEach(p => {
+            const r = scoreShirtPants(hyp, p);
+            if (r.score === 'strong') {
+              unlocked.push({
+                desc: `${m.slot} + ${humanizeTitle(p)}${r.note ? ' — ' + r.note : ''}`,
+                pieces: [p],
+                placeholder: m.slot,
+              });
+            }
+          });
+        } else if (hyp.type === 'pants') {
+          // Pair with existing shirts
+          DATA.items.filter(i => i.tier === 'Keep' && i.type === 'shirt').forEach(s => {
+            const r = scoreShirtPants(s, hyp);
+            if (r.score === 'strong') {
+              unlocked.push({
+                desc: `${humanizeTitle(s)} + ${m.slot}${r.note ? ' — ' + r.note : ''}`,
+                pieces: [s],
+                placeholder: m.slot,
+              });
+            }
+          });
+        } else if (hyp.type === 'blazer' || hyp.type === 'vest' || hyp.type === 'jacket') {
+          // Layering — show with strongest shirts + jeans
+          const shirts = DATA.items.filter(i =>
+            i.tier === 'Keep' && i.type === 'shirt' &&
+            ['light-blue','white','soft-white','navy'].includes(i.color)
+          ).slice(0,3);
+          const pants = DATA.items.find(i =>
+            i.tier === 'Keep' && i.type === 'pants' && i.subtype === 'jeans' && i.color === 'dark-indigo'
+          );
+          shirts.forEach(s => {
+            if (pants) unlocked.push({
+              desc: `${m.slot} + ${humanizeTitle(s)} + ${humanizeTitle(pants)}`,
+              pieces: [s, pants],
+              placeholder: m.slot,
+            });
+          });
+        } else if (hyp.type === 'polo' || hyp.type === 'tee') {
+          // Pair with jeans + sneakers
+          const pants = DATA.items.filter(i =>
+            i.tier === 'Keep' && i.type === 'pants' && i.subtype === 'jeans'
+          ).slice(0, 2);
+          const shoes = DATA.items.find(i =>
+            i.tier === 'Keep' && i.type === 'shoes' && i.subtype === 'sneaker' && (i.brand||'').toLowerCase().includes('on')
+          );
+          pants.forEach(p => {
+            const pieces = [p];
+            if (shoes) pieces.push(shoes);
+            unlocked.push({
+              desc: `${m.slot} + ${humanizeTitle(p)}${shoes ? ' + ' + humanizeTitle(shoes) : ''}`,
+              pieces,
+              placeholder: m.slot,
+            });
+          });
+        } else if (hyp.subtype === 'tie') {
+          // Pair with suit jacket + dress shirts
+          const suit = DATA.items.find(i => i.tier === 'Keep' && i.type === 'suit');
+          const shirts = DATA.items.filter(i =>
+            i.tier === 'Keep' && i.type === 'shirt' &&
+            (i.subtype === 'dress-shirt' || i.subtype === 'oxford') &&
+            (i.color === 'white' || i.color === 'light-blue')
+          ).slice(0, 2);
+          shirts.forEach(s => {
+            const pieces = [s];
+            if (suit) pieces.push(suit);
+            unlocked.push({
+              desc: `${m.slot} + ${humanizeTitle(s)}${suit ? ' + suit' : ''}`,
+              pieces,
+              placeholder: m.slot,
+            });
+          });
+        }
+
+        return { slot: m.slot, unlocked: unlocked.slice(0, 6), buyHint: buyHintFor(m.slot) };
+      }).filter(Boolean);
+
+      // Sort cards: most unlock potential first
+      cards.sort((a, b) => b.unlocked.length - a.unlocked.length);
+
+      const html = cards.length === 0 ? `<div class="empty-state">Capsule complete — nothing to dream about.</div>` :
+        cards.map(c => `
+          <div class="potential-card">
+            <h3><span class="slot">NEED</span>${c.slot}</h3>
+            ${c.buyHint ? `<div class="stores">${c.buyHint}</div>` : ''}
+            ${c.unlocked.length === 0 ?
+              `<div class="empty-state" style="padding:20px;">No new outfits unlocked yet — needs additional purchases.</div>` :
+              `<div style="color:var(--muted);font-size:13px;margin-bottom:6px;">Unlocks ${c.unlocked.length} outfit${c.unlocked.length !== 1 ? 's' : ''}:</div>` +
+              c.unlocked.map(u => `
+                <div class="unlocked-outfit">
+                  <div class="desc">${u.desc}</div>
+                  <div class="pieces">
+                    ${u.pieces.map(p => `<img src="${p.file}" alt="${p.id}" title="${humanizeTitle(p)}" loading="lazy"/>`).join('')}
+                    <div class="placeholder">BUY<br>${u.placeholder.split(' ').slice(0,2).join(' ')}</div>
+                  </div>
+                </div>`).join('')
+            }
+          </div>
+        `).join('');
+
+      document.getElementById('potential-content').innerHTML = html;
+    };
+    load();
+  };
+
+  function buyHintFor(slot) {
+    const HINTS = {
+      'Navy unstructured blazer': 'Nordstrom Rack ($100–160) · Zara ($140–230) · Massimo Dutti ($320)',
+      'Charcoal knit polo': 'Uniqlo AIRism ($29) · J.Crew Factory · H&M',
+      'Navy AIRism/piqué polo': 'Uniqlo ($29) · Banana Republic Factory · J.Crew Factory',
+      'Dusty blue polo': 'Uniqlo · J.Crew Factory',
+      'Light blue oxford shirt': 'Uniqlo ($49) · Gap Factory · J.Crew Factory',
+      'Soft white oxford shirt': 'Uniqlo · Gap Factory',
+      'Petrol/indigo linen shirt': 'Zara · Massimo Dutti · Uniqlo Premium Linen ($49)',
+      'Olive linen/cotton shirt': 'Uniqlo · Zara · Old Navy',
+      'Burgundy textured tie': 'Macy\'s ($30–70)',
+      'Navy textured tie': 'Macy\'s ($30–70)',
+      'Charcoal jeans': 'Uniqlo · Gap Factory · BR Factory',
+      'Olive athletic chinos': 'Banana Republic Factory athletic chino ($60–70)',
+      'Stone athletic chinos': 'Banana Republic Factory athletic chino ($60–70)',
+      'Charcoal matte vest': 'Uniqlo · Zara',
+      'Olive or charcoal overshirt': 'Zara · Uniqlo · Massimo Dutti',
+      'Uniqlo ultralight jacket': 'Uniqlo Ultra Light Down Vest/Jacket',
+      'Charcoal crew tee': 'Uniqlo Supima · Banana Republic Factory · H&M',
+      'Navy crew tee': 'Uniqlo Supima · BR Factory · H&M',
+      'Soft white crew tee': 'Uniqlo Supima · BR Factory',
+      'Black performance tee': 'Uniqlo AIRism · Lululemon',
+      'Charcoal tropical-weight trousers': 'Banana Republic · Uniqlo Smart Pants',
+      'Navy easy/technical chinos': 'Banana Republic Factory · Uniqlo',
+      'Dark tailored shorts': 'Uniqlo · H&M · BR Factory',
+      'Sand linen shorts': 'H&M ($29–39) · Uniqlo · Zara',
+      'Navy swim shorts': 'H&M · Uniqlo',
+      'White dress shirt': 'Uniqlo · Zara · Macy\'s',
+      'Pale blue striped shirt': 'Uniqlo · Zara · Gap',
+      'Off-white short-sleeve resort shirt': 'H&M · Zara · Uniqlo Linen',
+      'Muted blue short-sleeve resort shirt': 'H&M · Zara · Uniqlo Linen',
+      'Black belt': 'Amazon · Macy\'s · Nordstrom Rack',
+      'Dark brown belt': 'Amazon · Macy\'s · Nordstrom Rack',
+      'Lightweight rain shell': 'Uniqlo · Columbia · Amazon',
+    };
+    return HINTS[slot] || '';
+  }
+
+  // ----- Mobile nav: click to open submenus -----
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.site-nav .nav-group .nav-label').forEach(label => {
+      label.addEventListener('click', function (e) {
+        if (window.matchMedia('(max-width: 720px)').matches) {
+          e.preventDefault();
+          const group = label.parentElement;
+          group.classList.toggle('open');
+        }
+      });
+    });
+  });
+
 })();
