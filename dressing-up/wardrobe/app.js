@@ -696,6 +696,39 @@
         if (found) have.push({ slot, item: found, idx });
         else need.push({ slot, idx });
       });
+
+      // Build a map: capsule slot -> { count, outfits[] } based on outfit visualizations
+      // We map by sample filename (which corresponds to a SLOT_SAMPLES entry).
+      const sampleFileToSlot = {};
+      Object.entries(SLOT_SAMPLES).forEach(([slot, meta]) => {
+        sampleFileToSlot[meta.file] = slot;
+      });
+      const slotCount = {};   // capsule slot -> { count, outfits }
+      DATA.outfits.forEach((desc, i) => {
+        const seen = new Set();
+        window.outfitPieces(i + 1, desc).filter(p => !p.own).forEach(p => {
+          // Extract filename from p.src like "samples/foo.svg"
+          const file = (p.src || '').split('/').pop();
+          const slot = sampleFileToSlot[file];
+          if (!slot || seen.has(slot)) return;
+          seen.add(slot);
+          if (!slotCount[slot]) slotCount[slot] = { count: 0, outfits: [] };
+          slotCount[slot].count++;
+          slotCount[slot].outfits.push(i + 1);
+        });
+      });
+
+      // Annotate need[] with its count, then sort desc by count
+      need.forEach(n => {
+        const sc = slotCount[n.slot] || { count: 0, outfits: [] };
+        n.count = sc.count;
+        n.outfits = sc.outfits;
+        const meta = SLOT_SAMPLES[n.slot];
+        n.sample = meta ? 'samples/' + meta.file : '';
+        n.buyHref = 'https://www.google.com/search?tbm=shop&gl=us&hl=en&q=' + encodeURIComponent('men ' + n.slot);
+      });
+      need.sort((a, b) => b.count - a.count);
+
       document.getElementById('have').innerHTML =
         `<h2>Have <small style="color:var(--muted);font-weight:400;">(${have.length}/40)</small></h2>` +
         (have.length === 0 ? `<div class="empty-state">Nothing yet.</div>` :
@@ -707,13 +740,30 @@
                 <div class="meta"><span class="tier-badge tier-${h.item.tier}">${h.item.tier}</span> ${h.item.brand !== 'unknown' ? '· ' + h.item.brand : ''}</div>
               </div>
             </div>`).join('')}</div>`);
+
       document.getElementById('need').innerHTML =
-        `<h2>Need <small style="color:var(--muted);font-weight:400;">(${need.length} to buy)</small></h2>` +
+        `<h2>Need <small style="color:var(--muted);font-weight:400;">(${need.length} to buy · ranked by outfit-impact)</small></h2>` +
         (need.length === 0 ? `<div class="empty-state" style="color:var(--tier-keep);">Capsule complete.</div>` :
-          `<div class="cat-grid">${need.map(n => `
-            <div class="cat-card" style="cursor:default;">
-              <div class="name" style="font-size:15px;text-transform:none;">${n.slot}</div>
-            </div>`).join('')}</div>`);
+          `<div class="need-list">${need.map((n, idx) => {
+            const rank = idx + 1;
+            const countBadge = n.count > 0
+              ? `<span class="need-count" title="Unlocks ${n.count} outfit${n.count !== 1 ? 's' : ''}">${n.count}</span>`
+              : `<span class="need-count need-zero" title="Not directly referenced by an outfit formula">·</span>`;
+            const outfitChips = n.outfits.length
+              ? `<div class="need-outfits">${n.outfits.map(o => `<span class="outfit-chip">#${o}</span>`).join(' ')}</div>`
+              : '';
+            return `
+            <a class="need-row" href="${n.buyHref}" target="_blank" rel="noopener" title="Shop ${n.slot} on Google (US)">
+              <div class="need-rank">${rank}</div>
+              ${n.sample ? `<img class="need-thumb" src="${n.sample}" alt="${n.slot}" loading="lazy" />` : '<div class="need-thumb need-thumb-empty"></div>'}
+              <div class="need-info">
+                <div class="need-name">${n.slot} <span style="font-size:11px;opacity:.6;">↗</span></div>
+                ${outfitChips}
+              </div>
+              ${countBadge}
+            </a>`;
+          }).join('')}</div>`);
+
       document.querySelectorAll('#have .card').forEach(card => {
         card.addEventListener('click', () => openItem(DATA.items.find(it => it.id === card.dataset.id)));
       });
@@ -1162,58 +1212,90 @@
           </div>
         `).join('');
 
-      document.getElementById('potential-content').innerHTML = html;
+      // Compute "buy list" ranking — how many outfit formulas each missing piece blocks
+      const buyCount = {};   // label -> { count, sample, label }
+      DATA.outfits.forEach((desc, i) => {
+        const pieces = window.outfitPieces(i + 1, desc);
+        pieces.filter(p => !p.own).forEach(p => {
+          const key = p.label;
+          if (!buyCount[key]) {
+            buyCount[key] = { count: 0, label: p.label, src: p.src, outfits: [] };
+          }
+          buyCount[key].count++;
+          buyCount[key].outfits.push(i + 1);
+        });
+      });
+      const buyList = Object.values(buyCount).sort((a, b) => b.count - a.count);
+
+      const buyListHtml = buyList.length === 0 ? '' : `
+        <h2 style="margin-top:40px;">Buy List <small style="color:var(--muted);font-weight:400;font-size:14px;">· ranked by impact</small></h2>
+        <p class="page-intro">Each missing piece is ranked by how many of the 34 outfit formulas it unlocks. Buy from the top — every purchase opens the most new outfits per dollar.</p>
+        <div class="buy-list">
+          ${buyList.map((b, idx) => {
+            const buyHref = 'https://www.google.com/search?tbm=shop&gl=us&hl=en&q=' + encodeURIComponent('men ' + b.label);
+            return `
+            <div class="buy-row">
+              <div class="buy-rank">${idx + 1}</div>
+              <img class="buy-thumb" src="${b.src}" alt="${b.label}" loading="lazy" />
+              <div class="buy-info">
+                <a class="buy-name" href="${buyHref}" target="_blank" rel="noopener">${b.label} <span style="font-size:11px;opacity:.6;">↗</span></a>
+                <div class="buy-outfits">Appears in ${b.count} outfit${b.count !== 1 ? 's' : ''}: ${b.outfits.map(n => `<span class="outfit-chip">#${n}</span>`).join(' ')}</div>
+              </div>
+              <div class="buy-count">${b.count}</div>
+            </div>`;
+          }).join('')}
+        </div>`;
+
+      document.getElementById('potential-content').innerHTML = html + buyListHtml;
     };
     load();
   };
 
   function buyHintFor(slot) {
     const HINTS = {
-      'Navy unstructured blazer': 'Nordstrom Rack ($100–160) · Zara ($140–230) · Massimo Dutti ($320)',
-      'Charcoal knit polo': 'Uniqlo AIRism ($29) · J.Crew Factory · H&M',
-      'Navy AIRism/piqué polo': 'Uniqlo ($29) · Banana Republic Factory · J.Crew Factory',
-      'Dusty blue polo': 'Uniqlo · J.Crew Factory',
-      'Light blue oxford shirt': 'Uniqlo ($49) · Gap Factory · J.Crew Factory',
-      'Soft white oxford shirt': 'Uniqlo · Gap Factory',
-      'Petrol/indigo linen shirt': 'Zara · Massimo Dutti · Uniqlo Premium Linen ($49)',
-      'Olive linen/cotton shirt': 'Uniqlo · Zara · Old Navy',
-      'Burgundy textured tie': 'Macy\'s ($30–70)',
-      'Navy textured tie': 'Macy\'s ($30–70)',
-      'Charcoal jeans': 'Uniqlo · Gap Factory · BR Factory',
-      'Olive athletic chinos': 'Banana Republic Factory athletic chino ($60–70)',
-      'Stone athletic chinos': 'Banana Republic Factory athletic chino ($60–70)',
-      'Charcoal matte vest': 'Uniqlo · Zara',
-      'Olive or charcoal overshirt': 'Zara · Uniqlo · Massimo Dutti',
-      'Uniqlo ultralight jacket': 'Uniqlo Ultra Light Down Vest/Jacket',
-      'Charcoal crew tee': 'Uniqlo Supima · Banana Republic Factory · H&M',
-      'Navy crew tee': 'Uniqlo Supima · BR Factory · H&M',
-      'Soft white crew tee': 'Uniqlo Supima · BR Factory',
-      'Black performance tee': 'Uniqlo AIRism · Lululemon',
-      'Charcoal tropical-weight trousers': 'Banana Republic · Uniqlo Smart Pants',
-      'Navy easy/technical chinos': 'Banana Republic Factory · Uniqlo',
-      'Dark tailored shorts': 'Uniqlo · H&M · BR Factory',
-      'Sand linen shorts': 'H&M ($29–39) · Uniqlo · Zara',
-      'Navy swim shorts': 'H&M · Uniqlo',
-      'White dress shirt': 'Uniqlo · Zara · Macy\'s',
-      'Pale blue striped shirt': 'Uniqlo · Zara · Gap',
-      'Off-white short-sleeve resort shirt': 'H&M · Zara · Uniqlo Linen',
-      'Muted blue short-sleeve resort shirt': 'H&M · Zara · Uniqlo Linen',
-      'Black belt': 'Amazon · Macy\'s · Nordstrom Rack',
-      'Dark brown belt': 'Amazon · Macy\'s · Nordstrom Rack',
-      'Lightweight rain shell': 'Uniqlo · Columbia · Amazon',
+      "Navy unstructured blazer": "Nordstrom Rack ($100-160) | Zara ($140-230) | Massimo Dutti ($320)",
+      "Charcoal knit polo": "Uniqlo AIRism ($29) | J.Crew Factory | H&M",
+      "Navy AIRism/piqué polo": "Uniqlo ($29) | Banana Republic Factory | J.Crew Factory",
+      "Dusty blue polo": "Uniqlo | J.Crew Factory",
+      "Light blue oxford shirt": "Uniqlo ($49) | Gap Factory | J.Crew Factory",
+      "Soft white oxford shirt": "Uniqlo | Gap Factory",
+      "Petrol/indigo linen shirt": "Zara | Massimo Dutti | Uniqlo Premium Linen ($49)",
+      "Olive linen/cotton shirt": "Uniqlo | Zara | Old Navy",
+      "Burgundy textured tie": "Macys ($30-70)",
+      "Navy textured tie": "Macys ($30-70)",
+      "Charcoal jeans": "Uniqlo | Gap Factory | BR Factory",
+      "Olive athletic chinos": "Banana Republic Factory athletic chino ($60-70)",
+      "Stone athletic chinos": "Banana Republic Factory athletic chino ($60-70)",
+      "Charcoal matte vest": "Uniqlo | Zara",
+      "Olive or charcoal overshirt": "Zara | Uniqlo | Massimo Dutti",
+      "Uniqlo ultralight jacket": "Uniqlo Ultra Light Down Vest/Jacket",
+      "Charcoal crew tee": "Uniqlo Supima | BR Factory | H&M",
+      "Navy crew tee": "Uniqlo Supima | BR Factory | H&M",
+      "Soft white crew tee": "Uniqlo Supima | BR Factory",
+      "Black performance tee": "Uniqlo AIRism | Lululemon",
+      "Charcoal tropical-weight trousers": "Banana Republic | Uniqlo Smart Pants",
+      "Navy easy/technical chinos": "Banana Republic Factory | Uniqlo",
+      "Dark tailored shorts": "Uniqlo | H&M | BR Factory",
+      "Sand linen shorts": "H&M ($29-39) | Uniqlo | Zara",
+      "Navy swim shorts": "H&M | Uniqlo",
+      "White dress shirt": "Uniqlo | Zara | Macys",
+      "Pale blue striped shirt": "Uniqlo | Zara | Gap",
+      "Off-white short-sleeve resort shirt": "H&M | Zara | Uniqlo Linen",
+      "Muted blue short-sleeve resort shirt": "H&M | Zara | Uniqlo Linen",
+      "Black belt": "Amazon | Macys | Nordstrom Rack",
+      "Dark brown belt": "Amazon | Macys | Nordstrom Rack",
+      "Lightweight rain shell": "Uniqlo | Columbia | Amazon"
     };
-    return HINTS[slot] || '';
+    return HINTS[slot] || "";
   }
 
-
-  // Mobile nav: click to open submenus
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.site-nav .nav-group .nav-label').forEach(function (label) {
-      label.addEventListener('click', function (e) {
-        if (window.matchMedia && window.matchMedia('(max-width: 720px)').matches) {
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".site-nav .nav-group .nav-label").forEach(function (label) {
+      label.addEventListener("click", function (e) {
+        if (window.matchMedia && window.matchMedia("(max-width: 720px)").matches) {
           e.preventDefault();
           var group = label.parentElement;
-          group.classList.toggle('open');
+          group.classList.toggle("open");
         }
       });
     });
