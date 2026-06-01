@@ -583,18 +583,65 @@ h1 small { color: var(--muted); font-size: 14px; font-weight: 400; }
 }
 .unlocked-outfit .placeholder {
   width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-decoration: none;
+  color: inherit;
+}
+.unlocked-outfit .placeholder .box {
+  width: 60px;
   height: 60px;
   border-radius: 4px;
   background: var(--card);
   border: 2px dashed var(--tier-replace);
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 9px;
+  font-weight: 700;
+  color: var(--tier-replace);
+  text-align: center;
+  line-height: 1.1;
+  padding: 2px;
+}
+.unlocked-outfit .placeholder .box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+}
+.unlocked-outfit .placeholder .buy-label {
+  display: block;
+  margin-top: 4px;
   font-size: 10px;
   font-weight: 700;
   color: var(--tier-replace);
   text-align: center;
   line-height: 1.1;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  cursor: pointer;
+  word-wrap: break-word;
+}
+.unlocked-outfit .placeholder .buy-label:hover { color: var(--accent); }
+
+/* Potential card title — clickable */
+.potential-card h3 a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--accent);
+}
+.potential-card h3 a:hover {
+  color: var(--accent);
+  border-bottom-style: solid;
+}
+.potential-card h3 a::after {
+  content: ' ↗';
+  font-size: 12px;
+  opacity: .6;
+  margin-left: 2px;
 }
 
 footer {

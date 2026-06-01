@@ -667,6 +667,59 @@
     load();
   };
 
+  // Mapping: capsule slot -> { sample filename, search query, primary buy URL }
+  const SLOT_SAMPLES = {
+    'Charcoal crew tee': { file: 'charcoal-crew-tee.svg', q: 'charcoal gray men crew neck t-shirt' },
+    'Navy crew tee': { file: 'navy-crew-tee.svg', q: 'navy blue men crew neck t-shirt' },
+    'Soft white crew tee': { file: 'soft-white-crew-tee.svg', q: 'white men crew neck t-shirt' },
+    'Black performance tee': { file: 'black-performance-tee.svg', q: 'black men performance athletic t-shirt' },
+    'Navy AIRism/piqué polo': { file: 'navy-pique-polo.svg', q: 'navy blue men pique polo shirt' },
+    'Charcoal knit polo': { file: 'charcoal-knit-polo.svg', q: 'charcoal gray men knit polo' },
+    'Dusty blue polo': { file: 'dusty-blue-polo.svg', q: 'dusty blue men polo shirt' },
+    'Navy unstructured blazer': { file: 'navy-unstructured-blazer.svg', q: 'navy unstructured linen blazer men' },
+    'Charcoal matte vest': { file: 'charcoal-vest.svg', q: 'charcoal gray men casual vest' },
+    'Olive or charcoal overshirt': { file: 'olive-overshirt.svg', q: 'olive green men overshirt shacket' },
+    'Uniqlo ultralight jacket': { file: 'ultralight-jacket.svg', q: 'Uniqlo ultralight down jacket men navy' },
+    'Lightweight rain shell': { file: 'rain-shell.svg', q: 'lightweight rain shell jacket men navy' },
+    'Charcoal jeans': { file: 'charcoal-jeans.svg', q: 'charcoal gray men jeans slim straight' },
+    'Olive athletic chinos': { file: 'olive-athletic-chinos.svg', q: 'olive green men athletic chinos' },
+    'Stone athletic chinos': { file: 'stone-athletic-chinos.svg', q: 'stone beige men athletic chinos' },
+    'Navy easy/technical chinos': { file: 'navy-technical-chinos.svg', q: 'navy men technical easy chinos' },
+    'Charcoal tropical-weight trousers': { file: 'charcoal-tropical-trousers.svg', q: 'charcoal tropical wool trousers men' },
+    'Dark tailored shorts': { file: 'dark-tailored-shorts.svg', q: 'navy men tailored flat front shorts' },
+    'Sand linen shorts': { file: 'sand-linen-shorts.svg', q: 'sand beige linen shorts men' },
+    'Navy swim shorts': { file: 'navy-swim-shorts.svg', q: 'navy blue solid swim shorts men' },
+    'Burgundy textured tie': { file: 'burgundy-tie.svg', q: 'burgundy textured silk tie men' },
+    'Navy textured tie': { file: 'navy-tie.svg', q: 'navy textured silk tie men' },
+    'Black belt': { file: 'black-belt.svg', q: 'black leather dress belt men' },
+    'Dark brown belt': { file: 'dark-brown-belt.svg', q: 'dark brown leather dress belt men' },
+    'Light blue oxford shirt': { file: 'light-blue-oxford.svg', q: 'light blue men oxford button down shirt' },
+    'Soft white oxford shirt': { file: 'soft-white-oxford.svg', q: 'white men oxford button down shirt' },
+    'Petrol/indigo linen shirt': { file: 'petrol-linen-shirt.svg', q: 'petrol indigo linen shirt men' },
+    'Pale blue striped shirt': { file: 'pale-blue-striped-shirt.svg', q: 'light blue striped dress shirt men' },
+    'Olive linen/cotton shirt': { file: 'olive-linen-shirt.svg', q: 'olive green linen shirt men' },
+    'Off-white short-sleeve resort shirt': { file: 'off-white-resort-shirt.svg', q: 'off white short sleeve resort camp shirt men' },
+    'Muted blue short-sleeve resort shirt': { file: 'muted-blue-resort-shirt.svg', q: 'dusty blue short sleeve resort camp shirt men' },
+    'White dress shirt': { file: 'white-dress-shirt.svg', q: 'white poplin dress shirt men' },
+  };
+
+  function buyUrl(slot) {
+    const meta = SLOT_SAMPLES[slot];
+    const q = meta ? meta.q : slot;
+    return 'https://www.google.com/search?tbm=shop&q=' + encodeURIComponent(q);
+  }
+  function imageSearchUrl(slot) {
+    const meta = SLOT_SAMPLES[slot];
+    const q = meta ? meta.q : slot;
+    return 'https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(q);
+  }
+  function shortenSlot(slot) {
+    // Trim long slot names for the small label
+    return slot.replace(/\(.*?\)/g, '').replace(/\/.*$/, '').trim();
+  }
+  window.buyUrl = buyUrl;
+  window.imageSearchUrl = imageSearchUrl;
+
   // ----- Potential page -----
   // For each missing capsule slot, show which outfits it unlocks
   // and what existing pieces it pairs with.
@@ -803,10 +856,25 @@
       // Sort cards: most unlock potential first
       cards.sort((a, b) => b.unlocked.length - a.unlocked.length);
 
+      function placeholderHtml(slot) {
+        const meta = SLOT_SAMPLES[slot];
+        const short = shortenSlot(slot);
+        const sample = meta && meta.file ? `samples/${meta.file}` : '';
+        const buyHref = buyUrl(slot);
+        const imgHref = imageSearchUrl(slot);
+        return `
+          <div class="placeholder">
+            <a class="box" href="${imgHref}" target="_blank" rel="noopener" title="View samples on Google Images">
+              ${sample ? `<img src="${sample}" alt="${slot} sample" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'BUY'}))"/>` : 'BUY'}
+            </a>
+            <a class="buy-label" href="${buyHref}" target="_blank" rel="noopener" title="Shop ${slot}">${short}</a>
+          </div>`;
+      }
+
       const html = cards.length === 0 ? `<div class="empty-state">Capsule complete — nothing to dream about.</div>` :
         cards.map(c => `
           <div class="potential-card">
-            <h3><span class="slot">NEED</span>${c.slot}</h3>
+            <h3><span class="slot">NEED</span><a href="${buyUrl(c.slot)}" target="_blank" rel="noopener" title="Shop for ${c.slot}">${c.slot}</a></h3>
             ${c.buyHint ? `<div class="stores">${c.buyHint}</div>` : ''}
             ${c.unlocked.length === 0 ?
               `<div class="empty-state" style="padding:20px;">No new outfits unlocked yet — needs additional purchases.</div>` :
@@ -816,7 +884,7 @@
                   <div class="desc">${u.desc}</div>
                   <div class="pieces">
                     ${u.pieces.map(p => `<img src="${p.file}" alt="${p.id}" title="${humanizeTitle(p)}" loading="lazy"/>`).join('')}
-                    <div class="placeholder">BUY<br>${u.placeholder.split(' ').slice(0,2).join(' ')}</div>
+                    ${placeholderHtml(u.placeholder)}
                   </div>
                 </div>`).join('')
             }
