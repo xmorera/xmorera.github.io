@@ -97,6 +97,90 @@
   }
   window.matchesFilters = matchesFilters;
 
+  // Generate a short reason explaining why an item is Replace/Donate
+  function reasonForTier(item) {
+    if (item.tier !== 'Replace' && item.tier !== 'Donate') return null;
+    const t = item.type, st = item.subtype, c = item.color;
+    const d = (item.detail || '').toLowerCase();
+    const brand = (item.brand || '').toLowerCase();
+
+    // Performance / fishing shirts
+    if (st === 'fishing-shirt' || d.includes('performance') || brand.includes('columbia')) {
+      return "Technical performance fabric reads too outdoorsy for founder/client settings. Keep it for hiking, fishing, and travel days — then replace with a proper linen or oxford for daily wear.";
+    }
+    // Loud patterns on shirts
+    if ((d.includes('plaid') || d.includes('windowpane')) && (t === 'shirt' || t === 'shorts')) {
+      return "Plaid pattern fights the mature-founder direction. Solids in the system palette do the same job without the weekend-dad signal.";
+    }
+    if (d.includes('graphic') || d.includes('logo')) {
+      return "Big front graphic / logo undermines the authority signal. Solids in the system palette read more intentional and let your face do the work.";
+    }
+    // Surf prints / board shorts with loud designs
+    if (st === 'board-shorts' && (d.includes('floral') || d.includes('angular'))) {
+      return "Loud surf-brand prints push the look into 'tropical vacation cosplay'. Replace with a solid navy or charcoal mid-thigh swim short — Costa Rica, not Miami cosplay.";
+    }
+    // Hiking shoes
+    if (t === 'shoes' && d.includes('hiking')) {
+      return "Hiking silhouettes read outdoor-utility, not sporty-authority. Keep them on the trail; for daily wear use On sneakers or the brown loafer.";
+    }
+    // Running shoes
+    if (t === 'shoes' && d.includes('running')) {
+      return "Running shoes look performance-day, not street-day. Reserve for actual workouts; daily wear should be On or loafers.";
+    }
+    // Sandals / flip-flops / crocs / water shoes / terry slippers
+    if (st === 'sandal') {
+      return "Utility footwear — pool, shower, hotel room. Not a wardrobe piece, just function. Donate the duplicates you don't use.";
+    }
+    // Varsity bomber / camo event jacket
+    if (st === 'varsity') {
+      return "Collegiate varsity bomber fights the mature founder image. Donate — the navy unstructured blazer on your buy list does this slot properly.";
+    }
+    if (st === 'windbreaker' || d.includes('camo')) {
+      return "Branded event/camo windbreaker reads like swag, not personal style. Donate — replace the layering function with a clean charcoal vest or olive overshirt.";
+    }
+    // Skechers / cheap sneakers
+    if (t === 'shoes' && st === 'sneaker' && brand.includes('skechers')) {
+      return "Cheap-mesh silhouette undermines the rest of the kit. Replace with another On pair or a minimal leather sneaker.";
+    }
+    // Caterpillar workwear sneakers
+    if (t === 'shoes' && brand.includes('caterpillar')) {
+      return "Workwear-rugged sneaker competes with the clean sporty-authority look. Replace with a minimal leather sneaker or another On.";
+    }
+    // Off-palette colors on tops
+    if (c === 'red' && t === 'shirt') {
+      return "Coral/red is off the system palette. Replace with burgundy for warmth, or olive/charcoal for more daily versatility.";
+    }
+    // Black H&M chino as daily wear
+    if (t === 'pants' && c === 'black' && st === 'chino') {
+      return "Black chinos read 'office uniform' rather than founder. Replace with olive or stone athletic chinos — same versatility, far more intentional.";
+    }
+    // Medium-blue jeans (lighter wash)
+    if (t === 'pants' && st === 'jeans' && c === 'medium-blue') {
+      return "Lighter wash jeans lack the authority of dark indigo. Keep for casual/weekend; replace by adding dark-rinse and charcoal pairs as the daily anchors.";
+    }
+    // Athletic / training shorts that read gym-only
+    if (t === 'shorts' && st === 'athletic-short') {
+      return "Athletic training shorts read 'just left the gym'. Reserve for workouts; for daily summer wear use tailored chino/hybrid shorts in solids.";
+    }
+    // Cargo / drawstring cotton shorts (casual but visible-wear)
+    if (t === 'shorts' && (st === 'cargo-short' || st === 'cotton-short')) {
+      return "Drawstring / cargo casual shorts feel adolescent. Replace with flat-front tailored shorts (navy, charcoal, sand) for a cleaner adult silhouette.";
+    }
+    // Hotel-branded / event-branded items in general
+    if (d.includes('logo-patch')) {
+      return "Brand patch / logo treatment turns the piece into corporate signage. Donate or wear strictly around the house.";
+    }
+    // Generic fallbacks based on fit_for_system
+    if (item.fit_for_system === 'hard-no') {
+      return "Doesn't match the system — donate. The piece fights against the sporty-authority direction the rest of the wardrobe is built around.";
+    }
+    if (item.fit_for_system === 'weak') {
+      return "Off the system but serviceable. Wear what's left of its useful life, then replace with the equivalent capsule item.";
+    }
+    return null;
+  }
+  window.reasonForTier = reasonForTier;
+
   // ----- Modal -----
   function openItem(item) {
     const outfits = (DATA && DATA.outfits) || [];
@@ -108,6 +192,10 @@
       </div>`).join('');
 
     const tagsHtml = (item.occasion_tags || []).map(t => `<span class="tag">${t}</span>`).join('');
+    const reason = reasonForTier(item);
+    const reasonHtml = reason
+      ? `<h3>Why ${item.tier.toLowerCase()}</h3><div class="reason tier-${item.tier}">${reason}</div>`
+      : '';
     const outfitChips = (item.outfit_ids || []).map(n =>
       `<span class="outfit-chip" title="${outfits[n-1] || ''}">#${n}</span>`).join('');
     const html = `
@@ -125,6 +213,7 @@
             <span class="tag">${item.condition}</span>
           </div>
           ${tagsHtml ? `<h3>Wear it for</h3><div class="badges">${tagsHtml}</div>` : ''}
+          ${reasonHtml}
           ${pairsHtml ? `<h3>Pairs with</h3>${pairsHtml}` : ''}
           ${outfitChips ? `<h3>Appears in outfits</h3><div>${outfitChips}</div>` : ''}
           <h3>File</h3>
@@ -319,22 +408,204 @@
     load();
   };
 
+  // Map description keywords -> sample file (for outfit visualization).
+  // Order matters: more specific phrases first.
+  const PIECE_KEYWORDS = [
+    // Tops — oxfords / dress shirts
+    ['light blue oxford', 'light-blue-oxford.svg'],
+    ['light blue dress shirt', 'light-blue-oxford.svg'],
+    ['air blue oxford', 'light-blue-oxford.svg'],
+    ['air blue shirt', 'light-blue-oxford.svg'],
+    ['pale blue stripe', 'pale-blue-striped-shirt.svg'],
+    ['light blue shirt', 'light-blue-oxford.svg'],
+    ['white oxford', 'soft-white-oxford.svg'],
+    ['white shirt', 'white-dress-shirt.svg'],
+    ['white dress shirt', 'white-dress-shirt.svg'],
+    ['petrol linen', 'petrol-linen-shirt.svg'],
+    ['petrol polo', 'petrol-linen-shirt.svg'],
+    ['petrol shirt', 'petrol-linen-shirt.svg'],
+    // Polos
+    ['navy airism polo', 'navy-pique-polo.svg'],
+    ['navy knit polo', 'navy-pique-polo.svg'],
+    ['navy polo', 'navy-pique-polo.svg'],
+    ['charcoal knit polo', 'charcoal-knit-polo.svg'],
+    ['charcoal polo', 'charcoal-knit-polo.svg'],
+    ['dusty blue polo', 'dusty-blue-polo.svg'],
+    ['black performance polo', 'black-performance-tee.svg'],
+    ['knit polo', 'charcoal-knit-polo.svg'],
+    // Tees
+    ['black tee', 'black-performance-tee.svg'],
+    ['charcoal tee', 'charcoal-crew-tee.svg'],
+    ['soft white tee', 'soft-white-crew-tee.svg'],
+    ['white tee', 'soft-white-crew-tee.svg'],
+    ['fitted tee', 'black-performance-tee.svg'],
+    // Resort / linen shirts
+    ['open blue linen', 'muted-blue-resort-shirt.svg'],
+    ['blue linen shirt', 'muted-blue-resort-shirt.svg'],
+    ['open linen shirt', 'off-white-resort-shirt.svg'],
+    ['olive overshirt', 'olive-overshirt.svg'],
+    ['muted blue overshirt', 'muted-blue-resort-shirt.svg'],
+    // Bottoms — jeans
+    ['dark rinse jeans', 'charcoal-jeans.svg'],
+    ['dark indigo jeans', 'charcoal-jeans.svg'],
+    ['dark indigo', 'charcoal-jeans.svg'],
+    ['charcoal jeans', 'charcoal-jeans.svg'],
+    ['medium-dark indigo', 'charcoal-jeans.svg'],
+    ['dark jeans', 'charcoal-jeans.svg'],
+    // Chinos / pants
+    ['olive chino', 'olive-athletic-chinos.svg'],
+    ['stone chino', 'stone-athletic-chinos.svg'],
+    ['navy chino', 'navy-technical-chinos.svg'],
+    ['navy easy pant', 'navy-technical-chinos.svg'],
+    ['charcoal trouser', 'charcoal-tropical-trousers.svg'],
+    // Shorts
+    ['sand shorts', 'sand-linen-shorts.svg'],
+    ['tailored shorts', 'dark-tailored-shorts.svg'],
+    ['tailored sand shorts', 'sand-linen-shorts.svg'],
+    ['dark tailored shorts', 'dark-tailored-shorts.svg'],
+    ['navy swim short', 'navy-swim-shorts.svg'],
+    // Layers
+    ['navy blazer', 'navy-unstructured-blazer.svg'],
+    ['matte charcoal vest', 'charcoal-vest.svg'],
+    ['charcoal vest', 'charcoal-vest.svg'],
+    ['matte vest', 'charcoal-vest.svg'],
+    // Ties
+    ['burgundy tie', 'burgundy-tie.svg'],
+    ['burgundy textured tie', 'burgundy-tie.svg'],
+    ['navy tie', 'navy-tie.svg'],
+    ['navy/burgundy stripe tie', 'burgundy-tie.svg'],
+    ['navy/burgundy stripe', 'burgundy-tie.svg'],
+    // Black shirt fallback
+    ['black shirt', 'white-dress-shirt.svg'],
+  ];
+
+  // Build the piece list for one outfit:
+  // For each "slot" in the description, prefer the user's own item; fall back to a sample.
+  function outfitPieces(num, desc) {
+    const lower = desc.toLowerCase();
+    const taggedOwn = DATA.items.filter(i => (i.outfit_ids || []).includes(num) && i.tier === 'Keep');
+
+    const slots = []; // each: { keyword, sample, ownPriority }
+    const matchedKeywords = new Set();
+    for (const [kw, sample] of PIECE_KEYWORDS) {
+      if (lower.includes(kw) && !matchedKeywords.has(sample)) {
+        slots.push({ keyword: kw, sample });
+        matchedKeywords.add(sample);
+      }
+    }
+
+    // For each slot, try to find an own item that matches the keyword;
+    // otherwise use the sample.
+    const pieces = [];
+    const usedOwnIds = new Set();
+    for (const slot of slots) {
+      let own = null;
+      const kw = slot.keyword;
+      // Match heuristics: by item color + type, derived from the keyword
+      own = taggedOwn.find(i => {
+        if (usedOwnIds.has(i.id)) return false;
+        const h = (i.color + ' ' + (i.subtype||'') + ' ' + (i.detail||'') + ' ' + i.type).toLowerCase();
+        // crude keyword token match: requires the main color/word in keyword
+        return kw.split(' ').filter(w => w.length > 2).every(w => h.includes(w));
+      });
+      if (own) {
+        usedOwnIds.add(own.id);
+        pieces.push({ src: own.file, label: humanizeTitle(own), own: true, id: own.id });
+      } else {
+        pieces.push({ src: 'samples/' + slot.sample, label: kw, own: false, slotName: kw });
+      }
+    }
+
+    // Outfit-specific shoe handling — descriptions reference "On" or "loafer"
+    const hasOn = /\bon\b/.test(lower) || lower.includes('on shoes');
+    const hasLoafer = lower.includes('loafer');
+    const hasDressShoe = lower.includes('dress shoe') || lower.includes('black shoe');
+    if (hasLoafer) {
+      const brown = DATA.items.find(i => i.tier === 'Keep' && i.subtype === 'loafer' && i.color === 'brown');
+      if (brown && !usedOwnIds.has(brown.id)) {
+        pieces.push({ src: brown.file, label: humanizeTitle(brown), own: true, id: brown.id });
+        usedOwnIds.add(brown.id);
+      }
+    }
+    if (hasOn) {
+      // Pick the appropriate On color from desc
+      let onColor = 'black';
+      if (lower.includes('gray on')) onColor = 'gray';
+      else if (lower.includes('white on')) onColor = 'white';
+      const on = DATA.items.find(i =>
+        i.tier === 'Keep' && i.subtype === 'sneaker' &&
+        (i.brand || '').toLowerCase().includes('on') &&
+        i.color === onColor
+      );
+      if (on && !usedOwnIds.has(on.id)) {
+        pieces.push({ src: on.file, label: humanizeTitle(on), own: true, id: on.id });
+        usedOwnIds.add(on.id);
+      }
+    }
+    if (hasDressShoe) {
+      const dressShoe = DATA.items.find(i =>
+        i.tier === 'Keep' && i.type === 'shoes' &&
+        (i.subtype === 'dress-shoe' || (i.subtype === 'loafer' && i.color === 'black'))
+      );
+      if (dressShoe && !usedOwnIds.has(dressShoe.id)) {
+        pieces.push({ src: dressShoe.file, label: humanizeTitle(dressShoe), own: true, id: dressShoe.id });
+        usedOwnIds.add(dressShoe.id);
+      }
+    }
+    // Suit handling — use the suit jacket photo
+    if (lower.includes('suit')) {
+      const suit = DATA.items.find(i => i.tier === 'Keep' && i.type === 'suit');
+      if (suit && !usedOwnIds.has(suit.id)) {
+        pieces.push({ src: suit.file, label: humanizeTitle(suit), own: true, id: suit.id });
+        usedOwnIds.add(suit.id);
+      }
+    }
+
+    return pieces;
+  }
+  window.outfitPieces = outfitPieces;
+
   // ----- Outfits page -----
   window.setupOutfits = function () {
     window.onWardrobeReady = function () {
       const list = document.getElementById('outfit-list');
       list.innerHTML = DATA.outfits.map((desc, idx) => {
         const num = idx + 1;
-        // Find which items belong to this outfit
-        const matches = DATA.items.filter(i => (i.outfit_ids || []).includes(num) && i.tier === 'Keep');
-        const status = matches.length >= 2 ? 'ready' : (matches.length >= 1 ? 'partial' : 'missing');
+        const pieces = outfitPieces(num, desc);
+        const ownCount = pieces.filter(p => p.own).length;
+        const totalPieces = pieces.length;
+        const status = ownCount >= totalPieces - 1 && totalPieces >= 2 ? 'ready'
+                     : (ownCount >= 1 ? 'partial' : 'missing');
         const label = status === 'ready' ? 'BUILD' : (status === 'partial' ? 'PARTIAL' : 'MISSING');
+        const piecesHtml = pieces.length === 0 ? '' : `
+          <div class="outfit-pieces">
+            ${pieces.map(p => {
+              const buyHref = 'https://www.google.com/search?tbm=shop&gl=us&hl=en&q=' + encodeURIComponent('men ' + p.label);
+              const labelHtml = p.own
+                ? `<span class="piece-label">${p.label}</span>`
+                : `<a class="piece-label buy-link" href="${buyHref}" target="_blank" rel="noopener" title="Shop ${p.label} on Google (US)" onclick="event.stopPropagation();">${p.label}</a>`;
+              return `
+              <div class="outfit-piece ${p.own ? 'own' : 'sample'}" ${p.id ? `data-id="${p.id}"` : ''} title="${p.label}">
+                <img src="${p.src}" alt="${p.label}" loading="lazy" />
+                ${labelHtml}
+              </div>`;
+            }).join('')}
+          </div>`;
         return `<div class="outfit-row">
-          <div class="num">#${num}</div>
-          <div class="desc">${desc}</div>
-          <div class="status ${status}">${label}</div>
+          <div class="outfit-head">
+            <div class="num">#${num}</div>
+            <div class="desc">${desc}</div>
+            <div class="status ${status}">${label}</div>
+          </div>
+          ${piecesHtml}
         </div>`;
       }).join('');
+      list.querySelectorAll('.outfit-piece.own[data-id]').forEach(el => {
+        el.addEventListener('click', () => {
+          const item = DATA.items.find(it => it.id === el.dataset.id);
+          if (item) openItem(item);
+        });
+      });
     };
     load();
   };
@@ -934,13 +1205,14 @@
     return HINTS[slot] || '';
   }
 
-  // ----- Mobile nav: click to open submenus -----
+
+  // Mobile nav: click to open submenus
   document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.site-nav .nav-group .nav-label').forEach(label => {
+    document.querySelectorAll('.site-nav .nav-group .nav-label').forEach(function (label) {
       label.addEventListener('click', function (e) {
-        if (window.matchMedia('(max-width: 720px)').matches) {
+        if (window.matchMedia && window.matchMedia('(max-width: 720px)').matches) {
           e.preventDefault();
-          const group = label.parentElement;
+          var group = label.parentElement;
           group.classList.toggle('open');
         }
       });
