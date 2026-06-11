@@ -1,51 +1,71 @@
-Learning & Development @ Lupo.AI / Author @ Pluralsight (Gen AI, ML, Dev, Python, .NET, Data) / Revenue Booster / Biking Aficionado 🚴‍♂️
+# xaviermorera.com — Public Blog & Personal Brand
 
-**Note: This site is under RECONSTRUCTION. The previous Wordpress site died, and I am moving it to GitHub Pages**
+Your Jekyll-based GitHub Pages site at [xaviermorera.com](https://xaviermorera.com). This is your public voice, thought leadership platform, and distribution channel. 490+ posts spanning 2016–2026. It builds credibility for both Pluralsight course sales and Lupo.ai enterprise outreach — enterprise buyers Google you before they take a meeting.
 
-Hope you like it here. Let me share with you a few things I have on my mind.
+> **Your blog is a growth asset, not just a hobby. Before deciding what to write about, read your growth strategy:**
+> [`ikigai/README.md`](../ikigai/README.md) — it tells you exactly how content fits into your Lupo.ai and Pluralsight growth engines.
 
-## Building in Public: Lupo.ai 
-[Start Building in Public](/posts/build-in-public/01-start-building-in-public.md)
+---
 
-[How Did I Get Here?](/posts/build-in-public/02-how-did-i-get-here.md)
+## What to Do When You Open This Repo
 
-[Lupo.ai Listed in Microsoft AppSource ](/2024/lupo-ai-listed-microsoft-appsource.md)
+1. **Writing a new post?** → Draft in `_posts/posts-wip/` first. Never publish directly from scratch.
+2. **Publishing a Lupo update?** → Goes in `_posts/build-in-public/` — this is your acquisition narrative in public form.
+3. **Publishing AI/GenAI content?** → Goes in `_posts/` with the relevant year folder.
+4. **Repurposing a post for LinkedIn?** → Use LinkedIn Post Optimizer GPT on every post before sharing.
+5. **Working on the Pluralsight courses page?** → Edit `courses.md` — keep it current.
+6. **Updating your about page or Lupo summary?** → Edit `about.md` and `lupo.md`.
 
-## Posts
-[The Way of the Road Warrior](./posts/road-warrior.md)
+---
 
-[Failing at Entrepreneurship While You Are Young Is Great](2018\failing-at-entrepreneurship-while-you-are-young-is-great.md)
+## Your Weekly Publishing Cadence
 
-[Protect Your Meeting’s Productive Time](2018\protect-your-meetings-productive-time.md)
+| What | How Often | Where |
+|------|-----------|-------|
+| Lupo.ai build-in-public update | 1 per week | `_posts/build-in-public/` |
+| AI / Pluralsight thought leadership | 1 per week | `_posts/` + LinkedIn |
+| Batch writing session | Every Monday | `_posts/posts-wip/` |
 
-[Protect Your Productive Time](2018\protect-your-productive-time.md)
+**Rule:** Write 4 posts every Monday morning in WIP. Publish 1–2 during the week. The rest stay in the queue.
 
-[The Power of Experience and Maturity in Programming (and Life)](2018\the-power-of-experience-and-maturity-in-programming-and-life.md)
+---
 
-[Technical Debt and C# Best Practices](2022\12\23\c-best-practices-is-the-best-way-to-go.md)
+## Content Strategy
 
-[Implementing Search Article on MSDN](C:\github\xmorera\xmorera.github.io\2021\05\06\implementing-search-article-on-msdn.md)
+Your blog serves two audiences simultaneously:
 
-[T-SQL Tuesday #145: The Pandemic, Costa Rica, and Events](2021\12\16\t-sql-tuesday-145-the-pandemic-costa-rica-and-events.md)
+**For Lupo.ai enterprise buyers:** The build-in-public series documents your journey, demonstrates domain authority, and proves you ship. It is a long-form trust signal for prospects who look you up before agreeing to a demo.
 
-[Working with Large Files in GIT (LFS)](C:\github\xmorera\xmorera.github.io\2021\03\working-with-large-files-in-git-lfs.md)
+**For Pluralsight learners:** Your AI and development posts position you as a practitioner, not just a course creator. They drive traffic to your Pluralsight profile.
 
-[How Pluralsight Changed My Life Twice](2021\04\10\how-pluralsight-changed-my-life-twice.md)
+Both audiences are reading. Write accordingly.
 
-[Making a Billion Dollars](./posts/003-making-a-billion-dollars.md)
+---
 
-[Stock Market and Unemployment: Trump vs. Obama According to Artificial Intelligence](2020\10\23\stock-market-and-unemployment-trump-vs-obama-according-to-artificial-intelligence-machine-learning.md)
+## Folder Reference
 
-[The Art of Creating Applications That Have Search](2016\12\23\the-art-of-creating-applications-that-have-search.md)
+| Folder | What Goes Here |
+|--------|---------------|
+| `_posts/` | All published posts — organized by year (2016–2026) and topic |
+| `_posts/build-in-public/` | Lupo.ai journey updates — your public acquisition narrative |
+| `_posts/posts-wip/` | Draft staging area — all new posts start here |
+| `_posts/biking/` | Cycling content |
+| `_posts/lupo/` | Lupo.ai product and business posts |
+| `_layouts/` + `_includes/` | Jekyll templates — edit with care |
+| `templates/` | Post templates and reusable structures |
+| `writing/` | Writing guides and style notes |
+| `courses.md` | Master courses listing — keep updated |
+| `lupo.md` | Lupo.ai public summary page |
+| `about.md` | Your public profile |
 
-[The Day We Started to Outgrow Relational Databases](2016\10\10\the-day-we-started-to-outgrow-relational-databases.md)
+---
 
-[Life as a Roadwarrior](2024/life-as-a-roadwarrior.md)
+## Q2 2026 Commitments
 
-[The Power of Intention](2024/power-of-intention.md)
+1. Publish 12 build-in-public posts (1 per week)
+2. Publish 8 AI/Pluralsight thought leadership posts
+3. Keep `courses.md` current as new Pluralsight courses ship
 
-["You are Orders of Magnitude Cheaper than Synthesia"](./2024/cheaper-than-synthesia.md)
+---
 
-## Fit Fat Fit
-[Fit Fat Fit](/fitfatfit/index.MD)
-
+*Last updated: March 2026*
