@@ -292,7 +292,7 @@ The mileage was never the point. But it is the receipt.
   <li><b>September</b>Miami, FL.</li>
   <li><b>October</b>Buenos Aires, Argentina.</li>
   <li><b>November</b>Orlando, FL.</li>
-  <li><b>November</b>San José, Costa Rica. TH Colombia 2025.</li>
+  <li><b>November</b>Medellín, Colombia. TH Colombia 2025.</li>
 </ul>
 
 <h2>2026</h2>
