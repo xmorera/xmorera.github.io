@@ -1,0 +1,219 @@
+---
+layout: visionary
+permalink: /visionary/
+title: Xavier Morera
+tagline: Building the Future of Adult Education
+description: Twenty-four years teaching adults to do hard technical things. Now building the platform that turns what a company knows into what its people can actually do.
+---
+
+<div class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="label">Building the future of adult education</span>
+      <h1 class="display">The answer<br>should arrive<br><em class="serif-it">when the question does.</em></h1>
+      <p class="lede">That sentence is the whole thesis. Give people — inside companies, inside their actual work — the knowledge they need at the moment they need it, so they can hit their objectives and do their job. Everything I have built for twenty-four years has been walking toward it.</p>
+      <div class="hero-cta">
+        <a class="btn btn--light" href="#platform">The three pillars</a>
+        <a class="btn btn--brass" href="{{ '/visionary/courses/' | relative_url }}">The courses</a>
+      </div>
+    </div>
+    <figure class="portrait">
+      <img src="{{ '/media/xavier-morera-lupo-ai-pluralsight-big-data.jpg' | relative_url }}" alt="Portrait of Xavier Morera">
+      <figcaption>San José, Costa Rica</figcaption>
+    </figure>
+  </div>
+</div>
+
+<div class="strip" aria-hidden="true">
+  <div class="ticker">
+    <span>Founder, Lupo.ai</span><span>Pluralsight Author</span><span>Knowledge to Execution</span><span>Nearly half a million learners</span><span>Started teaching for Microsoft in 2005</span><span>Generative AI &amp; Agentic Systems</span>
+    <span>Founder, Lupo.ai</span><span>Pluralsight Author</span><span>Knowledge to Execution</span><span>Nearly half a million learners</span><span>Started teaching for Microsoft in 2005</span><span>Generative AI &amp; Agentic Systems</span>
+  </div>
+</div>
+
+<!-- THE PLATFORM -->
+<section id="platform">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="label">The Knowledge to Execution Platform</span>
+        <h2 class="display">Three pillars,<br>one problem</h2>
+      </div>
+      <p class="lede">Companies do not have a training problem. They have a knowledge transfer problem — everything they collectively know is trapped in documents nobody reads, videos nobody finishes, and the heads of the four people who are always in meetings. Lupo.ai attacks that in three moves.</p>
+    </div>
+    <div class="principles rv">
+      <article class="principle">
+        <span class="num">01</span>
+        <h3 class="display">Create</h3>
+        <p>The content factory. You ship a feature and you have a deck explaining it — before, turning that into a video took hours or days. Here it takes minutes. Record your screen with no studio, no lighting, no second take: out comes clean narration with the stutters gone, the accent evened out, and a German or Spanish version if you want one.</p>
+        <span class="tag">Weeks to minutes</span>
+      </article>
+      <article class="principle">
+        <span class="num">02</span>
+        <h3 class="display">Learn</h3>
+        <p>An LMS with AI agents all over it. Push what you made out to employees or customers, then see who actually watched, quiz them, and measure adoption. And when someone does not want to sit through ten minutes to find one answer, they just ask the agent — mid-video, in their own words — and get it.</p>
+        <span class="tag">Distribute, monitor, measure</span>
+      </article>
+      <article class="principle">
+        <span class="num">03</span>
+        <h3 class="display">Knowledge</h3>
+        <p>Throw everything in — documentation, processes, SOPs, the standards of behaviour nobody has read since onboarding. Someone asks a question, agents search across all of it and hand back the exact procedure to follow. Not a list of links. The steps.</p>
+        <span class="tag">The answer, not the search results</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PULL QUOTE -->
+<section class="quote">
+  <div class="wrap quote-grid rv">
+    <blockquote>
+      <q>I'm not a visionary. I'm just a guy who's been in the learning space for 24 years.</q>
+      <cite>— Xavier Morera, on a call in July 2026</cite>
+    </blockquote>
+    <div>
+      <p class="lede">Which is exactly the point. I did not arrive at the future of adult education through a whiteboard exercise. I got here teaching in Microsoft Technology Centers from Seoul to Stockholm, running Intel's Itanium Developer Forums and HP's developer events, authoring 64 courses on Pluralsight alone that have been watched by nearly half a million people — and spending seven years building a content pipeline for one selfish reason: if I could make courses faster, I could make more of them.</p>
+      <p class="lede" style="margin-top:20px">Then a consulting client asked to use it. That client was acquired by Accenture. Not many companies can say their first customer became the largest consultancy on earth — and that is when the tool stopped being my moat and started being the product.</p>
+    </div>
+  </div>
+</section>
+
+<!-- NUMBERS -->
+<section class="numbers">
+  <div class="wrap">
+    <div class="sec-head rv" style="margin-bottom:clamp(40px,4vw,60px)">
+      <div>
+        <span class="label" style="color:var(--sand)">The Record</span>
+        <h2 class="display">Two decades in<br>front of the room</h2>
+      </div>
+      <p class="lede" style="color:rgba(244,241,234,.6)">Not theory. A quarter century of standing in front of engineers who had a deadline on Monday and needed to genuinely understand something by Friday — and who could tell instantly whether you had ever done the thing yourself.</p>
+    </div>
+    <div class="num-grid rv">
+      <div class="stat"><b>24</b><span>Years in the learning space</span></div>
+      <div class="stat"><b>64</b><span>Courses on Pluralsight alone</span></div>
+      <div class="stat"><b>500K</b><span>Learners reached</span></div>
+      <div class="stat"><b>19</b><span>Countries taught in</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- IDEAS -->
+<section class="ideas" id="ideas">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="label">Ideas &amp; Essays</span>
+        <h2 class="display">Notes from<br>the frontier</h2>
+      </div>
+      <p class="lede">Written as I go — on where adult learning is heading, what agentic AI actually changes, and the parts of building this business that nobody puts in the keynote.</p>
+    </div>
+    <div class="idea-grid rv">
+      {%- assign feed = site.posts | where_exp: "p", "p.categories contains 'Posts'" -%}
+      {%- if feed.size == 0 -%}{%- assign feed = site.posts -%}{%- endif -%}
+      {%- for post in feed limit: 4 %}
+      <a class="idea" href="{{ post.url | relative_url }}">
+        <div class="chip">
+          <b>{{ post.date | date: "%b" }}</b>
+          <i>{{ post.date | date: "%d" }}</i>
+        </div>
+        <div>
+          <h3 class="display idea-title">{{ post.title | escape }}</h3>
+          <p>{{ post.excerpt | strip_html | strip_newlines | truncatewords: 26 }}</p>
+          <span class="txtlink">Read More →</span>
+        </div>
+      </a>
+      {%- endfor %}
+    </div>
+    <div style="margin-top:clamp(36px,4vw,54px)">
+      <a class="btn btn--dark" href="{{ '/' | relative_url }}">All writing</a>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="label">The Work</span>
+        <h2 class="display">Four ways<br>this shows up</h2>
+      </div>
+      <p class="lede">The same thesis expressed at four altitudes — from a platform an enterprise runs on, down to a single room I am standing in front of.</p>
+    </div>
+    <div class="work-grid rv">
+      <article class="card">
+        <span class="card-kicker">Platform</span>
+        <h3 class="display">Lupo.ai</h3>
+        <p>The knowledge to execution platform. Create, Learn and Knowledge in one system, built for enterprises that need what they know to reach the people doing the work.</p>
+        <a class="txtlink" href="{{ site.lupoai | default: 'https://lupo.ai/' }}">Explore →</a>
+      </article>
+      <article class="card">
+        <span class="card-kicker">Curriculum</span>
+        <h3 class="display">Course<br>Library</h3>
+        <p>Sixty-four courses on Pluralsight alone, across generative AI, machine learning, search, big data, Python and .NET — written for practitioners who need to ship, not to pass a quiz.</p>
+        <a class="txtlink" href="{{ '/visionary/courses/' | relative_url }}">Explore →</a>
+      </article>
+      <article class="card">
+        <span class="card-kicker">Advisory</span>
+        <h3 class="display">Enterprise<br>Enablement</h3>
+        <p>Working with L&amp;D and engineering leaders on how knowledge actually moves through an organisation — and on proving to a CFO that it moved.</p>
+        <a class="txtlink" href="{{ '/contact/' | relative_url }}">Explore →</a>
+      </article>
+      <article class="card">
+        <span class="card-kicker">Stage</span>
+        <h3 class="display">Speaking &amp;<br>Workshops</h3>
+        <p>Keynotes and working sessions on agentic AI, the economics of enterprise AI, and turning AI initiatives into measurable business impact.</p>
+        <a class="txtlink" href="{{ '/contact/' | relative_url }}">Explore →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- MISSION -->
+<section class="quote" style="background:var(--bone)">
+  <div class="wrap quote-grid rv">
+    <blockquote>
+      <q>Education is how people get ahead in life.</q>
+      <cite>— The reason any of this matters</cite>
+    </blockquote>
+    <div>
+      <p class="lede">If you can take what someone already knows how to do and let them teach it to others, they can build themselves out of poverty. That is not a marketing line bolted onto a software company — it is the reason the software exists.</p>
+      <p class="lede" style="margin-top:20px">It is also why the conversations I care most about right now are with universities and institutions working on micro-credentials, where the same platform that onboards a sales team could put a recognised, portable skill in the hands of someone with no other route to one.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ROAD WARRIOR -->
+<section class="rw" id="about">
+  <div class="rw-grid">
+    <div class="rw-media">
+      <img src="{{ '/pixs/xavi-think-retes.jpeg' | relative_url }}" alt="Xavier Morera in the Costa Rican highlands">
+    </div>
+    <div class="rw-body rv">
+      <span class="label">Signature Essay</span>
+      <h2 class="display">The way of the<br>road warrior</h2>
+      <p>It starts in New Orleans in April 2002 and it has not really stopped since. Nineteen Microsoft Technology Center engagements across fourteen cities and four continents. Intel's Itanium Developer Forums in New Jersey, Washington, San Diego and Houston. HP's Developer Forum in Toronto and their headquarters in Mexico City. Then Solr, Cloudera, Spark Summit, Strata, and a decade of Pluralsight.</p>
+      <p style="margin-top:18px">I kept the list. Every trip, every city, twenty-one years of it — because the mileage is not the point, but it is the receipt. This is what it actually takes to learn how adults learn.</p>
+      <div class="rw-meta">
+        <div><b>148</b><span>Trips logged</span></div>
+        <div><b>19</b><span>Countries</span></div>
+        <div><b>2002</b><span>New Orleans, the first one</span></div>
+      </div>
+      <div><a class="btn btn--brass" href="{{ '/posts/2023/10/01/road-warrior.html' | relative_url }}">Read the essay</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- SUBSCRIBE -->
+<section class="sub" id="subscribe">
+  <div class="wrap rv">
+    <span class="label" style="color:var(--sand)">Knowledge Unleashed</span>
+    <h2 class="display">One letter a week,<br>for people who teach</h2>
+    <p class="lede" style="color:rgba(244,241,234,.66)">What I am building, what is breaking, and what I am reading on adult learning and applied AI. No course launches disguised as insight.</p>
+    <form class="form" onsubmit="event.preventDefault();this.querySelector('input').value='';this.querySelector('input').placeholder='Thank you — check your inbox.'">
+      <input type="email" required placeholder="your@email.com" aria-label="Email address">
+      <button class="btn btn--brass" type="submit" style="background:none;cursor:pointer">Subscribe</button>
+    </form>
+    <small>Sample layout — form is not wired up</small>
+  </div>
+</section>

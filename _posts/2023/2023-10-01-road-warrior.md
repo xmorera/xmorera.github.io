@@ -2,307 +2,281 @@
 layout: post
 title:  "Road Warrior"
 date:   2023-10-01 00:00:00 -0600
-categories: ["Posts"] 
+categories: ["Posts"]
 ---
 
 # Road Warrior
 
-I've had a few opportunities in my life to travel. In here I will just try to list as many places as I can from what I can remember now. The life of the road warrior...
-
-April 2002 - ASP.NET Connections Convention in New Orleans, US
-
-December 2002 - SAFECO in Seattle, Seattle WA
-
-January 2003 - Spent over a month in Mexico City, Mexico. Visited the pyramids!
-
-June 2003 - Two conferences @ Miami &amp; Ft Lauderdale user groups in Florida.
-
-July 2003 - .Net Conference in San Juan, Puerto Rico
-
-July 2003 - Skydiving in Miami, Florida
-
-September 2003 - Baru Volcano in Panama
-
-September 2003 - Microsoft Conference in Guadalajara
-
-September 2003 - Microsoft Conference in Monterrey, Mexico
-
-September 2003 - Microsoft Conference @ Horse Track in Mexico City, Mexico
-
-December 2003 - VB.Net lab @ Building 20 in Microsoft, Redmond. Went snowboarding!
-
-January 2004 - Consulting in Texas
-
-February, March &amp; April 2004 - 3 months in Microsoft, Redmond
-
-July 2004 - MS Presentation in Boston
-
-August 2004 - 2 weeks in Microsoft
-
-September 2004 - MS Presentation in San Jose, California
-
-September 2004 - Weekend @ San Francisco
-
-October 2004 - HP Dev Forum @ Toronto, Canada. Niagara Falls too!
-
-December 2004 - Itanium Developer Forum in New Jersey
-
-December 2004 - Weekend@ New York with Chito!
-
-January 2005 - One month in Microsoft, Redmond.
-
-March 2005 - MTC in London, UK
-
-April 2005 - MTC in Palo Alto, California
-
-April 2005 - Building 20 @ Microsoft in Redmond
-
-April 2005 - MTC in Vedbaek (Kobenhavn), Denmark
-
-April 2005 - MTC in Barneveld, Holland. Also visited Amsterdam!
-
-May 2005 - MTC in Toronto, Canada
-
-May 2005 - MTC in Stockholm, Sweden
-
-May 2005 - MTC in Seoul, Korea
-
-May 2005 - Weekend @ Amsterdam
-
-May 2005 - MS Presentation in Milan, Italy
-
-May 2005 - Weekend in Venice, Italy with my great cousin Gracie!
-
-June 2005 - MTC in Chicago
-
-June 2005 - Vacation @ Spain. Visited: Madrid, Barcelona, Toledo, Sevilla, Granada, Cordoba &amp; Almunnecar
-
-June 2005 - MTC @ Embassy Golf Links Park in Bangalore, India
-
-July 2005 - Weekend in Madrid with Pat, Karlita &amp; Timo!
-
-July 2005 - Itanium Developer Forum in Washington DC
-
-August 2005 - Itanium Developer Forum in San Diego, California
-
-August 2005 - Weekend in San Diego with Scott
-
-September 2005 - Conference @ HP Headquarters in Mexico City, Mexico
-
-October 2005 - Itanium Developer Forum in Houston, Texas
-
-November 2005 - MTC in Mountain View, California
-
-November 2005 - ISA Event in San Jose, California
-
-December 2005, MTC in Sillicon Valley, California
-
-December 2005, MTC in Paris, France
-
-January 2006 - MTC in Sillicon Valley, California
-
-February 2006 - ISA Event @ Heinz-Nixdorf-MuseumsForum in Paderborn, Germany
-
-February 2006 - MTC @ Embassy Golf Links Park in Bangalore, India
-
-February 2006 - MTC @ Thames Valley Park in Reading, United Kingdom
-
-March 2006 - MTC @ Boston, MA
-
-April 2006 - MTC @ Thames Valley Park in Reading, United Kingdom
-
-April 2006 - Germany Microsoft Headquarters @ Munich, Germany
-
-May 2006 - MTC @ Sillicon Valley, California
-
-May 2006 - Work interview in Redmond, WA
-
-May 2006 - MTC @ Boston, MA
-
-May 2006 - Microsoft main campus @ Redmond, WA (the rest of the month)
-
-June 2006 - Microsoft main campus @ Redmond, WA (the rest of the month)
-
-July 2006 - Microosft main campus @ Redmond, WA (the rest of the month)
-
-August 2006 - Snowboarind in Chile. Party in Santiago &amp; Vinna del Mar.
-
-August 2006 - Seattle, WA (the rest of the month)
-
-September 2006 - Montpellier, FR (Meditarranean Coast from Cap d’Agade to Augnes Mortes)
-
-September 2006 - London, UK (Maria’s house!!!!)
-
-September 2006 - Seattle, WA. Getting ready to come back to Costa Rica. Surprise!
-
-April 2007 - Seattle, WA. Another visit to Microsoft
-
-April 2007 - Nashville Tennesse. Went with a couple of guys from MCS to Deloitte for a Vista training.
-
-October 2007 - Redmond, WA. More Microsoft. This time with Eric Herrera.
-
-January 2008 - Redmond WA. Stayed at Cali’s.
-
-April 2008 - Redmond, WA. Guess what? Microsoft! Stayed at Cali’s place.
-
-August 2008 - Redmond, WA. More Microsoft.
-
-January 2009 - Redmond, WA. More Microsoft. But this time with Irene! and a week vacation!
-
-March 2009 - San Diego, CA. Consulting with Search Tech on a SharePoint project.
-
-April 2009 - San Diego, CA. Additional work with Search Tech on the project.
-
-April 2009 - Seattle, WA. Couple of days off. Used an $850 ticket left from my previous job to go and buy me a nice tux for the wedding.
-
-July 2009 - Argentina on my honeymoon with my lovely wife Irene! Visited Buenos Aires, Villa La Angostura (near Bariloche) and Iguazu.
-
-August 2009 - San Diego, CA. More SharePoint project, v1.1 sprint planning.
-
-October 2009 - Las Vegas, NV. Presenter @ Microsoft SharePoint Conference 2009 - Search tracks
-
-November 2009 - Alexandria, VA. Meeting at CPA - Feature discussion and review
-
-December 2009 - Sandy beaches of the Caribbean with my wife.
-
-March 2010 - Alexandria, VA and Washington DC working and then with Irene
-
-April 2010 - New York City with Irene
-
-June 2010 - Reston, VA on a sprint planning session. Ended up in the hospital because I slipped in the hotel.
-
-September 2010 - Reston, VA for the kickoff
-
-October 2010 - Denver, Colorado meetings with Mark from DealerLogix
-
-January 2011 - Miami with Irene. On vacation &amp; getting everything for Juliana.
-
-March 2011 - CPA / Search Technologies sprint planning meeting in Reston and Alexandria, Virginia.
-
-September 2011 - Virginia, US. Search Technologies Kick off
-
-January 2012 - CPA / Search Technologies sprint planning meeting in Reston and Alexandria, Virginia.
-
-September 2012 - Virginia, US. Search Technologies Kick off
-
-January 2013 - London, UK. Meetings with CPA Global.
-
-June 2013 - Miami, Florida.
-
-July 2013 - London, UK. Meetings with CPA Global.
-
-September 2013 - Virginia, US. Search Technologies Kick off
-
-September 2013 - Miami, Florida. Search Technologies Annual Kick Off
-
-February 2014- Salt Lake City, Utah. Pluralsight's 2nd Author Summit at the Little America. And then snowmobiling in Daniel's Summit.
-
-September 2014 - San Jose, California. Presenter at the Atlassian Summit. Collaboration is more than Communication.
-
-September 2014 - Miami, Florida. Search Technologies Annual Kick Off, where I delivered my Solr for Dummies training.
-
-February 2015 - Salt Lake City, Utah. Pluralsight's 3rd Author Summit at the Grand America. And then snowmobiling in Daniel's Summit, via Park City.
-
-March to September 2015 - Apache Solr &amp; SolrNet engagement in Alpharetta, GA
-
-October 2015 - Alpharetta, GA. Solr engagement.
-
-November 2015 - Alpharetta, GA. Solr engagement.
-
-January 2016 - Alpharetta, GA. Solr engagement.
-
-April 2016 - Alpharetta, GA. Solr engagement.
-
-April 2019 - Orlando, Fl. Pluralsight Author Regional Summit.
-
-July 2016 - Alpharetta, GA. Solr engagement.
-
-August 2016 - Alpharetta, GA. Solr engagement.
-
-September 2016 - Alpharetta, GA. Solr engagement.
-
-November 2016 - Microsoft MVP Summit in Redmond
-
-November 2016 - Pluralsight Regional Summit in LA
-
-December 2016 - San Francisco
-
-January 2017 - San Diego @ Search Technologies
-
-January 2017 - LA
-
-Feburary 2017 - Alpharetta, GA. Solr engagement.
-
-March 2017 - Palo Alto, Services Enablement Partner Bootcamp @ Cloudera
-
-May 2017 - Alpharetta, GA. Solr engagement.
-
-June 2017 - Alpharetta, GA. Solr engagement.
-
-August 2017 - New York, Spark training @ Cloudera
-
-September 2017 - Salt Lake City, Pluralsight Author Summit and Pluralsight Live
-
-September 2017 - Westin Conchal - Training for Accenture / Search Technologies
-
-September 2017 - New York, Strata Hadoop
-
-October 2017 - Dublin, Spark Summit EU
-
-December 2017 - Miami and Orlando
-
-June 2018 - San Francisco, Spark + AI Summit
-
-August 2018 - Salt Lake, Pluralsight Author Summit
-
-September 2019 - San Francisco, Cloudera Search Beta
-
-September 2019 - WA/NY
-
-January 2019 - Orlando 
-
-February 2019 - Seattle, Cloudera Elevate
-
-May 2019 - London, Pluralsight Europe Author Summit
-
-July 2019 - Argentina and Chile, IX X
-
-August 2019 - Miami, Banking 
-
-August 2019 - Pluralsight Live and Author Summit
-
-September 2019 - Washington DC - Activate Lucidworks
-
-September 2019 - NY - Strata Data
-
-September 2019 - Atlanta 
-
-November 2019 - FLL
-
-February 2020 - Anaheim, Cloudera Elevate
-
-March and June 2020 - Covid Trips
-
-December 2021 - Miami
-
-June 2022 - San Franciso and Miami, Pluralsight Link and Banking
-
-June 2022 - Miami - Banking Trip
-
-June 2022 - San Francisco, AI Data Summit with Humberto
-
-July 2022 - Bocas del Toro IX - Riots at Panama
-
-December 2022 - Miami - With Pa
-
-April 2023 - New Orleans - Pluralsight Link 2023
-
-July 2023 - Orlando - JJJ Tournament
-
-September 2023 - Salt Lake City, Pluralsight ELT Meeting for Lupo.ai
-
-September 2023 - Salt Lake City, Pluralsight Author Summit
-
-October 2023 - Vegas (Sphere)
-
-I will continue to add more dates and places as I remember…
+In April 2002 I flew to New Orleans to speak at a .NET conference, and I have not really stopped getting on planes since.
+
+What follows is not a travel diary. It is a log — every trip I can remember across twenty-one years, kept because I am the kind of person who keeps things, and because somewhere along the way the list stopped being about the places and started being about the work.
+
+Most of it is teaching. Nineteen of these entries are **Microsoft Technology Centers** — the MTCs, where Microsoft flew in partners and customers to be shown how something actually worked, and where somebody had to stand at the front of the room and show them. Fourteen cities, four continents: London, Copenhagen, Barneveld, Stockholm, Seoul, Bangalore, Paris, Reading, Toronto, Chicago, Boston, Palo Alto, Mountain View, Silicon Valley. Four more are **Intel's** Itanium Developer Forums, in New Jersey, Washington, San Diego and Houston. Two are **HP's** — their developer forum in Toronto and their headquarters in Mexico City. After that it becomes Solr, Cloudera, Spark Summit, Strata, and a decade of Pluralsight summits in Salt Lake City.
+
+Here is the thing nobody tells you about teaching in a room where nobody knows you, in a country you landed in the night before: you cannot fake it. You have either done the thing you are teaching or you have not, and thirty engineers will work out which one inside of five minutes. Twenty-one years of that is where everything I believe about adult education comes from — and it is why I ended up building a platform to fix it.
+
+The mileage was never the point. But it is the receipt.
+
+<div class="rw-stats">
+  <div><b>148</b><span>Trips logged</span></div>
+  <div><b>19</b><span>Countries</span></div>
+  <div><b>21</b><span>Years</span></div>
+  <div><b>19</b><span>Microsoft Technology Centers</span></div>
+</div>
+
+<style>
+.rw-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin:38px 0 46px;
+  padding:28px 0;border-top:1px solid rgba(0,0,0,.15);border-bottom:1px solid rgba(0,0,0,.15)}
+.rw-stats div{text-align:left}
+.rw-stats b{display:block;font-size:38px;line-height:1;font-weight:600;letter-spacing:-.03em}
+.rw-stats span{display:block;margin-top:8px;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;opacity:.62;line-height:1.4}
+.rw-log h2{margin:42px 0 6px;font-size:15px;letter-spacing:.18em;text-transform:uppercase;
+  opacity:.55;border-bottom:1px solid rgba(0,0,0,.12);padding-bottom:8px}
+.rw-log ul{list-style:none;padding-left:0;margin:0}
+.rw-log li{padding:7px 0;border-bottom:1px solid rgba(0,0,0,.06);line-height:1.5}
+.rw-log li b{font-weight:600;margin-right:10px;white-space:nowrap}
+@media (max-width:640px){.rw-stats{grid-template-columns:repeat(2,1fr);gap:20px}
+  .rw-stats b{font-size:30px}}
+</style>
+
+<div class="rw-log">
+
+<h2>2002</h2>
+<ul>
+  <li><b>April</b>ASP.NET Connections Convention in New Orleans, US</li>
+  <li><b>December</b>SAFECO in Seattle, Seattle WA</li>
+</ul>
+
+<h2>2003</h2>
+<ul>
+  <li><b>January</b>Spent over a month in Mexico City, Mexico. Visited the pyramids!</li>
+  <li><b>June</b>Two conferences @ Miami & Ft Lauderdale user groups in Florida.</li>
+  <li><b>July</b>.Net Conference in San Juan, Puerto Rico</li>
+  <li><b>July</b>Skydiving in Miami, Florida</li>
+  <li><b>September</b>Baru Volcano in Panama</li>
+  <li><b>September</b>Microsoft Conference in Guadalajara</li>
+  <li><b>September</b>Microsoft Conference in Monterrey, Mexico</li>
+  <li><b>September</b>Microsoft Conference @ Horse Track in Mexico City, Mexico</li>
+  <li><b>December</b>VB.Net lab @ Building 20 in Microsoft, Redmond. Went snowboarding!</li>
+</ul>
+
+<h2>2004</h2>
+<ul>
+  <li><b>January</b>Consulting in Texas</li>
+  <li><b>February, March & April</b>3 months in Microsoft, Redmond</li>
+  <li><b>July</b>MS Presentation in Boston</li>
+  <li><b>August</b>2 weeks in Microsoft</li>
+  <li><b>September</b>MS Presentation in San Jose, California</li>
+  <li><b>September</b>Weekend @ San Francisco</li>
+  <li><b>October</b>HP Dev Forum @ Toronto, Canada. Niagara Falls too!</li>
+  <li><b>December</b>Intel Itanium Developer Forum in New Jersey</li>
+  <li><b>December</b>Weekend@ New York with Chito!</li>
+</ul>
+
+<h2>2005</h2>
+<ul>
+  <li><b>January</b>One month in Microsoft, Redmond.</li>
+  <li><b>March</b>MTC in London, UK</li>
+  <li><b>April</b>MTC in Palo Alto, California</li>
+  <li><b>April</b>Building 20 @ Microsoft in Redmond</li>
+  <li><b>April</b>MTC in Vedbaek (Kobenhavn), Denmark</li>
+  <li><b>April</b>MTC in Barneveld, Holland. Also visited Amsterdam!</li>
+  <li><b>May</b>MTC in Toronto, Canada</li>
+  <li><b>May</b>MTC in Stockholm, Sweden</li>
+  <li><b>May</b>MTC in Seoul, Korea</li>
+  <li><b>May</b>Weekend @ Amsterdam</li>
+  <li><b>May</b>MS Presentation in Milan, Italy</li>
+  <li><b>May</b>Weekend in Venice, Italy with my great cousin Gracie!</li>
+  <li><b>June</b>MTC in Chicago</li>
+  <li><b>June</b>Vacation @ Spain. Visited: Madrid, Barcelona, Toledo, Sevilla, Granada, Cordoba & Almunnecar</li>
+  <li><b>June</b>MTC @ Embassy Golf Links Park in Bangalore, India</li>
+  <li><b>July</b>Weekend in Madrid with Pat, Karlita & Timo!</li>
+  <li><b>July</b>Intel Itanium Developer Forum in Washington DC</li>
+  <li><b>August</b>Intel Itanium Developer Forum in San Diego, California</li>
+  <li><b>August</b>Weekend in San Diego with Scott</li>
+  <li><b>September</b>Conference @ HP Headquarters in Mexico City, Mexico</li>
+  <li><b>October</b>Intel Itanium Developer Forum in Houston, Texas</li>
+  <li><b>November</b>MTC in Mountain View, California</li>
+  <li><b>November</b>ISA Event in San Jose, California</li>
+  <li><b>December</b>MTC in Silicon Valley, California</li>
+  <li><b>December</b>MTC in Paris, France</li>
+</ul>
+
+<h2>2006</h2>
+<ul>
+  <li><b>January</b>MTC in Silicon Valley, California</li>
+  <li><b>February</b>ISA Event @ Heinz-Nixdorf-MuseumsForum in Paderborn, Germany</li>
+  <li><b>February</b>MTC @ Embassy Golf Links Park in Bangalore, India</li>
+  <li><b>February</b>MTC @ Thames Valley Park in Reading, United Kingdom</li>
+  <li><b>March</b>MTC @ Boston, MA</li>
+  <li><b>April</b>MTC @ Thames Valley Park in Reading, United Kingdom</li>
+  <li><b>April</b>Germany Microsoft Headquarters @ Munich, Germany</li>
+  <li><b>May</b>MTC @ Silicon Valley, California</li>
+  <li><b>May</b>Work interview in Redmond, WA</li>
+  <li><b>May</b>MTC @ Boston, MA</li>
+  <li><b>May</b>Microsoft main campus @ Redmond, WA (the rest of the month)</li>
+  <li><b>June</b>Microsoft main campus @ Redmond, WA (the rest of the month)</li>
+  <li><b>July</b>Microsoft main campus @ Redmond, WA (the rest of the month)</li>
+  <li><b>August</b>Snowboarind in Chile. Party in Santiago & Viña del Mar.</li>
+  <li><b>August</b>Seattle, WA (the rest of the month)</li>
+  <li><b>September</b>Montpellier, FR (Mediterranean Coast from Cap d’Agde to Aigues-Mortes)</li>
+  <li><b>September</b>London, UK (Maria’s house!!!!)</li>
+  <li><b>September</b>Seattle, WA. Getting ready to come back to Costa Rica. Surprise!</li>
+</ul>
+
+<h2>2007</h2>
+<ul>
+  <li><b>April</b>Seattle, WA. Another visit to Microsoft</li>
+  <li><b>April</b>Nashville Tennessee. Went with a couple of guys from MCS to Deloitte for a Vista training.</li>
+  <li><b>October</b>Redmond, WA. More Microsoft. This time with Eric Herrera.</li>
+</ul>
+
+<h2>2008</h2>
+<ul>
+  <li><b>January</b>Redmond WA. Stayed at Cali’s.</li>
+  <li><b>April</b>Redmond, WA. Guess what? Microsoft! Stayed at Cali’s place.</li>
+  <li><b>August</b>Redmond, WA. More Microsoft.</li>
+</ul>
+
+<h2>2009</h2>
+<ul>
+  <li><b>January</b>Redmond, WA. More Microsoft. But this time with Irene! and a week vacation!</li>
+  <li><b>March</b>San Diego, CA. Consulting with Search Tech on a SharePoint project.</li>
+  <li><b>April</b>San Diego, CA. Additional work with Search Tech on the project.</li>
+  <li><b>April</b>Seattle, WA. Couple of days off. Used an $850 ticket left from my previous job to go and buy me a nice tux for the wedding.</li>
+  <li><b>July</b>Argentina on my honeymoon with my lovely wife Irene! Visited Buenos Aires, Villa La Angostura (near Bariloche) and Iguazu.</li>
+  <li><b>August</b>San Diego, CA. More SharePoint project, v1.1 sprint planning.</li>
+  <li><b>October</b>Las Vegas, NV. Presenter @ Microsoft SharePoint Conference 2009 - Search tracks</li>
+  <li><b>November</b>Alexandria, VA. Meeting at CPA - Feature discussion and review</li>
+  <li><b>December</b>Sandy beaches of the Caribbean with my wife.</li>
+</ul>
+
+<h2>2010</h2>
+<ul>
+  <li><b>March</b>Alexandria, VA and Washington DC working and then with Irene</li>
+  <li><b>April</b>New York City with Irene</li>
+  <li><b>June</b>Reston, VA on a sprint planning session. Ended up in the hospital because I slipped in the hotel.</li>
+  <li><b>September</b>Reston, VA for the kickoff</li>
+  <li><b>October</b>Denver, Colorado meetings with Mark from DealerLogix</li>
+</ul>
+
+<h2>2011</h2>
+<ul>
+  <li><b>January</b>Miami with Irene. On vacation & getting everything for Juliana.</li>
+  <li><b>March</b>CPA / Search Technologies sprint planning meeting in Reston and Alexandria, Virginia.</li>
+  <li><b>September</b>Virginia, US. Search Technologies Kick off</li>
+</ul>
+
+<h2>2012</h2>
+<ul>
+  <li><b>January</b>CPA / Search Technologies sprint planning meeting in Reston and Alexandria, Virginia.</li>
+  <li><b>September</b>Virginia, US. Search Technologies Kick off</li>
+</ul>
+
+<h2>2013</h2>
+<ul>
+  <li><b>January</b>London, UK. Meetings with CPA Global.</li>
+  <li><b>June</b>Miami, Florida.</li>
+  <li><b>July</b>London, UK. Meetings with CPA Global.</li>
+  <li><b>September</b>Virginia, US. Search Technologies Kick off</li>
+  <li><b>September</b>Miami, Florida. Search Technologies Annual Kick Off</li>
+</ul>
+
+<h2>2014</h2>
+<ul>
+  <li><b>February</b>Salt Lake City, Utah. Pluralsight's 2nd Author Summit at the Little America. And then snowmobiling in Daniel's Summit.</li>
+  <li><b>September</b>San Jose, California. Presenter at the Atlassian Summit. Collaboration is more than Communication.</li>
+  <li><b>September</b>Miami, Florida. Search Technologies Annual Kick Off, where I delivered my Solr for Dummies training.</li>
+</ul>
+
+<h2>2015</h2>
+<ul>
+  <li><b>February</b>Salt Lake City, Utah. Pluralsight's 3rd Author Summit at the Grand America. And then snowmobiling in Daniel's Summit, via Park City.</li>
+  <li><b>March to September</b>Apache Solr & SolrNet engagement in Alpharetta, GA</li>
+  <li><b>October</b>Alpharetta, GA. Solr engagement.</li>
+  <li><b>November</b>Alpharetta, GA. Solr engagement.</li>
+</ul>
+
+<h2>2016</h2>
+<ul>
+  <li><b>January</b>Alpharetta, GA. Solr engagement.</li>
+  <li><b>April</b>Alpharetta, GA. Solr engagement.</li>
+  <li><b>July</b>Alpharetta, GA. Solr engagement.</li>
+  <li><b>August</b>Alpharetta, GA. Solr engagement.</li>
+  <li><b>September</b>Alpharetta, GA. Solr engagement.</li>
+  <li><b>November</b>Microsoft MVP Summit in Redmond</li>
+  <li><b>November</b>Pluralsight Regional Summit in LA</li>
+  <li><b>December</b>San Francisco</li>
+</ul>
+
+<h2>2017</h2>
+<ul>
+  <li><b>January</b>San Diego @ Search Technologies</li>
+  <li><b>January</b>LA</li>
+  <li><b>February</b>Alpharetta, GA. Solr engagement.</li>
+  <li><b>March</b>Palo Alto, Services Enablement Partner Bootcamp @ Cloudera</li>
+  <li><b>May</b>Alpharetta, GA. Solr engagement.</li>
+  <li><b>June</b>Alpharetta, GA. Solr engagement.</li>
+  <li><b>August</b>New York, Spark training @ Cloudera</li>
+  <li><b>September</b>Salt Lake City, Pluralsight Author Summit and Pluralsight Live</li>
+  <li><b>September</b>Westin Conchal - Training for Accenture / Search Technologies</li>
+  <li><b>September</b>New York, Strata Hadoop</li>
+  <li><b>October</b>Dublin, Spark Summit EU</li>
+  <li><b>December</b>Miami and Orlando</li>
+</ul>
+
+<h2>2018</h2>
+<ul>
+  <li><b>June</b>San Francisco, Spark + AI Summit</li>
+  <li><b>August</b>Salt Lake, Pluralsight Author Summit</li>
+</ul>
+
+<h2>2019</h2>
+<ul>
+  <li><b>January</b>Orlando</li>
+  <li><b>February</b>Seattle, Cloudera Elevate</li>
+  <li><b>April</b>Orlando, Fl. Pluralsight Author Regional Summit.</li>
+  <li><b>May</b>London, Pluralsight Europe Author Summit</li>
+  <li><b>July</b>Argentina and Chile, IX X</li>
+  <li><b>August</b>Miami, Banking</li>
+  <li><b>August</b>Pluralsight Live and Author Summit</li>
+  <li><b>September</b>San Francisco, Cloudera Search Beta</li>
+  <li><b>September</b>WA/NY</li>
+  <li><b>September</b>Washington DC - Activate Lucidworks</li>
+  <li><b>September</b>NY - Strata Data</li>
+  <li><b>September</b>Atlanta</li>
+  <li><b>November</b>FLL</li>
+</ul>
+
+<h2>2020</h2>
+<ul>
+  <li><b>February</b>Anaheim, Cloudera Elevate</li>
+  <li><b>March and June</b>Covid Trips</li>
+</ul>
+
+<h2>2021</h2>
+<ul>
+  <li><b>December</b>Miami</li>
+</ul>
+
+<h2>2022</h2>
+<ul>
+  <li><b>June</b>San Franciso and Miami, Pluralsight Link and Banking</li>
+  <li><b>June</b>Miami - Banking Trip</li>
+  <li><b>June</b>San Francisco, AI Data Summit with Humberto</li>
+  <li><b>July</b>Bocas del Toro IX - Riots at Panama</li>
+  <li><b>December</b>Miami - With Pa</li>
+</ul>
+
+<h2>2023</h2>
+<ul>
+  <li><b>April</b>New Orleans - Pluralsight Link 2023</li>
+  <li><b>July</b>Orlando - JJJ Tournament</li>
+  <li><b>September</b>Salt Lake City, Pluralsight ELT Meeting for Lupo.ai</li>
+  <li><b>September</b>Salt Lake City, Pluralsight Author Summit</li>
+  <li><b>October</b>Vegas (Sphere)</li>
+</ul>
+</div>
+
+*I will continue to add more dates and places as I remember them.*

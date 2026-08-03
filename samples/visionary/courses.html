@@ -1,0 +1,98 @@
+---
+layout: visionary
+permalink: /visionary/courses/
+title: Courses
+tagline: Xavier Morera on Pluralsight
+description: Sixty-four Pluralsight courses on generative AI, machine learning, search, big data, Python and .NET — what each one is actually about.
+---
+
+{%- assign all = site.data.pluralsight -%}
+{%- assign active = all | where_exp: "c", "c.retired != true" -%}
+{%- assign retired = all | where_exp: "c", "c.retired == true" -%}
+{%- assign topics = active | map: "topic" | uniq | sort -%}
+
+<div class="hero hero--slim">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="label">The Course Library</span>
+      <h1 class="display">Sixty-four courses,<br><em class="serif-it">one obsession.</em></h1>
+      <p class="lede">Everything below was built on the same conviction: an adult learning something hard does not need to be entertained, they need to be respected. Explain the why, show the real thing, and get out of the way. These have been watched by nearly half a million people — and this is the Pluralsight catalogue alone, which leaves out two decades of training built for Microsoft, Intel, HP, Cloudera and others.</p>
+      <div class="hero-cta">
+        <a class="btn btn--brass" href="{{ site.pluralsight_link }}">View on Pluralsight</a>
+        <a class="btn btn--light" href="{{ '/visionary/' | relative_url }}">Back to home</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip" aria-hidden="true">
+  <div class="ticker">
+    <span>{{ active.size }} Current Courses</span><span>{{ retired.size }} In the Archive</span><span>Generative AI</span><span>Machine Learning</span><span>Big Data &amp; Spark</span><span>Enterprise Search</span><span>Python</span><span>.NET &amp; C#</span>
+    <span>{{ active.size }} Current Courses</span><span>{{ retired.size }} In the Archive</span><span>Generative AI</span><span>Machine Learning</span><span>Big Data &amp; Spark</span><span>Enterprise Search</span><span>Python</span><span>.NET &amp; C#</span>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="label">Currently Published</span>
+        <h2 class="display">What each one<br>is about</h2>
+      </div>
+      <p class="lede">Sorted so the newest work sits first. Every course links straight through to Pluralsight — filter by the part of the stack you care about.</p>
+    </div>
+
+    <div class="filters" id="filters" role="group" aria-label="Filter courses by topic">
+      <button data-topic="all" aria-pressed="true">All ({{ active.size }})</button>
+      {%- for t in topics -%}
+        {%- assign n = active | where: "topic", t | size -%}
+        <button data-topic="{{ t }}" aria-pressed="false">{{ t }} ({{ n }})</button>
+      {%- endfor -%}
+    </div>
+
+    <div class="course-list">
+      {%- for c in active %}
+      <article class="course" data-topic="{{ c.topic }}">
+        <div>
+          <h3 class="display"><a href="{{ c.url }}">{{ c.title }}</a></h3>
+          <div class="course-meta">
+            <span class="topic">{{ c.topic }}</span>
+            <span>{{ c.level }}</span>
+            <span>{{ c.duration }}</span>
+          </div>
+        </div>
+        <p>{{ c.desc }}</p>
+      </article>
+      {%- endfor %}
+      <p class="empty" id="empty" style="display:none">No courses in that topic.</p>
+    </div>
+  </div>
+</section>
+
+<section class="archive">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="label" style="color:var(--sand)">The Archive</span>
+        <h2 class="display">{{ retired.size }} courses,<br>retired</h2>
+      </div>
+      <p class="lede">Technology moves and courses get retired — Hadoop clusters, Solr, DALL·E 3, prompt engineering for a model two generations back. I am leaving the list here because it is an honest map of where this industry has been since 2014, and because a few of them were the best work I had done at the time.</p>
+    </div>
+    <ul class="retired-list rv">
+      {%- for c in retired %}
+      <li><a href="{{ c.url }}">{{ c.title }}</a><em>{{ c.duration }}</em></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sub" id="subscribe">
+  <div class="wrap rv">
+    <span class="label" style="color:var(--sand)">What comes next</span>
+    <h2 class="display">The courses were<br>never the ceiling</h2>
+    <p class="lede" style="color:rgba(244,241,234,.66)">Sixty-four courses taught me exactly where video stops working on its own — which is the reason Lupo.ai exists. If that problem is yours too, start with the three pillars.</p>
+    <div style="margin-top:38px">
+      <a class="btn btn--brass" href="{{ '/visionary/#platform' | relative_url }}">See the platform</a>
+    </div>
+  </div>
+</section>
