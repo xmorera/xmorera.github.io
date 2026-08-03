@@ -9,18 +9,18 @@ categories: ["Posts"]
 
 In April 2002 I flew to New Orleans to speak at a .NET conference, and I have not really stopped getting on planes since.
 
-What follows is not a travel diary. It is a log — every trip I can remember across twenty-one years, kept because I am the kind of person who keeps things, and because somewhere along the way the list stopped being about the places and started being about the work.
+What follows is not a travel diary. It is a log — every trip I can remember across twenty-four years, kept because I am the kind of person who keeps things, and because somewhere along the way the list stopped being about the places and started being about the work.
 
 Most of it is teaching. Nineteen of these entries are **Microsoft Technology Centers** — the MTCs, where Microsoft flew in partners and customers to be shown how something actually worked, and where somebody had to stand at the front of the room and show them. Fourteen cities, four continents: London, Copenhagen, Barneveld, Stockholm, Seoul, Bangalore, Paris, Reading, Toronto, Chicago, Boston, Palo Alto, Mountain View, Silicon Valley. Four more are **Intel's** Itanium Developer Forums, in New Jersey, Washington, San Diego and Houston. Two are **HP's** — their developer forum in Toronto and their headquarters in Mexico City. After that it becomes Solr, Cloudera, Spark Summit, Strata, and a decade of Pluralsight summits in Salt Lake City.
 
-Here is the thing nobody tells you about teaching in a room where nobody knows you, in a country you landed in the night before: you cannot fake it. You have either done the thing you are teaching or you have not, and thirty engineers will work out which one inside of five minutes. Twenty-one years of that is where everything I believe about adult education comes from — and it is why I ended up building a platform to fix it.
+Here is the thing nobody tells you about teaching in a room where nobody knows you, in a country you landed in the night before: you cannot fake it. You have either done the thing you are teaching or you have not, and thirty engineers will work out which one inside of five minutes. Twenty-four years of that is where everything I believe about adult education comes from — and it is why I ended up building a platform to fix it.
 
 The mileage was never the point. But it is the receipt.
 
 <div class="rw-stats">
-  <div><b>148</b><span>Trips logged</span></div>
-  <div><b>19</b><span>Countries</span></div>
-  <div><b>21</b><span>Years</span></div>
+  <div><b>158</b><span>Trips logged</span></div>
+  <div><b>20</b><span>Countries</span></div>
+  <div><b>24</b><span>Years</span></div>
   <div><b>19</b><span>Microsoft Technology Centers</span></div>
 </div>
 
@@ -276,6 +276,28 @@ The mileage was never the point. But it is the receipt.
   <li><b>September</b>Salt Lake City, Pluralsight ELT Meeting for Lupo.ai</li>
   <li><b>September</b>Salt Lake City, Pluralsight Author Summit</li>
   <li><b>October</b>Vegas (Sphere)</li>
+</ul>
+
+<h2>2024</h2>
+<ul>
+  <li><b>May</b>Bogotá, Colombia. Alto Letras.</li>
+  <li><b>June</b>Quepos, Costa Rica. Gaia, Manuel Antonio.</li>
+  <li><b>October</b>Orlando, FL. Pluralsight Author Summit.</li>
+  <li><b>November</b>Miami, FL. MIA / Chicago trip.</li>
+</ul>
+
+<h2>2025</h2>
+<ul>
+  <li><b>March</b>San Francisco, CA. Pluralsight Connect 25: Silicon Valley.</li>
+  <li><b>September</b>Miami, FL.</li>
+  <li><b>October</b>Buenos Aires, Argentina.</li>
+  <li><b>November</b>Orlando, FL.</li>
+  <li><b>November</b>San José, Costa Rica. TH Colombia 2025.</li>
+</ul>
+
+<h2>2026</h2>
+<ul>
+  <li><b>March</b>New York, NY. EO Chapter Retreat.</li>
 </ul>
 </div>
 
