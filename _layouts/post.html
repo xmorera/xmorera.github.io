@@ -1,51 +1,44 @@
 ---
-layout: default
+layout: visionary
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+{%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
 
+<article class="h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-
-  {% comment %}
-  {%- include head.html -%}
-
-  <div class="banner-image">
-    <img src="media\banner.jpg" alt="Banner Image">
-  </div>
-  {% endcomment %}
-
-
-  
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.modified_date -%}
-        ~ 
-        {%- assign mdate = page.modified_date | date_to_xmlschema -%}
-        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
-          {{ mdate | date: date_format }}
+  <div class="doc-hero">
+    <div class="wrap">
+      {%- assign cat = page.categories | first -%}
+      {%- if cat %}<span class="label">{{ cat }}</span>{% endif -%}
+      <h1 class="display p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p class="doc-meta">
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: date_format }}
         </time>
-      {%- endif -%}
-      {%- if page.author -%}
-        • {% for author in page.author %}
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-            {%- if forloop.last == false %}, {% endif -%}
-        {% endfor %}
-      {%- endif -%}</p>
-  </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    
-    {{ content }}
+        {%- if page.modified_date %} — Updated
+          {%- assign mdate = page.modified_date | date_to_xmlschema %}
+          <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">{{ mdate | date: date_format }}</time>
+        {%- endif -%}
+      </p>
+    </div>
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+  <div class="prose-wrap">
+    <div class="prose e-content" itemprop="articleBody">
+      {{ content }}
+    </div>
+
+    <div class="doc-foot">
+      <div style="display:flex;gap:18px;flex-wrap:wrap;justify-content:space-between;align-items:center">
+        {%- if page.previous %}
+          <a class="txtlink" href="{{ page.previous.url | relative_url }}">← Older</a>
+        {%- else %}<span></span>{% endif -%}
+        <a class="txtlink" href="{{ '/writing/' | relative_url }}">All writing</a>
+        {%- if page.next %}
+          <a class="txtlink" href="{{ page.next.url | relative_url }}">Newer →</a>
+        {%- else %}<span></span>{% endif -%}
+      </div>
+    </div>
+  </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

@@ -45,7 +45,6 @@ plugins:
 header_pages:
   - about.md
   - contact.md
-  - courses.md
   - lupo.md
 
 # Exclude from processing.

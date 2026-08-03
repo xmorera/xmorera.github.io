@@ -1,0 +1,20 @@
+---
+layout: visionary
+---
+<article class="h-entry">
+
+  <div class="doc-hero">
+    <div class="wrap">
+      {%- if page.eyebrow %}<span class="label">{{ page.eyebrow }}</span>{% endif -%}
+      <h1 class="display p-name">{{ page.title | escape }}</h1>
+      {%- if page.tagline %}<p class="doc-meta">{{ page.tagline }}</p>{% endif -%}
+    </div>
+  </div>
+
+  <div class="prose-wrap">
+    <div class="prose e-content">
+      {{ content }}
+    </div>
+  </div>
+
+</article>

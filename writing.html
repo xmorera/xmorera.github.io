@@ -1,0 +1,36 @@
+---
+layout: visionary
+permalink: /writing/
+title: Writing
+tagline: Everything, by year
+description: Every essay and note — on adult learning, applied AI, business, health and the road.
+---
+
+{%- assign posts = site.posts -%}
+
+<div class="doc-hero">
+  <div class="wrap">
+    <span class="label">The Archive</span>
+    <h1 class="display">{{ posts.size }} pieces,<br>oldest habit I have</h1>
+    <p class="doc-meta">On adult learning, applied AI, business, health and the road</p>
+  </div>
+</div>
+
+<div class="prose-wrap">
+  <div class="wrap">
+    {%- assign by_year = posts | group_by_exp: "p", "p.date | date: '%Y'" -%}
+    {%- for year in by_year %}
+    <div class="year-block rv">
+      <h2>{{ year.name }} <span style="opacity:.6">— {{ year.items.size }}</span></h2>
+      <ul class="post-index">
+        {%- for post in year.items %}
+        <li>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time>
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
+    {%- endfor %}
+  </div>
+</div>

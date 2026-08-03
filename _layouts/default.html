@@ -1,20 +1,14 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: visionary
+---
+<div class="doc-hero">
+  <div class="wrap">
+    <h1 class="display">{{ page.title | default: "Xavier Morera" | escape }}</h1>
+  </div>
+</div>
 
-  {%- include head.html -%}
-
-  <body>
-
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
-
-  </body>
-
-</html>
+<div class="prose-wrap">
+  <div class="prose">
+    {{ content }}
+  </div>
+</div>

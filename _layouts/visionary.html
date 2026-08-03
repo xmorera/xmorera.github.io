@@ -226,6 +226,65 @@ footer{background:var(--ink);color:var(--bone);padding-block:clamp(56px,6vw,88px
 .foot-bottom p{margin:0;font-family:var(--label);text-transform:uppercase;font-size:10.5px;
   letter-spacing:.22em;color:rgba(244,241,234,.36)}
 
+/* ---- article + page bodies ---- */
+.doc-hero{background:var(--ink);color:var(--bone);padding-block:clamp(52px,6vw,86px) clamp(40px,5vw,64px);
+  position:relative;overflow:hidden}
+.doc-hero::after{content:"";position:absolute;inset:auto -14% -40% auto;width:44vw;height:44vw;
+  border-radius:50%;background:radial-gradient(circle,rgba(176,141,79,.12),transparent 62%);pointer-events:none}
+.doc-hero .wrap{position:relative;z-index:2;max-width:860px;margin-inline:auto}
+.doc-hero h1{font-size:clamp(30px,4.6vw,62px);margin:16px 0 0}
+.doc-meta{margin-top:22px;font-family:var(--label);text-transform:uppercase;font-size:10.5px;
+  letter-spacing:.22em;color:rgba(244,241,234,.5)}
+.doc-meta a{color:var(--brass);text-decoration:none}
+
+.prose-wrap{padding-block:clamp(46px,5vw,76px)}
+.prose{width:min(100% - 48px,720px);margin-inline:auto;font-size:18px;line-height:1.72}
+.prose > *:first-child{margin-top:0}
+.prose p{margin:0 0 1.35em}
+.prose h1,.prose h2,.prose h3,.prose h4{font-family:var(--display);font-weight:500;
+  letter-spacing:-.028em;line-height:1.1;margin:1.9em 0 .55em}
+.prose h1{font-size:clamp(28px,3.4vw,42px);text-transform:uppercase;letter-spacing:-.035em}
+.prose h2{font-size:clamp(24px,2.6vw,32px)}
+.prose h3{font-size:21px}
+.prose h4{font-size:18px;font-family:var(--label);text-transform:uppercase;letter-spacing:.18em}
+.prose a{color:var(--forest);text-decoration:none;background-image:linear-gradient(currentColor,currentColor);
+  background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s,color .25s}
+.prose a:hover{color:var(--brass)}
+.prose img{margin:2em auto;border:1px solid var(--rule)}
+.prose blockquote{margin:1.8em 0;padding:4px 0 4px 26px;border-left:2px solid var(--brass);
+  font-family:var(--display);font-style:italic;font-size:1.16em;line-height:1.35;color:var(--ink)}
+.prose blockquote p:last-child{margin-bottom:0}
+.prose ul,.prose ol{margin:0 0 1.35em;padding-left:1.25em}
+.prose li{margin-bottom:.5em}
+.prose hr{border:0;border-top:1px solid var(--rule);margin:2.6em 0}
+.prose code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.86em;
+  background:rgba(12,12,13,.06);padding:2px 6px;border-radius:2px}
+.prose pre{background:var(--ink);color:var(--bone);padding:22px 24px;overflow-x:auto;
+  font-size:14px;line-height:1.55;margin:1.8em 0}
+.prose pre code{background:none;padding:0;color:inherit;font-size:inherit}
+.prose table{width:100%;border-collapse:collapse;margin:1.8em 0;font-size:16px;display:block;overflow-x:auto}
+.prose th,.prose td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--rule)}
+.prose th{font-family:var(--label);text-transform:uppercase;font-size:11px;letter-spacing:.18em}
+.doc-foot{width:min(100% - 48px,720px);margin:clamp(44px,5vw,68px) auto 0;
+  padding-top:28px;border-top:1px solid var(--rule)}
+
+/* ---- writing index ---- */
+.year-block{margin-bottom:clamp(38px,4vw,58px)}
+.year-block > h2{font-family:var(--label);text-transform:uppercase;font-size:11.5px;
+  letter-spacing:.24em;color:var(--brass);margin:0 0 4px;padding-bottom:10px;
+  border-bottom:1px solid var(--rule)}
+.post-index{list-style:none;margin:0;padding:0}
+.post-index li{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:baseline;
+  padding:13px 0;border-bottom:1px solid var(--rule)}
+.post-index time{font-family:var(--label);text-transform:uppercase;font-size:10.5px;
+  letter-spacing:.18em;color:var(--muted)}
+.post-index a{text-decoration:none;font-size:17px;line-height:1.4;
+  background-image:linear-gradient(currentColor,currentColor);background-size:0 1px;
+  background-repeat:no-repeat;background-position:0 100%;transition:background-size .35s}
+.post-index a:hover{background-size:100% 1px}
+@media (max-width:640px){.post-index li{grid-template-columns:1fr;gap:4px}}
+
 .rv{opacity:0;transform:translateY(26px);
   transition:opacity .9s cubic-bezier(.2,.7,.3,1),transform .9s cubic-bezier(.2,.7,.3,1)}
 .rv.in{opacity:1;transform:none}
@@ -265,15 +324,15 @@ footer{background:var(--ink);color:var(--bone);padding-block:clamp(56px,6vw,88px
 
 <header>
   <div class="wrap nav">
-    <a class="mark" href="{{ '/visionary/' | relative_url }}">Xavier <span>Morera</span></a>
+    <a class="mark" href="{{ '/' | relative_url }}">Xavier <span>Morera</span></a>
     <button class="burger" id="burger" aria-expanded="false" aria-controls="menu">Menu</button>
     <ul class="menu" id="menu">
-      <li><a href="{{ '/visionary/#platform' | relative_url }}">The Platform</a></li>
-      <li><a href="{{ '/visionary/#ideas' | relative_url }}">Ideas</a></li>
-      <li><a href="{{ '/visionary/courses/' | relative_url }}">Courses</a></li>
+      <li><a href="{{ '/#platform' | relative_url }}">The Platform</a></li>
+      <li><a href="{{ '/writing/' | relative_url }}">Writing</a></li>
+      <li><a href="{{ '/courses/' | relative_url }}">Courses</a></li>
       <li><a href="{{ '/posts/2023/10/01/road-warrior.html' | relative_url }}" class="is-flag">Road Warrior</a></li>
-      <li><a href="{{ '/visionary/#about' | relative_url }}">About</a></li>
-      <li><a href="{{ '/visionary/#subscribe' | relative_url }}">Subscribe</a></li>
+      <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
     </ul>
   </div>
 </header>
@@ -284,16 +343,17 @@ footer{background:var(--ink);color:var(--bone);padding-block:clamp(56px,6vw,88px
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <a class="mark" href="{{ '/visionary/' | relative_url }}">Xavier <span>Morera</span></a>
+        <a class="mark" href="{{ '/' | relative_url }}">Xavier <span>Morera</span></a>
         <p class="foot-blurb">Building the future of adult education from San José, Costa Rica. Founder of Lupo.ai, Pluralsight author, and a fairly committed cyclist.</p>
       </div>
       <div>
         <h4>Navigate</h4>
         <ul>
-          <li><a href="{{ '/visionary/#platform' | relative_url }}">The Platform</a></li>
-          <li><a href="{{ '/visionary/#ideas' | relative_url }}">Ideas</a></li>
-          <li><a href="{{ '/visionary/courses/' | relative_url }}">Courses</a></li>
+          <li><a href="{{ '/#platform' | relative_url }}">The Platform</a></li>
+          <li><a href="{{ '/writing/' | relative_url }}">Writing</a></li>
+          <li><a href="{{ '/courses/' | relative_url }}">Courses</a></li>
           <li><a href="{{ '/posts/2023/10/01/road-warrior.html' | relative_url }}">Road Warrior</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
         </ul>
       </div>
       <div>
@@ -302,7 +362,7 @@ footer{background:var(--ink);color:var(--bone);padding-block:clamp(56px,6vw,88px
           <li><a href="{{ site.lupoai | default: 'https://lupo.ai/' }}">Lupo.ai</a></li>
           <li><a href="{{ site.pluralsight_link }}">Pluralsight</a></li>
           <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
-          <li><a href="{{ '/visionary/#subscribe' | relative_url }}">Newsletter</a></li>
+          <li><a href="{{ '/#subscribe' | relative_url }}">Newsletter</a></li>
         </ul>
       </div>
     </div>
