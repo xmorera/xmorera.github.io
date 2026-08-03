@@ -26,7 +26,7 @@ In Costa Rica, we have a saying for this: “hunger just met wanting to eat”.
 
 We have everything that they need and more. Coincidentally, his boss was going to be around the week after, so I invited them over to the office/recording studio.
 
-![](./images/ordersofmagnitude.jpeg)
+![](/images/posts/2024/ordersofmagnitude.jpeg)
 
 They came and I really enjoyed this visit. They are wonderful people!I walked them through the story of how I ended up creating Lupo.AI from my over 20 years in the learning and development space, of which around 12 have been creating video content for Pluralsight, Cloudera, Microsoft, and other companies.
 

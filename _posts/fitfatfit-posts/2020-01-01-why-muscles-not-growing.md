@@ -9,7 +9,7 @@ categories: [Fit Fat Fit]
 
 Ok, I won't cry about this but after losing 75 pounds **while gaining muscle**, I had surgery and now I am losing muscle which is *not* making me happy. 
 
-![losing muscle](../images/losing-muscle.png)
+![losing muscle](/fitfatfit/images/losing-muscle.png)
 
 I am still in the "I can't go to the gym because... surgery", but still. 
 

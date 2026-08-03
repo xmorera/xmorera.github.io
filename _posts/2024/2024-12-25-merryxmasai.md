@@ -7,7 +7,7 @@ categories: ["Posts"]
 # Merry Christmas 2024 and Best Wishes for 2025
 [This is the AI rewritten post for yesterday's one. Which one do you like best?](./2024-12-24-merry-xmas.md)
 
-![xavier thinking](./images/Xavier%20Retes%20Thinking.jpg)
+![xavier thinking](/images/posts/2024/xavier-retes-thinking.jpg)
 
 Looking back, 2024 has been nothing short of transformative. It’s been a year filled with my biggest challenges, a complete overhaul of mind and body, moments of pure joy, and times of deep struggle. From navigating the rollercoaster of launching a startup to building Generative AI courses for Pluralsight—all while managing our support center and a few other endeavors—this year has tested me like never before.
 

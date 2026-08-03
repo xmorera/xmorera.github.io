@@ -15,7 +15,7 @@ That's more than a bucket load of fat. In fact, there are small human beings (a.
 
 In fact, check out this before and after picture. The latter is how I looked like one week before having shoulder surgery.
 
-<img src="../pixs/at-beach.jpeg" width="300" alt="starting point after fat loss">
+<img src="/fitfatfit/pixs/at-beach.jpeg" width="300" alt="starting point after fat loss">
 
 I guess it is not that bad for a work in progress. But I had to stop going to the gym and since them I've lost a few kgs of hard muscle.
 
@@ -52,7 +52,7 @@ If you take into account my BMR, which is around 1600, add up the TEF + NEAT and
 
 Not too difficult, given that in my house protein is something we eat plenty.
 
-<img src="../pixs/comida.JPG" width="300" alt="balanced food">
+<img src="/fitfatfit/pixs/comida.JPG" width="300" alt="balanced food">
 
 - **Strength Training**: Progressive overload (gradually increasing weights or reps) during strength training encourages muscle growth or maintenance.
 

@@ -21,7 +21,7 @@ They had this awesome programming language that was used to specify the rules fo
 
 ArtInSoft created the migration assistant that was embedded in Visual Studio 1.0, and I was part of programming history by moving one codebase at a time and teaching developers one room at a time.
 
-![](./images/visualstudiopresentation.png)
+![](/images/posts/2024/visualstudiopresentation.png)
 
 Fast-forward many years and I've been involved in many more learning and development roles. One of my main roles is being an author for Pluralsight, where hundreds of thousands of learners have taken my courses. 
 
@@ -31,7 +31,7 @@ But today I am writing this post because it is the start of what I hope is a new
 
 Today is day 1 for our company being listed at @Microsoft AppSource. It may not be a big deal in general, as we are doing the same thing we were doing yesterday. It is not like we have opened the flood gates for new customers.
 
-![](./images/mlguruappsource.jpg)
+![](/images/posts/2024/mlguruappsource.jpg)
 
 But for us it represents a milestone, because we had to become an official Microsoft Partner company to be listed in AppSource. 
 

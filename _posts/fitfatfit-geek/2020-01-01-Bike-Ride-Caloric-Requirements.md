@@ -15,7 +15,7 @@ Sometimes I was riding feeling like a king (the slowest one and quite round at t
 
 Check out the pics below from Volcano, which were taken with about a 3 second difference.
 
-![](./images/cramping.png)
+![](/images/posts/fitfatfit-geek/cramping.png)
 
 But that is a story which I will cover some other day. If you want to learn more about my journey from obese to fit-ish in my middle age, I am writing a book where I tell you what I had to learn to go from 103 kgs to 68 kgs, and going from 6 km rides to comfortably riding 250 kms and more. Maybe what I learned can help you too.
 
@@ -37,7 +37,7 @@ I am going to use several different methodologies as a comparison point and will
 
 I asked ChatGPT and Copilot for information on which are the formulas that are commonly used to estimate calories burned. Here are the formulas ChatGPT suggested:
 
-![](./images/chatgptformulas.png)
+![](/images/posts/fitfatfit-geek/chatgptformulas.png)
 
 I'll just try a couple, compare with Strava and then use the one from the *Feed Zone Portables* book, which is what I want to focus on right now. Regarding the book, I am reading it to learn more about nutrition during rides and it has a formula that I want to test out.
 
@@ -51,7 +51,7 @@ I started to improve on my bike because I was the last person to always arrive. 
 
 Now that I can do nice rides, I have many challenges in my future planned. For example, I am starting to prepare to go border to border in Costa Rica, so I need to calculate my fueling needs accurate-enough as it will be around 610 kms: [https://www.strava.com/routes/3253028325114536632](https://www.strava.com/routes/3253028325114536632)
 
-![](./images/strava_costarica.png)
+![](/images/posts/fitfatfit-geek/strava_costarica.png)
 
 Now, let's get back to calculating and a bit of programming, for which I am going to use a particular ride to run create the functions, test the formulas and understand how it works.
 
@@ -59,7 +59,7 @@ Now, let's get back to calculating and a bit of programming, for which I am goin
 Ticaban, which is a plain in the northern part of Costa Rica where we did 3 rounds with a motivated peloton, which meant the speed was pretty constant. 
 https://www.strava.com/activities/11225188919.  
 
-![](./images/ticaban-11225188919.png)
+![](/images/posts/fitfatfit-geek/ticaban-11225188919.png)
 
 ## The Stats
 I have a powermeter and heart rate date, which means I have a decent amount of data to play with. Since it is pretty flat, it is a good point for calculations. How flat? An elevation gain of just 249 meters (817 feet) over 122 kms (76 miles).
@@ -208,7 +208,7 @@ So this formula is pretty decent for this particular ride, but what if I test it
 
 Let's try it out.
 
-![](./images/strava_letras.png)
+![](/images/posts/fitfatfit-geek/strava_letras.png)
 
 According to Strava I burned *4713* calories which is really close to the *4776* calories estimated using the formula above.
 
@@ -257,12 +257,12 @@ The formula is as follows:
 
 For men: 
 
-![](./images/keytelmen.png)
+![](/images/posts/fitfatfit-geek/keytelmen.png)
 ​
 
 For women: 
 
-![](./images/keytelwomen.png)
+![](/images/posts/fitfatfit-geek/keytelwomen.png)
  
 
 Where:
@@ -342,7 +342,7 @@ I used this online calculator to determine a rough estimate. It receives very li
 
 And as expected, this calculation is pretty off. It is way way way too high. 72% difference is not usable. Oh well, I was just testing.
 
-![](./images/calculatordotnet.png)
+![](/images/posts/fitfatfit-geek/calculatordotnet.png)
 
 Use this URL to get the calculation: [https://www.calculator.net/calories-burned-calculator.html?c2activity=b&c2speed=34.8&c2speedunit=kph&c2distance=121.83&c2distanceunit=k&c2weight=77&c2weightunit=k&ctype=2&x=Calculate#bydistance](https://www.calculator.net/calories-burned-calculator.html?c2activity=b&c2speed=34.8&c2speedunit=kph&c2distance=121.83&c2distanceunit=k&c2weight=77&c2weightunit=k&ctype=2&x=Calculate#bydistance)
 
@@ -370,14 +370,14 @@ My aim now is to learn how to cook, bake, saute or whatever is needed to create 
 
 So, here I am figuring out right now _how much do I need to prepare for each ride_, which is the other part. More is not that much of an issue, the problem is "not enough" as I will bonk. 
 
-![](./images/calculatingcaloriessetup.png)
+![](/images/posts/fitfatfit-geek/calculatingcaloriessetup.png)
 
 
 
 ### The Feed Zone Portable Formula
 The book has a table that tells me how many calories are burned per hour, give the power, speed and KJ. It uses certain correction factors.
 
-![](./images/calories_per_hour_burned_fzp.png)
+![](/images/posts/fitfatfit-geek/calories_per_hour_burned_fzp.png)
 
 I used a bit of help from both ChatGPT and Gemini and asked it to create a formula to make the calculations.  I wanted to test how they both could recognize values in a table and pair program with me.
 
@@ -511,7 +511,7 @@ The one variable that I do know  is efficiency, as mentioned above they vary fro
 
 However, there is a formula to calculate it:
 
-![](./images/efficiency.png)
+![](/images/posts/fitfatfit-geek/efficiency.png)
 
 I tested with several correction factors and found out that using two decimals, I get close enough with 1.92% difference.
 

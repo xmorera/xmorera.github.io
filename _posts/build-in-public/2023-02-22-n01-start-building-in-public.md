@@ -15,6 +15,6 @@ After years in this area, my company developed a platform for creation of video 
 
 This is where my journey of building in public begins with [Lupo.ai](http://Lupo.ai).
 
-![lupo](./images/lupo.jpg)
+![lupo](/images/posts/build-in-public/lupo.jpg)
 
 _Posted on 2023-11-02_

@@ -65,10 +65,13 @@ header{position:sticky;top:0;z-index:60;background:var(--ink);color:var(--bone);
 .menu a{font-family:var(--label);font-weight:400;text-transform:uppercase;font-size:11.5px;
   letter-spacing:.2em;text-decoration:none;opacity:.78;transition:.25s;position:relative;padding-block:4px}
 .menu a:hover{opacity:1;color:var(--sand)}
-.menu a.is-flag{color:var(--brass);opacity:1}
-.menu a.is-flag::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:1px;
-  background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .3s}
-.menu a.is-flag:hover::after{transform:scaleX(1)}
+/* featured item: a brass marker, not a selected state */
+.menu a.is-feature::before{content:"◆";color:var(--brass);font-size:6px;vertical-align:middle;
+  margin-right:8px;position:relative;top:-2px}
+/* current page */
+.menu a[aria-current="page"]{opacity:1;color:var(--bone)}
+.menu a[aria-current="page"]::after{content:"";position:absolute;left:0;right:0;bottom:-1px;
+  height:1px;background:var(--brass)}
 .burger{display:none;background:none;border:0;color:inherit;font-family:var(--label);
   text-transform:uppercase;letter-spacing:.2em;font-size:11.5px;cursor:pointer;padding:6px 0}
 
@@ -81,12 +84,14 @@ header{position:sticky;top:0;z-index:60;background:var(--ink);color:var(--bone);
 .hero h1{margin-block:22px 30px}
 .hero .lede{color:rgba(244,241,234,.66);max-width:52ch}
 .hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:40px}
-.portrait{position:relative;margin:0}
-.portrait img{width:100%;filter:grayscale(1) contrast(1.08);aspect-ratio:4/5;
-  object-fit:cover;object-position:50% 22%}
-.portrait::before{content:"";position:absolute;inset:14px -14px -14px 14px;border:1px solid var(--brass);z-index:-1}
+.portrait{margin:0}
+.portrait-frame{position:relative;display:block}
+.portrait-frame img{position:relative;z-index:1;width:100%;filter:grayscale(1) contrast(1.08);
+  aspect-ratio:4/5;object-fit:cover;object-position:50% 22%}
+.portrait-frame::before{content:"";position:absolute;z-index:0;
+  top:16px;right:-16px;bottom:-16px;left:16px;border:1px solid var(--brass)}
 .portrait figcaption{font-family:var(--label);text-transform:uppercase;font-size:10.5px;
-  letter-spacing:.22em;color:rgba(244,241,234,.44);margin-top:16px}
+  letter-spacing:.22em;color:rgba(244,241,234,.44);margin-top:30px}
 .hero--slim .hero-grid{grid-template-columns:1fr;align-items:start}
 .hero--slim .lede{max-width:64ch}
 
@@ -326,13 +331,15 @@ footer{background:var(--ink);color:var(--bone);padding-block:clamp(56px,6vw,88px
   <div class="wrap nav">
     <a class="mark" href="{{ '/' | relative_url }}">Xavier <span>Morera</span></a>
     <button class="burger" id="burger" aria-expanded="false" aria-controls="menu">Menu</button>
+    {%- assign u = page.url -%}
+    {%- assign rw = '/posts/2023/10/01/road-warrior.html' -%}
     <ul class="menu" id="menu">
       <li><a href="{{ '/#platform' | relative_url }}">The Platform</a></li>
-      <li><a href="{{ '/writing/' | relative_url }}">Writing</a></li>
-      <li><a href="{{ '/courses/' | relative_url }}">Courses</a></li>
-      <li><a href="{{ '/posts/2023/10/01/road-warrior.html' | relative_url }}" class="is-flag">Road Warrior</a></li>
-      <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-      <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      <li><a href="{{ '/writing/' | relative_url }}"{% if u == '/writing/' %} aria-current="page"{% endif %}>Writing</a></li>
+      <li><a href="{{ '/courses/' | relative_url }}"{% if u == '/courses/' %} aria-current="page"{% endif %}>Courses</a></li>
+      <li><a class="is-feature" href="{{ rw | relative_url }}"{% if u == rw %} aria-current="page"{% endif %}>Road Warrior</a></li>
+      <li><a href="{{ '/about/' | relative_url }}"{% if u == '/about/' %} aria-current="page"{% endif %}>About</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}"{% if u == '/contact/' %} aria-current="page"{% endif %}>Contact</a></li>
     </ul>
   </div>
 </header>
@@ -344,7 +351,7 @@ footer{background:var(--ink);color:var(--bone);padding-block:clamp(56px,6vw,88px
     <div class="foot-grid">
       <div>
         <a class="mark" href="{{ '/' | relative_url }}">Xavier <span>Morera</span></a>
-        <p class="foot-blurb">Building the future of adult education from San José, Costa Rica. Founder of Lupo.ai, Pluralsight author, and a fairly committed cyclist.</p>
+        <p class="foot-blurb">Building the future of adult education. Founder of Lupo.ai, Pluralsight author, and a fairly committed cyclist.</p>
       </div>
       <div>
         <h4>Navigate</h4>

@@ -12,7 +12,7 @@ If you don't know me, I am a software developer who is very passionate about tea
 
 Also, this year I went through a big mind and body transformation. I was a sedentary and obese knowledge worker with very bad habits. 
 
-![fit fat fit](../images/fitfatfit.png)
+![fit fat fit](/images/posts/fitfatfit.png)
 
 I was able to make a complete change and take control of my life by learning a few things, which I am now starting to share with the world with my book: "Unfatting Myself: Getting Fit in Your Middle Age".
 

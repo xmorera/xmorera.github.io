@@ -7,7 +7,7 @@ categories: ["Posts"]
 
 # Enterprise AI Just Took a Massive Leap Forward
 
-![ALT](/images/2025/06/enterprise-ai-just-took-a-massive-leap-forward.jpg)
+![ALT](/images/2025/enterprise-ai-just-took-a-massive-leap-forward.jpg)
 
 Enterprise AI Just Took a Massive Leap Forward
 Last week, we witnessed groundbreaking shifts in Enterprise AI—developments that could redefine how companies build, scale, and compete:

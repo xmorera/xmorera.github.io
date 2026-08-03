@@ -6,7 +6,7 @@ categories: ["Posts"]
 ---
 # Merry Christmas 2024 and Best Wishes for 2025
 
-![xavier thinking](./images/Xavier%20Retes%20Thinking.jpg)
+![xavier thinking](/images/posts/2024/xavier-retes-thinking.jpg)
 
 I can say without a doubt that 2024 has been by far and away the year I will never forget.
 
