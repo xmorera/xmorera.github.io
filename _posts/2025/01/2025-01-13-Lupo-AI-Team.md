@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  ""
+title:  "Lupo.ai – The Team Behind the Vision"
 date:   2025-01-14 00:00:00 -0600
 categories: ["Posts"] 
 

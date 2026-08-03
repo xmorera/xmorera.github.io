@@ -7,6 +7,37 @@ description: Every essay and note — on adult learning, applied AI, business, h
 ---
 
 {%- assign posts = site.posts -%}
+{%- assign by_year = posts | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" | reverse -%}
+
+<style>
+.wr-bar{position:sticky;top:0;z-index:40;background:var(--bone);
+  border-bottom:1px solid var(--rule);padding-block:16px;margin-bottom:8px}
+.wr-bar .wrap{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.wr-years{display:flex;gap:6px;flex-wrap:wrap;flex:1 1 auto;min-width:0}
+.wr-years button{font-family:var(--label);text-transform:uppercase;font-size:11px;
+  letter-spacing:.16em;padding:9px 13px;border:1px solid var(--rule);background:none;
+  color:var(--muted);cursor:pointer;transition:.2s;white-space:nowrap}
+.wr-years button:hover{border-color:var(--ink);color:var(--ink)}
+.wr-years button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bone)}
+.wr-years button small{opacity:.55;margin-left:6px;font-size:10px;letter-spacing:.1em}
+.wr-search{position:relative;flex:0 0 auto}
+.wr-search input{font-family:var(--body);font-size:15px;padding:10px 34px 10px 14px;
+  border:1px solid var(--rule);background:transparent;color:var(--ink);border-radius:0;width:250px}
+.wr-search input:focus{outline:none;border-color:var(--brass)}
+.wr-search kbd{position:absolute;right:10px;top:50%;transform:translateY(-50%);
+  font-family:var(--label);font-size:10px;letter-spacing:.1em;color:var(--muted);
+  border:1px solid var(--rule);padding:1px 5px;pointer-events:none}
+.wr-search input:focus + kbd{display:none}
+.wr-count{font-family:var(--label);text-transform:uppercase;font-size:10.5px;
+  letter-spacing:.2em;color:var(--muted);white-space:nowrap}
+.wr-empty{padding:70px 0;text-align:center;color:var(--muted);font-style:italic;display:none}
+.post-index mark{background:rgba(176,141,79,.28);color:inherit;padding:0 2px}
+@media (max-width:720px){
+  .wr-bar .wrap{gap:12px}
+  .wr-search{flex:1 1 100%}
+  .wr-search input{width:100%}
+}
+</style>
 
 <div class="doc-hero">
   <div class="wrap">
@@ -16,15 +47,30 @@ description: Every essay and note — on adult learning, applied AI, business, h
   </div>
 </div>
 
-<div class="prose-wrap">
+<div class="wr-bar">
   <div class="wrap">
-    {%- assign by_year = posts | group_by_exp: "p", "p.date | date: '%Y'" -%}
+    <div class="wr-years" id="wr-years" role="group" aria-label="Filter by year">
+      <button data-year="all" aria-pressed="true">All <small>{{ posts.size }}</small></button>
+      {%- for year in by_year %}
+      <button data-year="{{ year.name }}" aria-pressed="false">{{ year.name }} <small>{{ year.items.size }}</small></button>
+      {%- endfor %}
+    </div>
+    <div class="wr-search">
+      <input type="search" id="wr-q" placeholder="Search titles…" aria-label="Search post titles" autocomplete="off">
+      <kbd>/</kbd>
+    </div>
+    <span class="wr-count" id="wr-count"></span>
+  </div>
+</div>
+
+<div class="prose-wrap" style="padding-top:clamp(28px,3vw,44px)">
+  <div class="wrap">
     {%- for year in by_year %}
-    <div class="year-block rv">
+    <div class="year-block" data-year="{{ year.name }}">
       <h2>{{ year.name }} <span style="opacity:.6">— {{ year.items.size }}</span></h2>
       <ul class="post-index">
         {%- for post in year.items %}
-        <li>
+        <li data-title="{{ post.title | escape | downcase }}">
           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time>
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </li>
@@ -32,5 +78,69 @@ description: Every essay and note — on adult learning, applied AI, business, h
       </ul>
     </div>
     {%- endfor %}
+    <p class="wr-empty" id="wr-empty">Nothing matches that.</p>
   </div>
 </div>
+
+<script>
+(function () {
+  var years  = document.getElementById('wr-years'),
+      q      = document.getElementById('wr-q'),
+      count  = document.getElementById('wr-count'),
+      empty  = document.getElementById('wr-empty'),
+      blocks = [].slice.call(document.querySelectorAll('.year-block')),
+      items  = [].slice.call(document.querySelectorAll('.post-index li')),
+      total  = items.length,
+      year   = 'all';
+
+  function esc(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+
+  function highlight(a, term) {
+    var text = a.dataset.raw || (a.dataset.raw = a.textContent);
+    if (!term) { a.textContent = text; return; }
+    var re = new RegExp('(' + esc(term) + ')', 'ig');
+    a.innerHTML = text.replace(/[&<>]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c];
+    }).replace(re, '<mark>$1</mark>');
+  }
+
+  // cache each row's owning year once, so filtering stays cheap
+  items.forEach(function (li) { li._year = li.closest('.year-block').dataset.year; });
+
+  function apply() {
+    var term = q.value.trim().toLowerCase(), shown = 0, per = {};
+    items.forEach(function (li) {
+      var vis = (year === 'all' || li._year === year) &&
+                (!term || li.dataset.title.indexOf(term) !== -1);
+      li.style.display = vis ? '' : 'none';
+      if (vis) { shown++; per[li._year] = (per[li._year] || 0) + 1; highlight(li.querySelector('a'), term); }
+    });
+    blocks.forEach(function (b) { b.style.display = per[b.dataset.year] ? '' : 'none'; });
+    empty.style.display = shown ? 'none' : 'block';
+    count.textContent = shown === total ? total + ' posts' : shown + ' of ' + total;
+  }
+
+  years.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    year = b.dataset.year;
+    [].forEach.call(years.querySelectorAll('button'), function (x) {
+      x.setAttribute('aria-pressed', x === b);
+    });
+    history.replaceState(null, '', year === 'all' ? location.pathname : '#' + year);
+    apply();
+  });
+
+  q.addEventListener('input', apply);
+  q.addEventListener('keydown', function (e) { if (e.key === 'Escape') { q.value = ''; apply(); } });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === '/' && document.activeElement !== q) { e.preventDefault(); q.focus(); }
+  });
+
+  var hash = (location.hash || '').replace('#', '');
+  if (hash) {
+    var btn = years.querySelector('button[data-year="' + hash + '"]');
+    if (btn) btn.click();
+  }
+  apply();
+})();
+</script>
