@@ -2,7 +2,7 @@
 
 layout: post
 title:  "What is Computer Vision?"
-date:   2025-04-15 00:00:00 -0600
+date:   2026-02-18 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

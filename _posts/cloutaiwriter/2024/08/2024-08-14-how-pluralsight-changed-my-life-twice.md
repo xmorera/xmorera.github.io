@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How Pluralsight Changed My Life Twice 🚀"
-date:   2024-08-14 09:40:00 -0600
+date:   2024-06-03 09:40:00 -0600
 categories: Training
 ---
 

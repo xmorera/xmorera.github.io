@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Role of Learning in Society 🎓"
-date:   2024-06-18 09:40:00 -0600
+date:   2024-02-03 09:40:00 -0600
 categories: Training
 ---
 

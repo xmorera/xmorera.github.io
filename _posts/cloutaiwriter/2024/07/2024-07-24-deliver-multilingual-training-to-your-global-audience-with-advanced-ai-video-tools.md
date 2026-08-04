@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deliver Multilingual Training to Your Global Audience with Advanced AI Video Tools 🤖"
-date:   2024-07-24 09:40:00 -0600
+date:   2024-04-03 09:40:00 -0600
 categories: Training
 ---
 

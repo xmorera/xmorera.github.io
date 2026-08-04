@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "5 Trends Shaping the Next Generation of Digital Marketing 🚀"
-date:   2024-08-23 09:40:00 -0600
+date:   2024-07-10 09:40:00 -0600
 categories: Training
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lupo.ai According to Sequioa Capital's Business Plan Guide"
-date:   2025-01-02 00:00:00 -0600
+date:   2025-03-24 00:00:00 -0600
 categories: ["Posts"] 
 ---
 

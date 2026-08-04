@@ -2,7 +2,7 @@
 
 layout: post
 title:  "How AI is Revolutionizing Corporate Training"
-date:   2025-02-18 00:00:00 -0600
+date:   2025-08-06 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

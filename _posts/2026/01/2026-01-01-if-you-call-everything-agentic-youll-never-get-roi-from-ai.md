@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "If You Call Everything Agentic, You’ll Never Get ROI from AI"
-date: 2026-01-01
+date: 2026-07-18
 categories: ["Posts"]
 ---
 

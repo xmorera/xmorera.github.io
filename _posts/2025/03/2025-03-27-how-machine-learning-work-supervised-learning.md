@@ -2,7 +2,7 @@
 
 layout: post
 title:  "How does Machine Learning Work?"
-date:   2025-03-28 00:00:00 -0600
+date:   2025-12-15 00:00:00 -0600
 categories: ["Posts"] 
 
 ---
@@ -31,5 +31,5 @@ A system can learn in 4 different ways, depending on the data it has available t
 - Semi-supervised learning
 - Reinforcement learning
 
-Tomorrow I will tell you about the first type, supervised learning.
+In my next post I will tell you about the first type, supervised learning.
 

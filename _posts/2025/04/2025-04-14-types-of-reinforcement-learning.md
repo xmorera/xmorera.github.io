@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Types of Reinforcement Learning"
-date:   2025-04-14 00:00:00 -0600
+date:   2026-02-14 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How Video Training Can Solve Yesterday's Problems"
-date:   2024-11-21 00:00:00 -0600
+date:   2025-03-05 00:00:00 -0600
 categories: ["Posts"] 
 ---
 # How Video Training Can Solve Yesterday's Problems

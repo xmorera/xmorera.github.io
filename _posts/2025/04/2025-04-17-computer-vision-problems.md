@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Computer Vision Problems"
-date:   2025-04-17 00:00:00 -0600
+date:   2026-02-28 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

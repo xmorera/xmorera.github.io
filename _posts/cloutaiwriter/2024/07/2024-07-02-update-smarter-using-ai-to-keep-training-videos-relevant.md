@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Update Smarter: Using AI to Keep Training Videos Relevant 📹"
-date:   2024-07-02 00:09:49 -0600
+date:   2024-03-06 00:09:49 -0600
 categories: Training
 ---
 

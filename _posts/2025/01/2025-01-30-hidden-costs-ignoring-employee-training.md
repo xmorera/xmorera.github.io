@@ -2,7 +2,7 @@
 
 layout: post
 title:  "The Hidden Costs of Ignoring Employee Training"
-date:   2025-01-30 00:00:00 -0600
+date:   2025-06-11 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Most Companies Don’t Have a Training Problem — They Have a Knowledge Transfer Problem"
-date: 2025-11-01
+date: 2026-06-20
 categories: ["Posts"]
 ---
 

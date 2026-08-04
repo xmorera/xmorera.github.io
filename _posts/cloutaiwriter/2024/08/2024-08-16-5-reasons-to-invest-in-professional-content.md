@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "5 Reasons to Invest in Professional Content 👌"
-date:   2024-08-16 09:40:00 -0600
+date:   2024-06-12 09:40:00 -0600
 categories: Training
 ---
 

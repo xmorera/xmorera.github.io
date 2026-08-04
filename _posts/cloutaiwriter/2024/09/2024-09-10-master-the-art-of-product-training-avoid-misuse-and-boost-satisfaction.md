@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Master the Art of Product Training: Avoid Misuse and Boost Satisfaction 📚"
-date:   2024-09-10 09:40:00 -0600
+date:   2024-08-26 09:40:00 -0600
 categories: Training
 ---
 

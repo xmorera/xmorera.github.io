@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Turning Training into a Competitive Advantage: Closing"
-date:   2025-02-20 00:00:00 -0600
+date:   2025-08-25 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

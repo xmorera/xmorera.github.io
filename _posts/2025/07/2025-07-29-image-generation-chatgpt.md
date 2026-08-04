@@ -2,7 +2,7 @@
 
 layout: post
 title:  No Time? No Designer? AI’s Got You Covered and this Pluralsight Course
-date:   2025-07-29 00:00:00 -0600
+date:   2026-06-01 00:00:00 -0600
 categories: ["Posts"] 
 
 --- 

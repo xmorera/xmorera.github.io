@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Many Companies Think Better Learning Meant More Courses. That’s Not Really How It Works"
-date: 2026-01-01
+date: 2026-07-22
 categories: ["Posts"]
 ---
 

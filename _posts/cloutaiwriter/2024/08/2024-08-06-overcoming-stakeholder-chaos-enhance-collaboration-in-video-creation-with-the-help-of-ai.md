@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Overcoming Stakeholder Chaos: Enhance Collaboration in Video Creation With The Help of AI 🎥"
-date:   2024-08-06 09:40:00 -0600
+date:   2024-05-06 09:40:00 -0600
 categories: Training
 ---
 

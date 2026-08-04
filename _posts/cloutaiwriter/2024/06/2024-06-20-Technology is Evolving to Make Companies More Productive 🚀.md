@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Technology is Evolving to Make Companies More Productive 🚀"
-date:   2024-06-20 09:40:00 -0600
+date:   2024-02-07 09:40:00 -0600
 categories: Training
 ---
 

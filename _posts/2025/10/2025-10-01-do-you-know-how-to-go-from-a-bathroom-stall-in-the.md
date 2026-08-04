@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Do You Know How to Go From a Bathroom Stall in the Microsoft Campus to Platinum Status in American Airlines?"
-date: 2025-10-01
+date: 2026-06-15
 categories: ["Posts"]
 ---
 

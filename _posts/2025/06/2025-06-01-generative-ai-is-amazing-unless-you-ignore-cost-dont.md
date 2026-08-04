@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Generative AI is Amazing... Unless You Ignore Cost → Don’t"
-date: 2025-06-01
+date: 2026-04-20
 categories: ["Posts"]
 ---
 

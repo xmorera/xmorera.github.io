@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Can You Help Me on My New Pluralsight Bio? 🤵"
-date:   2024-08-07 09:40:00 -0600
+date:   2024-05-11 09:40:00 -0600
 categories: Training
 ---
 

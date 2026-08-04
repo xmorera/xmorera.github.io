@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Learning and Development to Drive Digital Transformation 🚀"
-date:   2024-10-25 09:40:00 -0600
+date:   2025-01-22 09:40:00 -0600
 categories: LupoAI
 ---
 

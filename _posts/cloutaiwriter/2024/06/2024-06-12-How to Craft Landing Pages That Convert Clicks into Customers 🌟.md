@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Craft Landing Pages That Convert Clicks into Customers 🌟"
-date:   2024-06-12 09:40:00 -0600
+date:   2024-01-20 09:40:00 -0600
 categories: Training
 ---
 

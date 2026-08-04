@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Company Purpose: Lupo.ai (Sequoia Capital Business Plan Guideline)"
-date:   2025-01-03 00:00:00 -0600
+date:   2025-03-29 00:00:00 -0600
 categories: ["Posts"] 
 ---
 

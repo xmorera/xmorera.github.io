@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Computer Vision in Real Life"
-date:   2025-04-16 00:00:00 -0600
+date:   2026-02-23 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

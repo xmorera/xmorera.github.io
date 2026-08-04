@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "📌 4 Proven Strategies for a Seamless and Efficient Onboarding Experience"
-date:   2024-08-20 09:40:00 -0600
+date:   2024-06-22 09:40:00 -0600
 categories: Training
 ---
 

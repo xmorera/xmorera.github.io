@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Traditional Programming vs. Machine Learning"
-date:   2025-03-27 00:00:00 -0600
+date:   2025-12-20 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

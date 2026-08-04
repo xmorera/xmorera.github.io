@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Authoring Tools and MLGuru.ai as the Start of Lupo.ai"
-date:   2025-02-24 00:00:00 -0600
+date:   2025-08-30 00:00:00 -0600
 categories: ["Posts"] 
 
 ---
@@ -37,5 +37,5 @@ Python and .NET entered the competition, and at the end we had a winner... and L
 
 We built the base of a content publishing system or CPS, as I call it. We created a platform for developing training in a standardized, collaborative, effective, and cost efficient way.
 
-It was not yet called Lupo though. The friendly name of the project was "Course Creator Service", but it started as MLGuru Inc which is what I am going to tell you about tomorrow.
+It was not yet called Lupo though. The friendly name of the project was "Course Creator Service", but it started as MLGuru Inc which is what I'll tell you about in my next post.
 

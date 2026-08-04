@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Use AI to Speed Up Training Development 🤖"
-date:   2024-10-01 09:40:00 -0600
+date:   2024-11-04 09:40:00 -0600
 categories: LupoAI
 ---
 

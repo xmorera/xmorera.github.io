@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Generative AI is the New Fire"
-date: 2026-01-01
+date: 2026-07-13
 categories: ["Posts"]
 ---
 

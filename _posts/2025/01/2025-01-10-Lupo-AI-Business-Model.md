@@ -3,7 +3,7 @@
 
 layout: post
 title:  "Lupo.ai – Our Business Model"
-date:   2025-01-05 00:00:00 -0600
+date:   2025-04-07 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

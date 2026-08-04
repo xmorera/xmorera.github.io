@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Say Goodbye to Chaos: Centralize Your Training Content for Good  👍"
-date:   2024-07-19 09:40:00 -0600
+date:   2024-03-25 09:40:00 -0600
 categories: Training
 ---
 

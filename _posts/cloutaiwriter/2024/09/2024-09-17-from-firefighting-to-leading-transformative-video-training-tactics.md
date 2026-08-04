@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "From Firefighting to Leading: Transformative Video Training Tactics 📹"
-date:   2024-09-17 09:40:00 -0600
+date:   2024-09-18 09:40:00 -0600
 categories: Training
 ---
 

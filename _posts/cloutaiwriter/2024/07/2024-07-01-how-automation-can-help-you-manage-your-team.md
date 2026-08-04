@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How Automation Can Help You Manage Your Team 🤖"
-date:   2024-07-01 09:40:00 -0600
+date:   2024-03-02 09:40:00 -0600
 categories: Training
 ---
 

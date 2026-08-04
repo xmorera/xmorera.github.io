@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Yes It Is The Same Shirt and The Fit Fat Fit Book 🏋️‍♂️"
-date:   2024-07-31 09:40:00 -0600
+date:   2024-04-17 09:40:00 -0600
 categories: Training
 ---
 

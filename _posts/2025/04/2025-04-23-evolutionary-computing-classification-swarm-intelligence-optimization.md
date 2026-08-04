@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Evolutionary Computing Classification - Swarm Intelligence Optimization"
-date:   2025-04-23 00:00:00 -0600
+date:   2026-03-18 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

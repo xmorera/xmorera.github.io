@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Right Videos for Each Stage of the Buyer Funnel 🎥✨"
-date:   2024-08-09 09:40:00 -0600
+date:   2024-05-20 09:40:00 -0600
 categories: Training
 ---
 

@@ -2,7 +2,7 @@
 
 layout: post
 title:  "What is Reinforcement Learning? 📖"
-date:   2025-04-02 00:00:00 -0600
+date:   2026-01-07 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

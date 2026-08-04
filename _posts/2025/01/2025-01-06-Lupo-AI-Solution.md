@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Lupo.ai – Our Solution 👌"
-date:   2025-01-06 00:00:00 -0600
+date:   2025-04-26 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

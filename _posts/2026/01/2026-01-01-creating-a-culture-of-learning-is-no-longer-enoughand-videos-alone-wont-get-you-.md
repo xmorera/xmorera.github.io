@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating a Culture of Learning is No Longer Enough—And Videos Alone Won’t Get You There"
-date: 2026-01-01
+date: 2026-06-29
 categories: ["Posts"]
 ---
 

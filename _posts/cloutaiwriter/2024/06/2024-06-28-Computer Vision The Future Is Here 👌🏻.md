@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Computer Vision: The Future Is Here 👌🏻"
-date:   2024-06-28 09:40:00 -0600
+date:   2024-02-26 09:40:00 -0600
 categories: Training
 ---
 

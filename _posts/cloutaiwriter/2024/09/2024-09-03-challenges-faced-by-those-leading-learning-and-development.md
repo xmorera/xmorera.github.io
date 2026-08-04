@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Challenges Faced by Those Leading Learning and Development 🔥"
-date:   2024-09-03 09:40:00 -0600
+date:   2024-08-03 09:40:00 -0600
 categories: Training
 ---
 

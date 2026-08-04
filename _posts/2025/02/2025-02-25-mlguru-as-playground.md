@@ -2,14 +2,14 @@
 
 layout: post
 title:  "MLGuru.ai as AI Playground"
-date:   2025-02-25 00:00:00 -0600
+date:   2025-09-03 00:00:00 -0600
 categories: ["Posts"] 
 
 ---
 
 # MLGuru.ai as AI Playground
 
-Yesterday I started telling you the story of how almost 20 years of experience creating training along with a bunch of tools used for automating parts of my video training creation for Pluralsight and Cloudera, eventually became Lupo. 
+In my previous post, I started telling you the story of how almost 20 years of experience creating training along with a bunch of tools used for automating parts of my video training creation for Pluralsight and Cloudera, eventually became Lupo. 
 
 But what I didn't tell you is where www.mlguru.ai fits into the picture. Here's the story.
 

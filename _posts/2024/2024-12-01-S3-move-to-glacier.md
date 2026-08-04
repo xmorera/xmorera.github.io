@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Moving Stuff in S3 Buckets to Glacier"
-date:   2024-12-01 00:00:00 -0600
+date:   2025-03-10 00:00:00 -0600
 categories: ["Posts"] 
 ---
 # Moving Stuff in S3 Buckets to Glacier

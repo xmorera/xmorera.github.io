@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Deep Learning in real life"
-date:   2025-04-08 00:00:00 -0600
+date:   2026-01-26 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

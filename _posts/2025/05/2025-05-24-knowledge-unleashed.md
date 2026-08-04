@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Knowledge Unleashed: Democratizing Knowledge Transfer with AI"
-date:   2025-05-23 00:00:00 -0600
+date:   2026-04-01 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

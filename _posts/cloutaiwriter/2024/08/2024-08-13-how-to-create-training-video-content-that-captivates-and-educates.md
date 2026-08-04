@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Create Training Video Content That Captivates and Educates 📢"
-date:   2024-08-13 09:40:00 -0600
+date:   2024-05-29 09:40:00 -0600
 categories: Training
 ---
 

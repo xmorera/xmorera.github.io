@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Secret to Creating Training Videos Faster Than Ever 👨🏻‍💻"
-date:   2024-06-27 09:40:00 -0600
+date:   2024-02-21 09:40:00 -0600
 categories: Training
 ---
 

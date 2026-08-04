@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Building a Scalable and Sustainable Training Program"
-date:   2025-02-07 00:00:00 -0600
+date:   2025-07-09 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "🚀 3 Principles for Scaling Content With AI Without Sacrificing Quality"
-date:   2024-06-10 09:40:00 -0600
+date:   2024-01-15 09:40:00 -0600
 categories: Training
 ---
 

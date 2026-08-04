@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "4 Ways Brands Can Educate Customers and Win Hearts 📢"
-date:   2024-06-05 10:40:00 -0600
+date:   2024-01-10 10:40:00 -0600
 categories: Training
 ---
 

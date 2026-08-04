@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Leveraging Training to Scale Your Business Globally"
-date:   2025-02-19 00:00:00 -0600
+date:   2025-08-11 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What Type of Developer Are You? 👨🏻‍💻"
-date:   2024-06-26 09:40:00 -0600
+date:   2024-02-17 09:40:00 -0600
 categories: Training
 ---
 

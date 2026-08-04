@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Why Converting PowerPoint to Video Training is the Way To Go"
-date:   2025-03-04 00:00:00 -0600
+date:   2025-09-22 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

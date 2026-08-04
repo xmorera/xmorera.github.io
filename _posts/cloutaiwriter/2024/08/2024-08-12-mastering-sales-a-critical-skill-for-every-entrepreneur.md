@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  " Mastering Sales: A Critical Skill for Every Entrepreneur 🗣"
-date:   2024-08-12 10:00:00 -0600
+date:   2024-05-25 10:00:00 -0600
 categories: Training
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Implementing AI: Overcoming Challenges, Building a Future-Ready Team 🏹"
-date:   2024-07-03 09:40:00 -0600
+date:   2024-03-11 09:40:00 -0600
 categories: Training
 ---
 

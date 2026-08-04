@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ensure Brand Consistency in Training Videos with These Pro Tips 👌"
-date:   2024-08-22 09:40:00 -0600
+date:   2024-07-06 09:40:00 -0600
 categories: Training
 ---
 

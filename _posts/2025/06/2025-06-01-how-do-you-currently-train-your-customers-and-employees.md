@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Do You Currently Train Your Customers and Employees?"
-date: 2025-06-01
+date: 2026-04-25
 categories: ["Posts"]
 ---
 

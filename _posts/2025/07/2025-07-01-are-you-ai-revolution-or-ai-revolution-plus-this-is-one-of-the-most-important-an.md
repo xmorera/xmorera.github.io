@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Are You AI Revolution or AI Revolution Plus?"
-date: 2025-07-01
+date: 2026-05-18
 categories: ["Posts"]
 ---
 

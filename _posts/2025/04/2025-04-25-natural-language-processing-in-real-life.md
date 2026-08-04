@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Natural Language Processing in Real Life"
-date:   2025-04-25 00:00:00 -0600
+date:   2026-03-28 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Lupo.ai – Wrap Up of the Sequoia Capital Business Plan Series"
-date:   2025-01-16 00:00:00 -0600
+date:   2025-05-14 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Your Training Videos Suck and How to Fix Them 🎯"
-date:   2024-08-29 09:40:00 -0600
+date:   2024-07-29 09:40:00 -0600
 categories: Training
 ---
 

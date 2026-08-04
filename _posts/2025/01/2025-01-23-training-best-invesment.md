@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Why Training is the Best Investment Your Business Can Make"
-date:   2025-01-23 00:00:00 -0600
+date:   2025-05-24 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

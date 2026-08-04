@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Everyone is Racing to Build AI Agents. Many are Actually Shipping Fragile Demos"
-date: 2026-01-01
+date: 2026-07-04
 categories: ["Posts"]
 ---
 

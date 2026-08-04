@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Slash Your Training Video Production Costs Without Sacrificing Quality 💥"
-date:   2024-08-01 09:40:00 -0600
+date:   2024-04-22 09:40:00 -0600
 categories: Training
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Importance of Upskilling in the Age of Automation 🤖"
-date:   2024-09-06 09:40:00 -0600
+date:   2024-08-17 09:40:00 -0600
 categories: Training
 ---
 

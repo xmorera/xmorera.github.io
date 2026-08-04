@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Classifications of Expert Systems"
-date: 2025-06-01
+date: 2026-04-11
 categories: ["Posts"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Stop Starting from Scratch: Create Videos At Scale With AI 📢"
-date:   2024-09-05 09:40:00 -0600
+date:   2024-08-12 09:40:00 -0600
 categories: Training
 ---
 

@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Upskilling and Reskilling: Future-Proofing Your Workforce "
-date:   2025-01-29 00:00:00 -0600
+date:   2025-06-07 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

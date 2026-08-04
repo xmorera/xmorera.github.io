@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Expert Systems in Real Life"
-date: 2025-06-01
+date: 2026-04-15
 categories: ["Posts"]
 ---
 

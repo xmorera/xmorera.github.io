@@ -2,7 +2,7 @@
 
 layout: post
 title:  "The Fascinating History of AI: Exploring Episode 0 of Towards AI"
-date:   2025-01-21 00:00:00 -0600
+date:   2025-05-19 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

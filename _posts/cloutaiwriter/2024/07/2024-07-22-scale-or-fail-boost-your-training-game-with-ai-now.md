@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scale or Fail: Boost Your Training Game with AI Now ✨"
-date:   2024-07-22 09:40:00 -0600
+date:   2024-03-30 09:40:00 -0600
 categories: Training
 ---
 

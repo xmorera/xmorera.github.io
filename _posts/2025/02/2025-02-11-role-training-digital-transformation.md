@@ -2,7 +2,7 @@
 
 layout: post
 title:  "The Role of Training in Driving Digital Transformation"
-date:   2025-02-11 00:00:00 -0600
+date:   2025-07-19 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why Do I Do What I Do? 💡"
-date:   2024-08-21 09:40:00 -0600
+date:   2024-07-01 09:40:00 -0600
 categories: Training
 ---
 

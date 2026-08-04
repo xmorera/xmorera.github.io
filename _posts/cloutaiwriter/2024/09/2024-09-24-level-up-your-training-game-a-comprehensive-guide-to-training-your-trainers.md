@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Level Up Your Training Game: A Comprehensive Guide to Training Your Trainers 🧑‍🏫"
-date:   2024-09-24 09:40:00 -0600
+date:   2024-10-12 09:40:00 -0600
 categories: Training
 ---
 

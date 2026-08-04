@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Unshakable: Anger Management for You: How to Control Anger, Master Emotions, and Stay Calm in Chaos"
-date:   2025-07-03 00:00:00 -0600
+date:   2026-05-23 00:00:00 -0600
 categories: ["Posts"]
 
 ---

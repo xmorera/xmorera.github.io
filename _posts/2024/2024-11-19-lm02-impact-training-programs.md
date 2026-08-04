@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "The Impact of Training Programs"
-date:   2024-11-19 00:00:00 -0600
+date:   2025-02-24 00:00:00 -0600
 categories: ["Posts"] 
 ---
 
 # The Impact of Training Programs
 
-Yesterday I wrote a post called [Unlocking Business Success: The Power of Training]() telling you why we are living through interesting but tough times, mainly because of the golden trifecta (computing + data + AI) which was augmented by Gen AI.
+In my previous post, I wrote about [Unlocking Business Success: The Power of Training]() telling you why we are living through interesting but tough times, mainly because of the golden trifecta (computing + data + AI) which was augmented by Gen AI.
 
 If you don't want to read my previous post or don't have time to do so, all you need to know is that **training** is one of the keys to thriving in this new era.
 

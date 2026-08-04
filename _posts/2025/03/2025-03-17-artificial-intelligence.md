@@ -2,7 +2,7 @@
 
 layout: post
 title:  "How does Artificial Intelligence Work?"
-date:   2025-03-17 00:00:00 -0600
+date:   2025-11-12 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

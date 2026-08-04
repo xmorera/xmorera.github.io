@@ -5,7 +5,7 @@ date:   2024-12-24 00:00:00 -0600
 categories: ["Posts"] 
 ---
 # Merry Christmas 2024 and Best Wishes for 2025
-[This is the AI rewritten post for yesterday's one. Which one do you like best?](./2024-12-24-merry-xmas.md)
+[This is the AI rewritten post for the previous one. Which one do you like best?](./2024-12-24-merry-xmas.md)
 
 ![xavier thinking](/images/posts/2024/xavier-retes-thinking.jpg)
 

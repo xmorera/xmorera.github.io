@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Time is the New Currency: Boost Productivity in Meetings 💥"
-date:   2024-08-21 12:13:00 -0600
+date:   2024-06-26 12:13:00 -0600
 categories: Training
 ---
 

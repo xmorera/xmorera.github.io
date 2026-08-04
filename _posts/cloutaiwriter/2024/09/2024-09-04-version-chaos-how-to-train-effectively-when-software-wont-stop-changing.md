@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Version Chaos: How to Train Effectively When Software Won’t Stop Changing 💥"
-date:   2024-09-04 09:40:00 -0600
+date:   2024-08-07 09:40:00 -0600
 categories: Training
 ---
 

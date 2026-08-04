@@ -2,7 +2,7 @@
 
 layout: post
 title:  "How Bad Do You Want It? Health and Business Success Version"
-date:   2025-02-28 00:00:00 -0600
+date:   2025-09-17 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

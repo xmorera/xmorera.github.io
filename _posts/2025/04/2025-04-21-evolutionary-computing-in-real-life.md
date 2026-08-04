@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Evolutionary Computing in Real Life"
-date:   2025-04-21 00:00:00 -0600
+date:   2026-03-09 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

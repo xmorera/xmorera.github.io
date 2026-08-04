@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Importance of Learning Culture in a Team 📚"
-date:   2024-06-21 09:40:00 -0600
+date:   2024-02-12 09:40:00 -0600
 categories: Training
 ---
 

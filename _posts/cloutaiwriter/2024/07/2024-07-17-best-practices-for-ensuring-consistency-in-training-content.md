@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Best Practices for Ensuring Consistency in Training Content 📈"
-date:   2024-07-17 09:40:00 -0600
+date:   2024-03-20 09:40:00 -0600
 categories: Training
 ---
 

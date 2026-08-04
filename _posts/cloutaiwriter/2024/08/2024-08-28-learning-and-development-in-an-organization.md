@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learning and Development in an Organization 🚀"
-date:   2024-08-28 09:40:00 -0600
+date:   2024-07-24 09:40:00 -0600
 categories: Training
 ---
 

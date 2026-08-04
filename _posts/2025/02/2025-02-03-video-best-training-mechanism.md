@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Why Video is the Best Format for Training Today"
-date:   2025-02-03 00:00:00 -0600
+date:   2025-06-21 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Top Study Habits for Effective Learning"
-date:   2025-03-09 00:00:00 -0600
+date:   2025-10-11 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

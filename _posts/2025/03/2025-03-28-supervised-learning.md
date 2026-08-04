@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Supervised Learning"
-date:   2025-03-25 00:00:00 -0600
+date:   2025-12-24 00:00:00 -0600
 categories: ["Posts"] 
 
 ---
@@ -24,4 +24,4 @@ Some of the most popular problems solved with Supervised Learning are Regression
 
 Supervised learning is a powerful tool for solving many real-world problems, such as image classification, spam filtering, and predictive maintenance. The key to success with supervised learning is having a large and diverse dataset to train the algorithm on, as well as carefully designing the algorithm itself to make the best predictions possible.
 
-Tomorrow I'll tell you about the next type of learning.
+In my next post I'll tell you about the next type of learning.

@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Measuring the Impact of Your Training Program"
-date:   2025-02-13 00:00:00 -0600
+date:   2025-07-28 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

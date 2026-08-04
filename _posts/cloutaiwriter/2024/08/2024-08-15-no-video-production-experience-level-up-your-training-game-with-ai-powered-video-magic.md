@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "No Video Production Experience? Level Up Your Training Game with AI-Powered Video Magic 💥"
-date:   2024-08-15 09:40:00 -0600
+date:   2024-06-08 09:40:00 -0600
 categories: Training
 ---
 

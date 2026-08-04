@@ -2,7 +2,7 @@
 
 layout: post
 title:  "What is Natural Language Processing?"
-date:   2025-04-24 00:00:00 -0600
+date:   2026-03-23 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Training Matters for Customer Satisfaction: Pay Attention To Forbes, Not Me 🎯"
-date:   2024-08-05 09:39:00 -0600
+date:   2024-05-01 09:39:00 -0600
 categories: Training
 ---
 

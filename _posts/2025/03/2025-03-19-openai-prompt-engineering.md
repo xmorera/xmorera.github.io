@@ -2,7 +2,7 @@
 
 layout: post
 title:  "OpenAI: Prompt Engineering (The Best Skill You Can Have)"
-date:   2025-03-20 00:00:00 -0600
+date:   2025-11-22 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

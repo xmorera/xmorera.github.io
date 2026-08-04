@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "As I Was Working Out and Watching Inside Bill’s Brain on Netflix, I Found Myself Thinking About What Comes After Health"
-date: 2025-09-01
+date: 2026-06-10
 categories: ["Posts"]
 ---
 

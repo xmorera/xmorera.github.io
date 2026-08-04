@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Get Ahead of 99% of People (Homrmozi's Teachings)"
-date:   2024-11-17 00:00:00 -0600
+date:   2025-02-15 00:00:00 -0600
 categories: ["Posts"] 
 ---
 

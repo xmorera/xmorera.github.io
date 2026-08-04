@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Self-Attention and Reasoning"
-date:   2026-01-29 00:00:00 -0600
+date:   2026-07-27 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

@@ -2,7 +2,7 @@
 
 layout: post
 title:  "What is Evolutionary Computing?"
-date:   2025-04-18 00:00:00 -0600
+date:   2026-03-04 00:00:00 -0600
 categories: ["Posts"] 
 
 ---

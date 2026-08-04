@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AI Took My Job (To The Next Level): HAAI 💥"
-date:   2024-08-19 09:54:00 -0600
+date:   2024-06-17 09:54:00 -0600
 categories: Training
 ---
 

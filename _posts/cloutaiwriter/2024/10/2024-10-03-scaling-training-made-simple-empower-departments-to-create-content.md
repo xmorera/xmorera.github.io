@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scaling Training Made Simple: Empower Departments to Create Content 🚀"
-date:   2024-10-03 09:40:00 -0600
+date:   2024-11-13 09:40:00 -0600
 categories: LupoAI
 ---
 

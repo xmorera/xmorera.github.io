@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Everyone Wants More Video Content This Year"
-date: 2026-01-01
+date: 2026-07-08
 categories: ["Posts"]
 ---
 
