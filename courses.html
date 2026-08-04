@@ -18,7 +18,7 @@ description: Sixty-four Pluralsight courses on generative AI, machine learning, 
       <h1 class="display">Sixty-four courses,<br><em class="serif-it">one obsession.</em></h1>
       <p class="lede">Everything below was built on the same conviction: an adult learning something hard does not need to be entertained, they need to be respected. Explain the why, show the real thing, and get out of the way. These have been watched by nearly half a million people — and this is the Pluralsight catalogue alone, which leaves out two decades of training built for Microsoft, Intel, HP, Cloudera and others.</p>
       <div class="hero-cta">
-        <a class="btn btn--brass" href="{{ site.pluralsight_link }}">View on Pluralsight</a>
+        <a class="btn btn--brass" href="{{ site.pluralsight_link }}" target="_blank" rel="noopener">View on Pluralsight</a>
         <a class="btn btn--light" href="{{ '/' | relative_url }}">Back to home</a>
       </div>
     </div>
@@ -54,7 +54,7 @@ description: Sixty-four Pluralsight courses on generative AI, machine learning, 
       {%- for c in active %}
       <article class="course" data-topic="{{ c.topic }}">
         <div>
-          <h3 class="display"><a href="{{ c.url }}">{{ c.title }}</a></h3>
+          <h3 class="display"><a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.title }}</a></h3>
           <div class="course-meta">
             <span class="topic">{{ c.topic }}</span>
             <span>{{ c.level }}</span>
@@ -80,7 +80,7 @@ description: Sixty-four Pluralsight courses on generative AI, machine learning, 
     </div>
     <ul class="retired-list rv">
       {%- for c in retired %}
-      <li><a href="{{ c.url }}">{{ c.title }}</a><em>{{ c.duration }}</em></li>
+      <li><a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.title }}</a><em>{{ c.duration }}</em></li>
       {%- endfor %}
     </ul>
   </div>

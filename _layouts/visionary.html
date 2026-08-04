@@ -42,6 +42,7 @@ h2.display{font-size:clamp(32px,4.6vw,64px)}
 h3.display{font-size:clamp(21px,2.1vw,29px);line-height:1.02;letter-spacing:-.028em}
 .lede{font-size:clamp(18px,1.5vw,21px);line-height:1.6;color:var(--muted);max-width:62ch}
 .serif-it{font-family:var(--display);font-style:italic;text-transform:none;letter-spacing:-.02em}
+.plain-link{color:inherit;text-decoration:none;font-weight:700}
 .hero-sub{font-family:var(--display);font-style:italic;font-weight:400;text-transform:none;
   font-size:clamp(20px,2.1vw,27px);line-height:1.4;letter-spacing:-.015em;
   color:var(--sand);max-width:46ch;margin:22px 0 26px}
@@ -411,9 +412,9 @@ footer{background:var(--ink);color:var(--bone);padding-block:clamp(56px,6vw,88px
       <div>
         <h4>Elsewhere</h4>
         <ul>
-          <li><a href="{{ site.lupoai | default: 'https://lupo.ai/' }}">Lupo.ai</a></li>
-          <li><a href="{{ site.pluralsight_link }}">Pluralsight</a></li>
-          <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
+          <li><a href="{{ site.lupoai | default: 'https://lupo.ai/' }}" target="_blank" rel="noopener">Lupo.ai</a></li>
+          <li><a href="{{ site.pluralsight_link }}" target="_blank" rel="noopener">Pluralsight</a></li>
+          <li><a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a></li>
           <li><a href="{{ '/#subscribe' | relative_url }}">Newsletter</a></li>
         </ul>
       </div>

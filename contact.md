@@ -8,7 +8,7 @@ permalink: /contact/
 
 I love a meaningful conversation as well as helping companies implement and deploy their training strategies, especially if done on video.
 
-Contact me at xavier at lupo dot ai or if you want, feel free to [book a meeting with me](https://calendly.com/lupoai).
+Contact me at xavier at lupo dot ai or if you want, feel free to [book a meeting with me](https://calendly.com/lupoai){:target="_blank" rel="noopener"}.
 
 ![xavier](/media/xavier-morera-lupo-ai-pluralsight-big-data.jpg)
 

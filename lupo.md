@@ -73,5 +73,5 @@ Explore how your organization can unlock training as a competitive advantage:
 
 - Start a free AI training video or book a demo
 - Contact: [help@lupo.ai](mailto:help@lupo.ai)
-- Book time: [https://calendly.com/lupoai](https://calendly.com/lupoai)
+- Book time: [https://calendly.com/lupoai](https://calendly.com/lupoai){:target="_blank" rel="noopener"}
 - Phone: +1 404 940 5306
