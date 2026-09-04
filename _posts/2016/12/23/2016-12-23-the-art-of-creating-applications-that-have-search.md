@@ -11,7 +11,7 @@ In my Pluralsight trainings, Getting Started with Enterprise Search using Apache
 
 It is so much the case that in Twitter Pluralsight selected this phrase to tweet about the release of my course as you can see here:
 
-searchiseverywhere
+![Pluralsight tweet: Search is Everywhere!](/images/posts/2016/12/23/searchiseverywhere.png)
 
 But now let’s get to the sample. Here’s the scenario:
 
@@ -23,7 +23,7 @@ It may work or maybe not mainly because of a really bad user experience, but let
 
 You get to the app in https://www.automercado.co.cr/aam/showMain.do and they have mainly 4 sections as you can see here
 
-auto
+![Automercado homepage with the four sections annotated: search area, directory by aisle, products, and cart](/images/posts/2016/12/23/auto.png)
 
 And here is what they are for:
 – On the left they have a directory style organized by aisle. Grouping kind of works in my opinion if you are not too sure of what you want, but it is terribly slow and inefficient. They lose cookie points for this.
