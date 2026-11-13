@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Road Warrior"
-date:   2023-10-01 00:00:00 -0600
+date:   2026-11-13 11:15:00 -0600
 categories: ["Posts"]
 ---
 
@@ -18,7 +18,7 @@ Here is the thing nobody tells you about teaching in a room where nobody knows y
 The mileage was never the point. But it is the receipt.
 
 <div class="rw-stats">
-  <div><b>158</b><span>Trips logged</span></div>
+  <div><b>168</b><span>Trips logged</span></div>
   <div><b>20</b><span>Countries</span></div>
   <div><b>24</b><span>Years</span></div>
   <div><b>19</b><span>Microsoft Technology Centers</span></div>
@@ -218,7 +218,9 @@ The mileage was never the point. But it is the receipt.
   <li><b>March</b>Palo Alto, Services Enablement Partner Bootcamp @ Cloudera</li>
   <li><b>May</b>Alpharetta, GA. Solr engagement.</li>
   <li><b>June</b>Alpharetta, GA. Solr engagement.</li>
+  <li><b>July</b>Santa Tere family vacation.</li>
   <li><b>August</b>New York, Spark training @ Cloudera</li>
+  <li><b>August</b>Monteverde, Costa Rica.</li>
   <li><b>September</b>Salt Lake City, Pluralsight Author Summit and Pluralsight Live</li>
   <li><b>September</b>Westin Conchal - Training for Accenture / Search Technologies</li>
   <li><b>September</b>New York, Strata Hadoop</li>
@@ -229,7 +231,10 @@ The mileage was never the point. But it is the receipt.
 <h2>2018</h2>
 <ul>
   <li><b>June</b>San Francisco, Spark + AI Summit</li>
+  <li><b>July</b>Guanacaste, Costa Rica. IX 10.</li>
   <li><b>August</b>Salt Lake, Pluralsight Author Summit</li>
+  <li><b>September</b>San Francisco, Cloudera Search Beta</li>
+  <li><b>September</b>WA/NY</li>
 </ul>
 
 <h2>2019</h2>
@@ -237,12 +242,11 @@ The mileage was never the point. But it is the receipt.
   <li><b>January</b>Orlando</li>
   <li><b>February</b>Seattle, Cloudera Elevate</li>
   <li><b>April</b>Orlando, Fl. Pluralsight Author Regional Summit.</li>
+  <li><b>May</b>Cartagena, Colombia.</li>
   <li><b>May</b>London, Pluralsight Europe Author Summit</li>
   <li><b>July</b>Argentina and Chile, IX X</li>
   <li><b>August</b>Miami, Banking</li>
   <li><b>August</b>Pluralsight Live and Author Summit</li>
-  <li><b>September</b>San Francisco, Cloudera Search Beta</li>
-  <li><b>September</b>WA/NY</li>
   <li><b>September</b>Washington DC - Activate Lucidworks</li>
   <li><b>September</b>NY - Strata Data</li>
   <li><b>September</b>Atlanta</li>
@@ -257,6 +261,7 @@ The mileage was never the point. But it is the receipt.
 
 <h2>2021</h2>
 <ul>
+  <li><b>September</b>Salt Lake City, UT.</li>
   <li><b>December</b>Miami</li>
 </ul>
 
@@ -266,6 +271,8 @@ The mileage was never the point. But it is the receipt.
   <li><b>June</b>Miami - Banking Trip</li>
   <li><b>June</b>San Francisco, AI Data Summit with Humberto</li>
   <li><b>July</b>Bocas del Toro IX - Riots at Panama</li>
+  <li><b>September</b>Salt Lake City, Pluralsight Author Summit</li>
+  <li><b>September</b>Boston vacation</li>
   <li><b>December</b>Miami - With Pa</li>
 </ul>
 
@@ -273,7 +280,7 @@ The mileage was never the point. But it is the receipt.
 <ul>
   <li><b>April</b>New Orleans - Pluralsight Link 2023</li>
   <li><b>July</b>Orlando - JJJ Tournament</li>
-  <li><b>September</b>Salt Lake City, Pluralsight ELT Meeting for Lupo.ai</li>
+  <li><b>August</b>Salt Lake City, Pluralsight ELT Meeting for Lupo.ai</li>
   <li><b>September</b>Salt Lake City, Pluralsight Author Summit</li>
   <li><b>October</b>Vegas (Sphere)</li>
 </ul>
@@ -298,6 +305,9 @@ The mileage was never the point. But it is the receipt.
 <h2>2026</h2>
 <ul>
   <li><b>March</b>New York, NY. EO Chapter Retreat.</li>
+  <li><b>September</b>Porto Alegre, Brazil.</li>
+  <li><b>October</b>Miami, FL.</li>
+  <li><b>October</b>Tamarindo, Costa Rica. LACademy.</li>
 </ul>
 </div>
 
