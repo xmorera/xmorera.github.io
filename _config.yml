@@ -40,6 +40,7 @@ lupoai: https://lupo.ai/
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Keep top navigation limited to these pages
 header_pages:

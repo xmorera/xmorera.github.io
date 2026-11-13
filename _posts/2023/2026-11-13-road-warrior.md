@@ -3,6 +3,8 @@ layout: post
 title:  "Road Warrior"
 date:   2026-11-13 11:15:00 -0600
 categories: ["Posts"]
+redirect_from:
+  - /posts/2023/10/01/road-warrior.html
 ---
 
 # Road Warrior
@@ -19,7 +21,7 @@ The mileage was never the point. But it is the receipt.
 
 <div class="rw-stats">
   <div><b>168</b><span>Trips logged</span></div>
-  <div><b>20</b><span>Countries</span></div>
+  <div><b>21</b><span>Countries</span></div>
   <div><b>24</b><span>Years</span></div>
   <div><b>19</b><span>Microsoft Technology Centers</span></div>
 </div>
